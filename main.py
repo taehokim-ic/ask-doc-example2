@@ -1,9 +1,8 @@
 import random
-from linkpreview import link_preview
 from fastapi import FastAPI
 from pydantic import BaseModel
-from nlu_engine import nlu_engine
-from repo import *
+# from nlu_engine import nlu_engine
+# from repo import *
 
 from starlette.middleware.cors import CORSMiddleware
 from starlette.requests import Request
