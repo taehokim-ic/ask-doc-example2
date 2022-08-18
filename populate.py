@@ -99,10 +99,10 @@ def create_clubs_db():
             session.add(Societies(keyword=keyword, link=link))
             session.commit()            
             
-            
-create_accommodation_db()
-create_finance_db()
-create_exams_db()
-create_travel_db()
-create_clubs_db()
+if __name__ == "__main__":            
+    create_accommodation_db()
+    create_finance_db()
+    create_exams_db()
+    create_travel_db()
+    create_clubs_db()
 
