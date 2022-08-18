@@ -19,7 +19,6 @@ db = {
 
 random_messages = [
     "This is the result you're looking for",
-    "Is this the information you were looking for?",
     "Please follow the link for more information"
 ]
 
