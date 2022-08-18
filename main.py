@@ -45,13 +45,13 @@ class ClientMessage(BaseModel):
     class Config:
         orm_mode = True
 
-# @app.get('/askdoc/chat-api/v1')
-# def process_message():
-#     print(db.keys())
-#     return {
-#         "message": random.choice(random_messages),
-#         "link": db[random.choice(list(db.keys()))]
-#     }
+@app.get('/askdoc/chat-api/v1')
+def process_message():
+    print(db.keys())
+    return {
+        "message": random.choice(random_messages),
+        "link": db[random.choice(list(db.keys()))]
+    }
 
 @app.post('/askdoc/chat-api/v1')
 def process_message(client_message: ClientMessage = None):
