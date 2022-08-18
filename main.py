@@ -43,13 +43,13 @@ class ClientMessage(BaseModel):
     class Config:
         orm_mode = True
 
-# @app.get('/askdoc/chat-api/v1')
-# def process_message():
-#     print(db.keys())
-#     return {
-#         "message": random.choice(random_messages),
-#         "link": db[random.choice(list(db.keys()))]
-#     }
+@app.get('/askdoc/chat-api/v1')
+def process_message():
+    print(db.keys())
+    return {
+        "message": random.choice(random_messages),
+        "link": db[random.choice(list(db.keys()))]
+    }
 
 @app.post('/askdoc/chat-api/v1')
 def process_message(client_message: ClientMessage = None):
@@ -97,20 +97,20 @@ def process_message(client_message: ClientMessage = None):
         "link": link
     }
     
-def link_preview_json(link: str, message: str) -> dict:
-    result: dict = {}
-    result["message"] = message
-    result["preview_objects"] = []
-    if link:
-        preview = link_preview(link, parser="lxml")
-        result["preview_objects"].append({
-            "link": link,
-            "title": preview.title,
-            "description": preview.description,
-            "image": preview.image
-        })        
-    else:
-        return result
+# def link_preview_json(link: str, message: str) -> dict:
+#     result: dict = {}
+#     result["message"] = message
+#     result["preview_objects"] = []
+#     if link:
+#         preview = link_preview(link, parser="lxml")
+#         result["preview_objects"].append({
+#             "link": link,
+#             "title": preview.title,
+#             "description": preview.description,
+#             "image": preview.image
+#         })        
+#     else:
+#         return result
 
 # def fetch_data_from():
 #     return
