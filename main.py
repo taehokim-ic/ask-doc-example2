@@ -1,13 +1,12 @@
 import random
-from linkpreview import link_preview
 from fastapi import FastAPI
 from pydantic import BaseModel
 from nlu_engine import nlu_engine
 from repo import *
 
-from starlette.middleware.cors import CORSMiddleware
-from starlette.requests import Request
-from starlette.responses import Response
+# from starlette.middleware.cors import CORSMiddleware
+# from starlette.requests import Request
+# from starlette.responses import Response
 
 app = FastAPI()
 
@@ -22,21 +21,21 @@ random_messages = [
     "Please follow the link for more information"
 ]
 
-async def catch_exceptions_middleware(request: Request, call_next):
-    try:
-        return await call_next(request)
-    except Exception:
-        # you probably want some kind of logging here
-        return Response("Internal server error", status_code=500)
+# async def catch_exceptions_middleware(request: Request, call_next):
+#     try:
+#         return await call_next(request)
+#     except Exception:
+#         # you probably want some kind of logging here
+#         return Response("Internal server error", status_code=500)
         
-app.middleware('http')(catch_exceptions_middleware)
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# app.middleware('http')(catch_exceptions_middleware)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["*"],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
 class ClientMessage(BaseModel):
     message: str
