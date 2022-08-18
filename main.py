@@ -1,7 +1,8 @@
 import random
+from linkpreview import link_preview
 from fastapi import FastAPI
 from pydantic import BaseModel
-# from nlu_engine import nlu_engine
+from nlu_engine import nlu_engine
 from repo import *
 
 from starlette.middleware.cors import CORSMiddleware
@@ -44,75 +45,74 @@ class ClientMessage(BaseModel):
     class Config:
         orm_mode = True
 
-@app.get('/askdoc/chat-api/v1')
-def process_message():
-    print(db.keys())
-    return {
-        "message": random.choice(random_messages),
-        "link": db[random.choice(list(db.keys()))]
-    }
-
-# @app.post('/askdoc/chat-api/v1')
-# def process_message(client_message: ClientMessage = None):
-    
-#     result = nlu_engine.parse(client_message.message)
-#     intent = result['intent']['intentName']
-    
-#     message = random.choice(random_messages)
-    
-#     if not intent:
-#         link = ''
-#     elif intent == 'getAccommodationInfo':
-#         link = select_first_accommodation()
-#     # elif intent == 'careers':
-#     #     pass
-#     # elif intent == 'chaplaincy':
-#     #     pass
-#     elif intent == 'societies':
-#         link = select_first_clubs()
-#     # elif intent == 'getCourseInfo':
-#     #     pass
-#     # elif intent == 'crime':
-#     #     pass
-#     # elif intent == 'saving money':
-#     #     pass
-#     elif intent == 'getExamAssessmentInfo':
-#         link = select_first_exams()
-#     elif intent == 'getFinanceInfo':
-#         link = select_first_finance()
-#     # elif intent == 'health':
-#     #     pass
-#     # elif intent == 'library':
-#     #     pass
-#     # elif intent == 'mental health':
-#     #     pass
-#     # elif intent == 'studentStatusAndEnrolment':
-#     #     pass
-#     # elif intent == 'success':
-#     #     pass
-#     else: # travel
-#         link = select_first_travel()
-
+# @app.get('/askdoc/chat-api/v1')
+# def process_message():
+#     print(db.keys())
 #     return {
-#         "message": message,
-#         "link": link
+#         "message": random.choice(random_messages),
+#         "link": db[random.choice(list(db.keys()))]
 #     }
+
+@app.post('/askdoc/chat-api/v1')
+def process_message(client_message: ClientMessage = None):
     
-# def link_preview_json(link: str, message: str) -> dict:
-#     result: dict = {}
-#     result["message"] = message
-#     result["preview_objects"] = []
-#     if link:
-#         preview = link_preview(link, parser="lxml")
-#         result["preview_objects"].append({
-#             "link": link,
-#             "title": preview.title,
-#             "description": preview.description,
-#             "image": preview.image
-#         })        
-#     else:
-#         return result
+    result = nlu_engine.parse(client_message.message)
+    intent = result['intent']['intentName']
+    
+    message = random.choice(random_messages)
+    
+    if not intent:
+        link = ''
+    elif intent == 'getAccommodationInfo':
+        link = select_first_accommodation()
+    # elif intent == 'careers':
+    #     pass
+    # elif intent == 'chaplaincy':
+    #     pass
+    elif intent == 'societies':
+        link = select_first_clubs()
+    # elif intent == 'getCourseInfo':
+    #     pass
+    # elif intent == 'crime':
+    #     pass
+    # elif intent == 'saving money':
+    #     pass
+    elif intent == 'getExamAssessmentInfo':
+        link = select_first_exams()
+    elif intent == 'getFinanceInfo':
+        link = select_first_finance()
+    # elif intent == 'health':
+    #     pass
+    # elif intent == 'library':
+    #     pass
+    # elif intent == 'mental health':
+    #     pass
+    # elif intent == 'studentStatusAndEnrolment':
+    #     pass
+    # elif intent == 'success':
+    #     pass
+    else: # travel
+        link = select_first_travel()
+
+    return {
+        "message": message,
+        "link": link
+    }
+    
+def link_preview_json(link: str, message: str) -> dict:
+    result: dict = {}
+    result["message"] = message
+    result["preview_objects"] = []
+    if link:
+        preview = link_preview(link, parser="lxml")
+        result["preview_objects"].append({
+            "link": link,
+            "title": preview.title,
+            "description": preview.description,
+            "image": preview.image
+        })        
+    else:
+        return result
 
 # def fetch_data_from():
 #     return
-
