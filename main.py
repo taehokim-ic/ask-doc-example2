@@ -1,4 +1,4 @@
-import random
+# import random
 from fastapi import FastAPI
 from pydantic import BaseModel
 from nlu_engine import nlu_engine
@@ -43,21 +43,19 @@ class ClientMessage(BaseModel):
     class Config:
         orm_mode = True
 
-@app.get('/askdoc/chat-api/v1')
-def process_message():
-    print(db.keys())
-    return {
-        "message": random.choice(random_messages),
-        "link": db[random.choice(list(db.keys()))]
-    }
+# @app.get('/askdoc/chat-api/v1')
+# def process_message():
+#     print(db.keys())
+#     return {
+#         "message": random.choice(random_messages),
+#         "link": db[random.choice(list(db.keys()))]
+#     }
 
 @app.post('/askdoc/chat-api/v1')
 def process_message(client_message: ClientMessage = None):
     
     result = nlu_engine.parse(client_message.message)
     intent = result['intent']['intentName']
-    
-    message = random.choice(random_messages)
     
     if not intent:
         link = ''
@@ -93,8 +91,12 @@ def process_message(client_message: ClientMessage = None):
         link = select_first_travel()
 
     return {
-        "message": message,
-        "link": link
+        "keyword_link_pair": [
+            {
+                "keyword": "wilson",
+                "link": link
+            }
+        ]
     }
     
 # def link_preview_json(link: str, message: str) -> dict:
