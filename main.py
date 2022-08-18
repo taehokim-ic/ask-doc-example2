@@ -1,9 +1,9 @@
 import random
-from linkpreview import link_preview
+# from linkpreview import link_preview
 from fastapi import FastAPI
 from pydantic import BaseModel
-from nlu_engine import nlu_engine
-from repo import *
+# from nlu_engine import nlu_engine
+# from repo import *
 
 from starlette.middleware.cors import CORSMiddleware
 from starlette.requests import Request
@@ -56,31 +56,35 @@ def process_message():
 @app.post('/askdoc/chat-api/v1')
 def process_message(client_message: ClientMessage = None):
     
-    result = nlu_engine.parse(client_message.message)
-    intent = result['intent']['intentName']
+    return {
+        "message": client_message.message,
+        "link": ""
+    }
+    # result = nlu_engine.parse(client_message.message)
+    # intent = result['intent']['intentName']
     
-    message = random.choice(random_messages)
+    # message = random.choice(random_messages)
     
-    if not intent:
-        link = ''
-    elif intent == 'getAccommodationInfo':
-        link = select_first_accommodation()
-    # elif intent == 'careers':
-    #     pass
-    # elif intent == 'chaplaincy':
-    #     pass
-    elif intent == 'societies':
-        link = select_first_clubs()
-    # elif intent == 'getCourseInfo':
-    #     pass
-    # elif intent == 'crime':
-    #     pass
-    # elif intent == 'saving money':
-    #     pass
-    elif intent == 'getExamAssessmentInfo':
-        link = select_first_exams()
-    elif intent == 'getFinanceInfo':
-        link = select_first_finance()
+    # if not intent:
+    #     link = ''
+    # elif intent == 'getAccommodationInfo':
+    #     link = select_first_accommodation()
+    # # elif intent == 'careers':
+    # #     pass
+    # # elif intent == 'chaplaincy':
+    # #     pass
+    # elif intent == 'societies':
+    #     link = select_first_clubs()
+    # # elif intent == 'getCourseInfo':
+    # #     pass
+    # # elif intent == 'crime':
+    # #     pass
+    # # elif intent == 'saving money':
+    # #     pass
+    # elif intent == 'getExamAssessmentInfo':
+    #     link = select_first_exams()
+    # elif intent == 'getFinanceInfo':
+    #     link = select_first_finance()
     # elif intent == 'health':
     #     pass
     # elif intent == 'library':
@@ -91,29 +95,28 @@ def process_message(client_message: ClientMessage = None):
     #     pass
     # elif intent == 'success':
     #     pass
-    else: # travel
-        link = select_first_travel()
+    # else: # travel
+    #     link = select_first_travel()
 
-    return {
-        "message": message,
-        "link": link
-    }
+    # return {
+    #     "message": message,
+    #     "link": link
+    # }
     
-def link_preview_json(link: str, message: str) -> dict:
-    result: dict = {}
-    result["message"] = message
-    result["preview_objects"] = []
-    if link:
-        preview = link_preview(link, parser="lxml")
-        result["preview_objects"].append({
-            "link": link,
-            "title": preview.title,
-            "description": preview.description,
-            "image": preview.image
-        })        
-    else:
-        return result
+# def link_preview_json(link: str, message: str) -> dict:
+#     result: dict = {}
+#     result["message"] = message
+#     result["preview_objects"] = []
+#     if link:
+#         preview = link_preview(link, parser="lxml")
+#         result["preview_objects"].append({
+#             "link": link,
+#             "title": preview.title,
+#             "description": preview.description,
+#             "image": preview.image
+#         })        
+#     else:
+#         return result
 
 # def fetch_data_from():
 #     return
-
