@@ -67,6 +67,125 @@ societies = [
     ("book_venue_bar", "https://www.imperialcollegeunion.org/food-drink/book-bar"),
     ("shop_merch_clothes_memorabillia", "https://www.imperialcollegeunion.org/shop/products")
 ]
+    
+discount = [
+    ("local_offers_college_near", "https://www.imperial.ac.uk/human-resources/benefits/saving-you-money/local-discounts/"),
+    ("tips_saving", "https://www.imperial.ac.uk/students/new-students/postgraduates/fees-and-funding/managing-your-money/money-saving-tips/"),
+    ("finance_banking_save_jobs_food", "https://www.savethestudent.org/"),
+    ("clothing_food_electronics_discounts", "https://www.myunidays.com/GB/en-GB"),
+    ("food_drink_fashion_health_beauty", "https://www.studentbeans.com/uk"),
+    ("vegan", "https://www.imperial.ac.uk/food-and-drink/catering-outlets/plantworks/"),
+    ("loyaltee_wallet_rewards", "https://yoyogroup.com/products/yoyowallet/")
+]
+
+crime = [
+    ("Incident_report_crime", "https://www.imperial.ac.uk/estates-facilities/customer-services-centre/report-issue/report-crimes-incidents/"),
+    ("customer_service", "https://www.imperial.ac.uk/estates-facilities/customer-services-centre/"),
+]
+
+chaplaincy = [
+    ("chaplain_meditation_prayer", "https://www.imperial.ac.uk/chaplaincy/visiting-the-chaplaincy/"),
+    ("islam_muslim_prayer", "https://www.imperial.ac.uk/chaplaincy/visiting-the-chaplaincy/opportunities-for-muslim-prayers/"),
+    ("prayer_room", "https://www.imperial.ac.uk/chaplaincy/visiting-the-chaplaincy/multi-faith-prayer-rooms/"),
+    ("mindfulness_mediation", "https://www.imperial.ac.uk/chaplaincy/practicing-meditation/")
+]
+
+
+health = [
+    ("health_centre", "https://www.imperialcollegehealthcentre.co.uk/"),
+    ("appointments", "https://www.imperialcollegehealthcentre.co.uk/book-appointment"),
+    ("register_new", "https://www.imperialcollegehealthcentre.co.uk/new-patients/"),
+    ("prescription_repeat", "https://systmonline.tpp-uk.com/2/Login?Date=20220812154443"),
+    ("teeth_tooth_dentist", "https://www.imperialcollegedental.co.uk/")
+]
+
+library = [
+    ("library_books_study_cafe_learn_group_borrow_theses_referencing", "https://www.imperial.ac.uk/admin-services/library/")
+]
+
+course_info = [
+    ("course_regulations_weightings_specifications_noticeboard_first_second_third_fourth", "https://www.imperial.ac.uk/computing/current-students/computing/"), 
+    ("extracurricular_languagues_horizons_humanities_change", "https://www.imperial.ac.uk/horizons"), 
+    ("horizons_enrolement", "https://www.imperial.ac.uk/horizons/enrolment/"), 
+    ("i-explore_credit", "https://www.imperial.ac.uk/students/academic-support/i-explore/")
+]
+
+success = [
+    ("procrastination_stress_management_mindfulness", "https://www.imperial.ac.uk/admin-services/ict/training-and-resources/inclusive-technology/procrastination-and-stress-management/"),
+    ("revision_revising", "https://www.imperial.ac.uk/admin-services/ict/training-and-resources/inclusive-technology/revision/"),
+    ("organisation_time_management", "https://www.imperial.ac.uk/admin-services/ict/training-and-resources/inclusive-technology/organisation-and-time-management/")
+]
+
+careers = [
+    ("job_vacancies_events_appointments", "https://imperial.targetconnect.net/unauth/student/login"),
+    ("career_interview_applications_jobs", "https://www.imperial.ac.uk/careers/applications-and-interviews/cv/"),
+    ("personal_devlopment_self_reflection_experience", "https://www.imperial.ac.uk/students/imperial-award/")
+]
+
+tables = [
+    (finance, Finance), 
+    (exams, ExamsAndAssessment), 
+    (student_status, StudentStatus), 
+    (accommodation, Accommodation), 
+    (travel, Travel), 
+    (societies, Societies),
+    (discount, Discount), 
+    (crime, Crime), 
+    (health, Health), 
+    (library, Library), 
+    (course_info, CourseInfo), 
+    (success, Success),
+    (careers, Careers),
+    (chaplaincy, Chaplaincy)
+]
+
+def create_discount_db():
+    with Session(engine) as session:
+        for keyword, link in discount:
+            session.add(Discount(keyword=keyword, link=link))
+            session.commit()
+
+def create_crime_db():
+    with Session(engine) as session:
+        for keyword, link in crime:
+            session.add(Crime(keyword=keyword, link=link))
+            session.commit()
+
+def create_health_db():
+    with Session(engine) as session:
+        for keyword, link in health:
+            session.add(Health(keyword=keyword, link=link))
+            session.commit()
+
+def create_library_db():
+    with Session(engine) as session:
+        for keyword, link in library:
+            session.add(Library(keyword=keyword, link=link))
+            session.commit()
+
+def create_course_info_db():
+    with Session(engine) as session:
+        for keyword, link in course_info:
+            session.add(CourseInfo(keyword=keyword, link=link))
+            session.commit()
+
+def create_success_db():
+    with Session(engine) as session:
+        for keyword, link in success:
+            session.add(Success(keyword=keyword, link=link))
+            session.commit()
+
+def create_careers_db():
+    with Session(engine) as session:
+        for keyword, link in careers:
+            session.add(Careers(keyword=keyword, link=link))
+            session.commit()
+
+def create_chaplaincy_db():
+    with Session(engine) as session:
+        for keyword, link in chaplaincy:
+            session.add(Chaplaincy(keyword=keyword, link=link))
+            session.commit()
 
 def create_finance_db():
     with Session(engine) as session:
@@ -105,4 +224,12 @@ if __name__ == "__main__":
     create_exams_db()
     create_travel_db()
     create_clubs_db()
+    create_health_db()
+    create_chaplaincy_db()
+    create_library_db()
+    create_success_db()
+    create_careers_db()
+    create_course_info_db()
+    create_discount_db()
+    create_crime_db()
 

@@ -63,36 +63,40 @@ def process_message(client_message: ClientMessage = None):
             "link": ""
         }
     elif intent == 'getAccommodationInfo':
-        link = select_first_accommodation()
-    # elif intent == 'careers':
-    #     pass
-    # elif intent == 'chaplaincy':
-    #     pass
+        link = select_table(Accommodation)
+    elif intent == 'careers':
+        link = select_table(Careers)
+    elif intent == 'chaplaincy':
+        link = select_table(Chaplaincy)
     elif intent == 'societies':
-        link = select_first_clubs()
-    # elif intent == 'getCourseInfo':
-    #     pass
-    # elif intent == 'crime':
-    #     pass
-    # elif intent == 'saving money':
-    #     pass
+        link = select_table(Societies)
+    elif intent == 'getCourseInfo':
+        link = select_table(CourseInfo)
+    elif intent == 'crime':
+        link = select_table(Crime)
+    elif intent == 'saving money':
+        link = select_table(Discount)
     elif intent == 'getExamAssessmentInfo':
-        link = select_first_exams()
+        link = select_table(ExamsAndAssessment)
     elif intent == 'getFinanceInfo':
-        link = select_first_finance()
-    # elif intent == 'health':
-    #     pass
-    # elif intent == 'library':
-    #     pass
-    # elif intent == 'mental health':
-    #     pass
-    # elif intent == 'studentStatusAndEnrolment':
-    #     pass
-    # elif intent == 'success':
-    #     pass
+        link = select_table(Finance)
+    elif intent == 'health':
+        link = select_table(Health)
+    elif intent == 'library':
+        link = select_table(Library)
+    elif intent == 'mental health':
+        link = select_table(MentalHealth)
+    elif intent == 'studentStatusAndEnrolment':
+        link = select_table(StudentStatus)
+    elif intent == 'success':
+        link = select_table(Success)
     else: # travel
-        link = select_first_travel()
+        link = select_table(Travel)
 
+    if not link:
+        return {
+            "keyword_link_pair": link
+        }
     return {
         "keyword_link_pair": [{"keyword": keyword, "link":data} for keyword, data in link]
     }

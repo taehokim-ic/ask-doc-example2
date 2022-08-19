@@ -1,1929 +1,4574 @@
 {
-    "entities": {
-      "accommodation_type": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "undergraduates"
-            ],
-            "value": "undergraduate"
-          },
-          {
-            "synonyms": [
-              "postgraduates"
-            ],
-            "value": "postgraduate"
-          },
-          {
-            "synonyms": [],
-            "value": "summer"
-          },
-          {
-            "synonyms": [
-              "non first year",
-              "non first-year",
-              "second year",
-              "third year",
-              "3rd year",
-              "2nd year",
-              "4th year",
-              "fourth year"
-            ],
-            "value": "non-first-year"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "activities": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "start"
-            ],
-            "value": "new"
-          },
-          {
-            "synonyms": [
-              "visual art"
-            ],
-            "value": "art"
-          },
-          {
-            "synonyms": [],
-            "value": "media"
-          },
-          {
-            "synonyms": [
-              "imperial athletes",
-              "athletic"
-            ],
-            "value": "athletes"
-          },
-          {
-            "synonyms": [
-              "yearly engraving"
-            ],
-            "value": "tankard"
-          },
-          {
-            "synonyms": [
-              "societies",
-              "groups",
-              "club",
-              "group"
-            ],
-            "value": "clubs"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "advice": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "academic",
-              "academic issue"
-            ],
-            "value": "academic issues"
-          },
-          {
-            "synonyms": [
-              "imperial accommodation issue",
-              "accommodation issue",
-              "hall issue"
-            ],
-            "value": "imperial accommodation issues"
-          },
-          {
-            "synonyms": [
-              "complain",
-              "complaint"
-            ],
-            "value": "complaints"
-          },
-          {
-            "synonyms": [],
-            "value": "signposting"
-          },
-          {
-            "synonyms": [],
-            "value": "feedback"
-          },
-          {
-            "synonyms": [],
-            "value": "wellbeing resources"
-          },
-          {
-            "synonyms": [],
-            "value": "advice service policies"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "assessment_info": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "weight",
-              "weighing"
-            ],
-            "value": "weighting"
-          },
-          {
-            "synonyms": [
-              "summary"
-            ],
-            "value": "description"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "assessment_type": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "cw",
-              "course-work"
-            ],
-            "value": "coursework"
-          },
-          {
-            "synonyms": [
-              "test",
-              "online assessment",
-              "exams",
-              "tests"
-            ],
-            "value": "exam"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "campaign": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "black history month"
-          },
-          {
-            "synonyms": [],
-            "value": "ICUsToo"
-          },
-          {
-            "synonyms": [],
-            "value": "black lives matter"
-          },
-          {
-            "synonyms": [],
-            "value": "disability history month"
-          },
-          {
-            "synonyms": [
-              "LGBTQ+"
-            ],
-            "value": "LGBTQ"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "campus type": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "SK"
-            ],
-            "value": "South Kensington"
-          },
-          {
-            "synonyms": [
-              "WC"
-            ],
-            "value": "White City"
-          },
-          {
-            "synonyms": [
-              "HS"
-            ],
-            "value": "Hammersmith"
-          },
-          {
-            "synonyms": [
-              "CC"
-            ],
-            "value": "Charing Cross"
-          },
-          {
-            "synonyms": [
-              "CW"
-            ],
-            "value": "Chelsea and Westminster"
-          },
-          {
-            "synonyms": [
-              "SM"
-            ],
-            "value": "St Mary's"
-          },
-          {
-            "synonyms": [
-              "SP"
-            ],
-            "value": "Silwood Park"
-          },
-          {
-            "synonyms": [
-              "CMH"
-            ],
-            "value": "Central Middlesex Hospital"
-          },
-          {
-            "synonyms": [
-              "RB"
-            ],
-            "value": "Royal Brompton"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "coursework_info": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "weighting"
-          },
-          {
-            "synonyms": [],
-            "value": "description"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "discount": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "18+ Oyster",
-              "Oyster Card"
-            ],
-            "value": "Oyster"
-          },
-          {
-            "synonyms": [
-              "16-25 railcard"
-            ],
-            "value": "railcard"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "fee_status": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "home",
-              "england",
-              "scotland",
-              "wales",
-              "ne",
-              "northern ireland",
-              "gb",
-              "great britain",
-              "british"
-            ],
-            "value": "uk"
-          },
-          {
-            "synonyms": [
-              "non-eu",
-              "european",
-              "eu",
-              "international"
-            ],
-            "value": "international"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "fees": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "maintanance",
-              "living cost"
-            ],
-            "value": "cost of living"
-          },
-          {
-            "synonyms": [
-              "study"
-            ],
-            "value": "tuition"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "finance_type": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "loan"
-          },
-          {
-            "synonyms": [
-              "help with finance",
-              "finance help",
-              "financial help",
-              "hardship fund",
-              "doc hardship fund",
-              "department of computing hardship fund",
-              "dean's fund",
-              "deans fund"
-            ],
-            "value": "financial issue"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "food and drinks": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "bar"
-          },
-          {
-            "synonyms": [],
-            "value": "metric"
-          },
-          {
-            "synonyms": [],
-            "value": "fivesixeight"
-          },
-          {
-            "synonyms": [
-              "union bar",
-              "college bar",
-              "imperial bar"
-            ],
-            "value": "the union bar"
-          },
-          {
-            "synonyms": [],
-            "value": "reynolds bar"
-          },
-          {
-            "synonyms": [
-              "h bar"
-            ],
-            "value": "h-bar"
-          },
-          {
-            "synonyms": [],
-            "value": "book a venue"
-          },
-          {
-            "synonyms": [
-              "bar policy"
-            ],
-            "value": "bar policies"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "loan_type": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "us",
-              "usa",
-              "americans",
-              "us student",
-              "us students",
-              "american students",
-              "american student"
-            ],
-            "value": "american"
-          },
-          {
-            "synonyms": [
-              "canadians",
-              "canadian student",
-              "canadian students"
-            ],
-            "value": "canadian"
-          },
-          {
-            "synonyms": [
-              "living cost",
-              "accommodation",
-              "living"
-            ],
-            "value": "maintenance"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "mitigation_form": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "form"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "mitigation_type": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "cw",
-              "course-work"
-            ],
-            "value": "coursework"
-          },
-          {
-            "synonyms": [
-              "test",
-              "online assessment",
-              "exams",
-              "tests"
-            ],
-            "value": "exam"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "my union": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "representatives",
-              "representative"
-            ],
-            "value": "my representatives"
-          },
-          {
-            "synonyms": [],
-            "value": "constituent unions"
-          },
-          {
-            "synonyms": [
-              "govern"
-            ],
-            "value": "governing documents"
-          },
-          {
-            "synonyms": [],
-            "value": "committees"
-          },
-          {
-            "synonyms": [],
-            "value": "management group"
-          },
-          {
-            "synonyms": [],
-            "value": "impact"
-          },
-          {
-            "synonyms": [],
-            "value": "finances"
-          },
-          {
-            "synonyms": [],
-            "value": "policies"
-          },
-          {
-            "synonyms": [],
-            "value": "union awards"
-          },
-          {
-            "synonyms": [],
-            "value": "summer ball"
-          },
-          {
-            "synonyms": [
-              "leadership election"
-            ],
-            "value": "leadership elections"
-          },
-          {
-            "synonyms": [
-              "summer election"
-            ],
-            "value": "summer elections"
-          },
-          {
-            "synonyms": [
-              "autumn election"
-            ],
-            "value": "autumn elections"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "non_first_year_accommodation": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "parsons house"
-          },
-          {
-            "synonyms": [],
-            "value": "evelyn gardens"
-          },
-          {
-            "synonyms": [],
-            "value": "hall senior"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "pg_halls": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "brian flowers"
-          },
-          {
-            "synonyms": [],
-            "value": "john smith"
-          },
-          {
-            "synonyms": [],
-            "value": "mary flowers"
-          },
-          {
-            "synonyms": [],
-            "value": "southwood"
-          },
-          {
-            "synonyms": [],
-            "value": "william penney"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "shop": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "products"
-          },
-          {
-            "synonyms": [
-              "union products"
-            ],
-            "value": "union product"
-          },
-          {
-            "synonyms": [],
-            "value": "branded merchandise"
-          },
-          {
-            "synonyms": [
-              "hall product"
-            ],
-            "value": "hall products"
-          },
-          {
-            "synonyms": [
-              "shop extra"
-            ],
-            "value": "union shop"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "student type": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "internationals",
-              "oversees"
-            ],
-            "value": "international students"
-          },
-          {
-            "synonyms": [
-              "locals"
-            ],
-            "value": "home students"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "student_year": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "1st year",
-              "1st years",
-              "first year",
-              "first years"
-            ],
-            "value": "year one"
-          },
-          {
-            "synonyms": [
-              "2nd year",
-              "2nd years",
-              "second year",
-              "second years"
-            ],
-            "value": "year two"
-          },
-          {
-            "synonyms": [
-              "3rd year",
-              "3rd years",
-              "third year",
-              "third years"
-            ],
-            "value": "year three"
-          },
-          {
-            "synonyms": [
-              "4th year",
-              "fourth years",
-              "fourth year"
-            ],
-            "value": "year four"
-          },
-          {
-            "synonyms": [
-              "pg",
-              "masters",
-              "master",
-              "msc",
-              "phd",
-              "doctorate"
-            ],
-            "value": "postgraduate"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "summer_accommodation": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "xenia"
-          },
-          {
-            "synonyms": [],
-            "value": "evelyn gardens"
-          },
-          {
-            "synonyms": [],
-            "value": "summer accommodation"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "transport method": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "train"
-            ],
-            "value": "tube"
-          },
-          {
-            "synonyms": [
-              "coach"
-            ],
-            "value": "bus"
-          },
-          {
-            "synonyms": [
-              "cycle"
-            ],
-            "value": "bike"
-          },
-          {
-            "synonyms": [
-              "Imperial shuttle bus",
-              "shuttle"
-            ],
-            "value": "shuttle bus"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "ug_hall": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [],
-            "value": "wilson"
-          },
-          {
-            "synonyms": [
-              "kp"
-            ],
-            "value": "kemp porter"
-          },
-          {
-            "synonyms": [],
-            "value": "woodward"
-          },
-          {
-            "synonyms": [],
-            "value": "southside"
-          },
-          {
-            "synonyms": [],
-            "value": "eastside"
-          },
-          {
-            "synonyms": [],
-            "value": "beit"
-          },
-          {
-            "synonyms": [],
-            "value": "xenia"
-          },
-          {
-            "synonyms": [],
-            "value": "student halls"
-          },
-          {
-            "synonyms": [],
-            "value": "evelyn gardens"
-          },
-          {
-            "synonyms": [],
-            "value": "parsons house"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      }
+  "entities": {
+    "accommodation_type": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "undergraduates"
+          ],
+          "value": "undergraduate"
+        },
+        {
+          "synonyms": [
+            "postgraduates"
+          ],
+          "value": "postgraduate"
+        },
+        {
+          "synonyms": [],
+          "value": "summer"
+        },
+        {
+          "synonyms": [
+            "non first year",
+            "non first-year",
+            "second year",
+            "third year",
+            "3rd year",
+            "2nd year",
+            "4th year",
+            "fourth year"
+          ],
+          "value": "non-first-year"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
     },
-    "intents": {
-      "getAccommodationInfo": {
-        "utterances": [
-          {
-            "data": [
-              {
-                "text": "can I get information on "
-              },
-              {
-                "entity": "accommodation_type",
-                "slot_name": "accommodationType",
-                "text": "undergraduate"
-              },
-              {
-                "text": " (summer) accommodation for "
-              },
-              {
-                "entity": "student_year",
-                "slot_name": "studentYear",
-                "text": "year one"
-              },
-              {
-                "text": " (second years)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can I get information on "
-              },
-              {
-                "entity": "accommodation_type",
-                "slot_name": "accommodationType",
-                "text": "undergraduates"
-              },
-              {
-                "text": " (summer) student halls for "
-              },
-              {
-                "entity": "student_year",
-                "slot_name": "studentYear",
-                "text": "1st year"
-              },
-              {
-                "text": " (first years)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what "
-              },
-              {
-                "entity": "accommodation_type",
-                "slot_name": "accommodationType",
-                "text": "postgraduate"
-              },
-              {
-                "text": " (postgraduate) accommodation is available"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "is there availability for "
-              },
-              {
-                "entity": "accommodation_type",
-                "slot_name": "accommodationType",
-                "text": "postgraduates"
-              },
-              {
-                "text": " (summer) halls"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "is there availability for "
-              },
-              {
-                "entity": "accommodation_type",
-                "slot_name": "accommodationType",
-                "text": "summer"
-              },
-              {
-                "text": " (summer) accommodation"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can i get information on "
-              },
-              {
-                "entity": "accommodation_type",
-                "slot_name": "accommodationType",
-                "text": "non-first-year"
-              },
-              {
-                "text": " (postgraduate) halls"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i get information on "
-              },
-              {
-                "entity": "ug_hall",
-                "slot_name": "undergraduateHalls",
-                "text": "wilson"
-              },
-              {
-                "text": " (xenia)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "please "
-              },
-              {
-                "entity": "ug_hall",
-                "slot_name": "undergraduateHalls",
-                "text": "kemp porter"
-              },
-              {
-                "text": " (beit) information"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i get information on "
-              },
-              {
-                "entity": "pg_halls",
-                "slot_name": "postgraduateHalls",
-                "text": "brian flowers"
-              },
-              {
-                "text": " (southwood)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can I get information for "
-              },
-              {
-                "entity": "pg_halls",
-                "slot_name": "postgraduateHalls",
-                "text": "john smith"
-              },
-              {
-                "text": " (brian flowers)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "please "
-              },
-              {
-                "entity": "ug_hall",
-                "slot_name": "undergraduateHalls",
-                "text": "kp"
-              },
-              {
-                "text": " (william penney) information"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what accommodations can "
-              },
-              {
-                "entity": "accommodation_type",
-                "slot_name": "accommodationType",
-                "text": "non first year"
-              },
-              {
-                "text": " (postgraduates) get"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what accommodations are available for (accommodationType) (non first-year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "accommodation for "
-              },
-              {
-                "entity": "student_year",
-                "slot_name": "studentYear",
-                "text": "1st years"
-              },
-              {
-                "text": " (msc) students"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "student accommodation "
-              },
-              {
-                "entity": "student_year",
-                "slot_name": "studentYear",
-                "text": "first year"
-              },
-              {
-                "text": " (1st years)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "How do I apply to be a "
-              },
-              {
-                "entity": "non_first_year_accommodation",
-                "slot_name": "non_first_year_accommodation",
-                "text": "parsons house"
-              }
-            ]
-          }
-        ]
-      },
-      "getExamAssessmentInfo": {
-        "utterances": [
-          {
-            "data": [
-              {
-                "text": "can I get information on "
-              },
-              {
-                "entity": "mitigation_type",
-                "slot_name": "mitigationType",
-                "text": "coursework"
-              },
-              {
-                "text": " (exam) mitigation"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can I find the exam "
-              },
-              {
-                "entity": "assessment_info",
-                "slot_name": "assessmentInfo",
-                "text": "weighting"
-              },
-              {
-                "text": " (weighting)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the "
-              },
-              {
-                "entity": "assessment_type",
-                "slot_name": "assessmentType",
-                "text": "coursework"
-              },
-              {
-                "text": " (coursework) "
-              },
-              {
-                "entity": "assessment_info",
-                "slot_name": "assessmentInfo",
-                "text": "weight"
-              },
-              {
-                "text": " (weighting)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can I have "
-              },
-              {
-                "entity": "mitigation_type",
-                "slot_name": "mitigationType",
-                "text": "cw"
-              },
-              {
-                "text": " (exam) mitigation "
-              },
-              {
-                "entity": "mitigation_form",
-                "slot_name": "mitigationForm",
-                "text": "form"
-              },
-              {
-                "text": " (form)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "find "
-              },
-              {
-                "entity": "mitigation_type",
-                "slot_name": "mitigationType",
-                "text": "course-work"
-              },
-              {
-                "text": " (cw) mitigation "
-              },
-              {
-                "entity": "mitigation_form",
-                "slot_name": "mitigationForm",
-                "text": "form"
-              },
-              {
-                "text": " (form)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where is the mitigation "
-              },
-              {
-                "entity": "mitigation_form",
-                "slot_name": "mitigationForm",
-                "text": "form"
-              },
-              {
-                "text": " (form) for "
-              },
-              {
-                "entity": "mitigation_type",
-                "slot_name": "mitigationType",
-                "text": "exam"
-              },
-              {
-                "text": " (coursework)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the "
-              },
-              {
-                "entity": "assessment_type",
-                "slot_name": "assessmentType",
-                "text": "cw"
-              },
-              {
-                "text": " (test) "
-              },
-              {
-                "entity": "assessment_info",
-                "slot_name": "assessmentInfo",
-                "text": "weighing"
-              },
-              {
-                "text": " (weighting)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "info on "
-              },
-              {
-                "entity": "assessment_type",
-                "slot_name": "assessmentType",
-                "text": "course-work"
-              },
-              {
-                "text": " (test) "
-              },
-              {
-                "entity": "assessment_info",
-                "slot_name": "assessmentInfo",
-                "text": "description"
-              },
-              {
-                "text": " (weighting)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "please can I have "
-              },
-              {
-                "entity": "assessment_type",
-                "slot_name": "assessmentType",
-                "text": "exam"
-              },
-              {
-                "text": " (test) "
-              },
-              {
-                "entity": "assessment_info",
-                "slot_name": "assessmentInfo",
-                "text": "summary"
-              },
-              {
-                "text": " (weighting) information"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "information "
-              },
-              {
-                "entity": "assessment_type",
-                "slot_name": "assessmentType",
-                "text": "test"
-              },
-              {
-                "text": " (test) "
-              },
-              {
-                "entity": "assessment_info",
-                "slot_name": "assessmentInfo",
-                "text": "weighting"
-              },
-              {
-                "text": " (weighting)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where is "
-              },
-              {
-                "entity": "mitigation_type",
-                "slot_name": "mitigationType",
-                "text": "test"
-              },
-              {
-                "text": " (exam) mitigation "
-              },
-              {
-                "entity": "mitigation_form",
-                "slot_name": "mitigationForm",
-                "text": "form"
-              },
-              {
-                "text": " (form)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where is "
-              },
-              {
-                "entity": "mitigation_type",
-                "slot_name": "mitigationType",
-                "text": "online assessment"
-              },
-              {
-                "text": " (exam) "
-              },
-              {
-                "entity": "mitigation_form",
-                "slot_name": "mitigationForm",
-                "text": "form"
-              },
-              {
-                "text": " (form)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "link to "
-              },
-              {
-                "entity": "mitigation_type",
-                "slot_name": "mitigationType",
-                "text": "exams"
-              },
-              {
-                "text": " (exam) "
-              },
-              {
-                "entity": "mitigation_form",
-                "slot_name": "mitigationForm",
-                "text": "form"
-              },
-              {
-                "text": " (form)"
-              }
-            ]
-          }
-        ]
-      },
-      "getFinanceInfo": {
-        "utterances": [
-          {
-            "data": [
-              {
-                "text": "can I get information on "
-              },
-              {
-                "entity": "loan_type",
-                "slot_name": "loanType",
-                "text": "american"
-              },
-              {
-                "text": " (american) student "
-              },
-              {
-                "entity": "finance_type",
-                "slot_name": "financeType",
-                "text": "loan"
-              },
-              {
-                "text": " (loan)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "info "
-              },
-              {
-                "entity": "loan_type",
-                "slot_name": "loanType",
-                "text": "us"
-              },
-              {
-                "text": " (us) student "
-              },
-              {
-                "entity": "finance_type",
-                "slot_name": "financeType",
-                "text": "financial issue"
-              },
-              {
-                "text": " (loan)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "information on "
-              },
-              {
-                "entity": "loan_type",
-                "slot_name": "loanType",
-                "text": "usa"
-              },
-              {
-                "text": " (american) student "
-              },
-              {
-                "entity": "finance_type",
-                "slot_name": "financeType",
-                "text": "help with finance"
-              },
-              {
-                "text": " (loan)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "help "
-              },
-              {
-                "entity": "loan_type",
-                "slot_name": "loanType",
-                "text": "americans"
-              },
-              {
-                "text": " (canadian student) "
-              },
-              {
-                "entity": "finance_type",
-                "slot_name": "financeType",
-                "text": "finance help"
-              },
-              {
-                "text": " (financial issue)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can get "
-              },
-              {
-                "entity": "finance_type",
-                "slot_name": "financeType",
-                "text": "financial help"
-              },
-              {
-                "text": " (loan) from"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can I get "
-              },
-              {
-                "entity": "finance_type",
-                "slot_name": "financeType",
-                "text": "hardship fund"
-              },
-              {
-                "text": " (hardship fund)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the "
-              },
-              {
-                "entity": "fees",
-                "slot_name": "fees",
-                "text": "cost of living"
-              },
-              {
-                "text": " (tuition) fees for "
-              },
-              {
-                "entity": "fee_status",
-                "slot_name": "feeStatus",
-                "text": "uk"
-              },
-              {
-                "text": " (home) students"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "help with "
-              },
-              {
-                "entity": "finance_type",
-                "slot_name": "financeType",
-                "text": "doc hardship fund"
-              },
-              {
-                "text": " (financial issue)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can I get information on "
-              },
-              {
-                "entity": "finance_type",
-                "slot_name": "financeType",
-                "text": "department of computing hardship fund"
-              },
-              {
-                "text": " (hardship fund)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "find "
-              },
-              {
-                "entity": "fees",
-                "slot_name": "fees",
-                "text": "maintanance"
-              },
-              {
-                "text": " (tuition) fee status for "
-              },
-              {
-                "entity": "fee_status",
-                "slot_name": "feeStatus",
-                "text": "home"
-              },
-              {
-                "text": " (international) students"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "fee status for "
-              },
-              {
-                "entity": "fee_status",
-                "slot_name": "feeStatus",
-                "text": "england"
-              },
-              {
-                "text": " (eu) students"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "How much do I owe Imperial College. I am an "
-              },
-              {
-                "entity": "fee_status",
-                "slot_name": "feeStatus",
-                "text": "scotland"
-              },
-              {
-                "text": " (international) student"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What are the "
-              },
-              {
-                "entity": "fee_status",
-                "slot_name": "feeStatus",
-                "text": "wales"
-              },
-              {
-                "text": " (international) student "
-              },
-              {
-                "entity": "fees",
-                "slot_name": "fees",
-                "text": "living cost"
-              },
-              {
-                "text": " (tuition) fees"
-              }
-            ]
-          }
-        ]
-      },
-      "getTravelAdvice": {
-        "utterances": [
-          {
-            "data": [
-              {
-                "text": "What discount can I get if I'm travelling by "
-              },
-              {
-                "entity": "transport method",
-                "slot_name": "transport method",
-                "text": "tube"
-              },
-              {
-                "text": " (tube)?"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What travel information is there for "
-              },
-              {
-                "entity": "student type",
-                "slot_name": "student type",
-                "text": "international students"
-              },
-              {
-                "text": " (international students)?"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What are my travel options for travelling to "
-              },
-              {
-                "entity": "campus type",
-                "slot_name": "campus type",
-                "text": "South Kensington"
-              },
-              {
-                "text": " (South Kensington) campus?"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "How do I book the "
-              },
-              {
-                "entity": "transport method",
-                "slot_name": "transport method",
-                "text": "train"
-              },
-              {
-                "text": " (shuttle bus)?"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "How can I get an "
-              },
-              {
-                "entity": "discount",
-                "slot_name": "discount",
-                "text": "Oyster"
-              },
-              {
-                "text": " (18+ oyster card)?"
-              }
-            ]
-          }
-        ]
-      },
-      "societies": {
-        "utterances": [
-          {
-            "data": [
-              {
-                "text": "how can I start a "
-              },
-              {
-                "entity": "activities",
-                "slot_name": "activities",
-                "text": "new"
-              },
-              {
-                "text": " (new) society"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Is there any "
-              },
-              {
-                "entity": "activities",
-                "slot_name": "activities",
-                "text": "start"
-              },
-              {
-                "text": " (art) events"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "How can I join "
-              },
-              {
-                "entity": "activities",
-                "slot_name": "activities",
-                "text": "art"
-              },
-              {
-                "text": " (imperial athletes) community"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is "
-              },
-              {
-                "entity": "activities",
-                "slot_name": "activities",
-                "text": "visual art"
-              },
-              {
-                "text": " (tankard)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is "
-              },
-              {
-                "entity": "campaign",
-                "slot_name": "campaign",
-                "text": "black history month"
-              },
-              {
-                "text": " (black history month)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Is there any event for "
-              },
-              {
-                "entity": "campaign",
-                "slot_name": "campaign",
-                "text": "ICUsToo"
-              },
-              {
-                "text": " (LGBTQ)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Are there any resources for "
-              },
-              {
-                "entity": "campaign",
-                "slot_name": "campaign",
-                "text": "black lives matter"
-              },
-              {
-                "text": " (Black History Month)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Who is "
-              },
-              {
-                "entity": "my union",
-                "slot_name": "my union",
-                "text": "my representatives"
-              },
-              {
-                "text": " (my representatives)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "when is "
-              },
-              {
-                "entity": "my union",
-                "slot_name": "my union",
-                "text": "representatives"
-              },
-              {
-                "text": " (summer ball)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who is the candidates for "
-              },
-              {
-                "entity": "my union",
-                "slot_name": "my union",
-                "text": "representative"
-              },
-              {
-                "text": " (summer election)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can I give "
-              },
-              {
-                "entity": "advice",
-                "slot_name": "advice",
-                "text": "academic issues"
-              },
-              {
-                "text": " (feedback)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what should I do if I have "
-              },
-              {
-                "entity": "advice",
-                "slot_name": "advice",
-                "text": "academic"
-              },
-              {
-                "text": " (accommodation issues)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can I buy "
-              },
-              {
-                "entity": "shop",
-                "slot_name": "shop",
-                "text": "products"
-              },
-              {
-                "text": " (union products)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where's the college "
-              },
-              {
-                "entity": "food and drinks",
-                "slot_name": "food and drinks",
-                "text": "bar"
-              },
-              {
-                "text": " (bar)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the opening times for "
-              },
-              {
-                "entity": "food and drinks",
-                "slot_name": "food and drinks",
-                "text": "metric"
-              },
-              {
-                "text": " (FiveSixEight)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "I am interested in rowing. Is there a "
-              },
-              {
-                "entity": "activities",
-                "slot_name": "activities",
-                "text": "media"
-              },
-              {
-                "text": " (club) that I can join"
-              }
-            ]
-          }
-        ]
-      }
+    "activities": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "start"
+          ],
+          "value": "new"
+        },
+        {
+          "synonyms": [
+            "visual art"
+          ],
+          "value": "art"
+        },
+        {
+          "synonyms": [],
+          "value": "media"
+        },
+        {
+          "synonyms": [
+            "imperial athletes",
+            "athletic"
+          ],
+          "value": "athletes"
+        },
+        {
+          "synonyms": [
+            "yearly engraving"
+          ],
+          "value": "tankard"
+        },
+        {
+          "synonyms": [
+            "societies",
+            "groups",
+            "club",
+            "group"
+          ],
+          "value": "clubs"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
     },
-    "language": "en"
-  }
-  
-
+    "advice": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "academic",
+            "academic issue"
+          ],
+          "value": "academic issues"
+        },
+        {
+          "synonyms": [
+            "imperial accommodation issue",
+            "accommodation issue",
+            "hall issue"
+          ],
+          "value": "imperial accommodation issues"
+        },
+        {
+          "synonyms": [
+            "complain",
+            "complaint"
+          ],
+          "value": "complaints"
+        },
+        {
+          "synonyms": [],
+          "value": "signposting"
+        },
+        {
+          "synonyms": [],
+          "value": "feedback"
+        },
+        {
+          "synonyms": [],
+          "value": "wellbeing resources"
+        },
+        {
+          "synonyms": [],
+          "value": "advice service policies"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "applications": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "CVs",
+            "resume",
+            "cover letter"
+          ],
+          "value": "CV"
+        },
+        {
+          "synonyms": [],
+          "value": "forms"
+        },
+        {
+          "synonyms": [],
+          "value": "personal statement"
+        },
+        {
+          "synonyms": [],
+          "value": "psychometric test"
+        },
+        {
+          "synonyms": [],
+          "value": "linkedIn"
+        },
+        {
+          "synonyms": [],
+          "value": "assessment centres"
+        },
+        {
+          "synonyms": [],
+          "value": "presentations"
+        },
+        {
+          "synonyms": [],
+          "value": "interviews"
+        },
+        {
+          "synonyms": [],
+          "value": "case study"
+        },
+        {
+          "synonyms": [],
+          "value": "job offers"
+        },
+        {
+          "synonyms": [
+            "reference"
+          ],
+          "value": "referees"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "assessment_info": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "weight",
+            "weighing"
+          ],
+          "value": "weighting"
+        },
+        {
+          "synonyms": [
+            "summary"
+          ],
+          "value": "description"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "assessment_type": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "cw",
+            "course-work"
+          ],
+          "value": "coursework"
+        },
+        {
+          "synonyms": [
+            "test",
+            "online assessment",
+            "exams",
+            "tests"
+          ],
+          "value": "exam"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "assessments and feedback": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "assessed"
+        },
+        {
+          "synonyms": [
+            "suggestions"
+          ],
+          "value": "feedback"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "campaign": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "black history month"
+        },
+        {
+          "synonyms": [],
+          "value": "ICUsToo"
+        },
+        {
+          "synonyms": [],
+          "value": "black lives matter"
+        },
+        {
+          "synonyms": [],
+          "value": "disability history month"
+        },
+        {
+          "synonyms": [
+            "LGBTQ+"
+          ],
+          "value": "LGBTQ"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "campus type": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "SK"
+          ],
+          "value": "South Kensington"
+        },
+        {
+          "synonyms": [
+            "WC"
+          ],
+          "value": "White City"
+        },
+        {
+          "synonyms": [
+            "HS"
+          ],
+          "value": "Hammersmith"
+        },
+        {
+          "synonyms": [
+            "CC"
+          ],
+          "value": "Charing Cross"
+        },
+        {
+          "synonyms": [
+            "CW"
+          ],
+          "value": "Chelsea and Westminster"
+        },
+        {
+          "synonyms": [
+            "SM"
+          ],
+          "value": "St Mary's"
+        },
+        {
+          "synonyms": [
+            "SP"
+          ],
+          "value": "Silwood Park"
+        },
+        {
+          "synonyms": [
+            "CMH"
+          ],
+          "value": "Central Middlesex Hospital"
+        },
+        {
+          "synonyms": [
+            "RB"
+          ],
+          "value": "Royal Brompton"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "career planning": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "do with my degree",
+            "use my degree",
+            "degree"
+          ],
+          "value": "future"
+        },
+        {
+          "synonyms": [],
+          "value": "self reflection"
+        },
+        {
+          "synonyms": [],
+          "value": "research"
+        },
+        {
+          "synonyms": [],
+          "value": "further study"
+        },
+        {
+          "synonyms": [],
+          "value": "funding"
+        },
+        {
+          "synonyms": [
+            "gap year"
+          ],
+          "value": "year out"
+        },
+        {
+          "synonyms": [
+            "start a business"
+          ],
+          "value": "startup"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "coursework_info": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "weighting"
+        },
+        {
+          "synonyms": [],
+          "value": "description"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "crime": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "bullied"
+          ],
+          "value": "bullying"
+        },
+        {
+          "synonyms": [
+            "abusive",
+            "attach",
+            "verbal abuse",
+            "assault",
+            "harassment"
+          ],
+          "value": "abuse"
+        },
+        {
+          "synonyms": [
+            "racist"
+          ],
+          "value": "racism"
+        },
+        {
+          "synonyms": [
+            "sexual assault",
+            "sexually harassed"
+          ],
+          "value": "sexual harassment"
+        },
+        {
+          "synonyms": [
+            "following",
+            "stalker",
+            "stalked"
+          ],
+          "value": "stalking"
+        },
+        {
+          "synonyms": [
+            "thieves",
+            "robbers",
+            "stolen",
+            "theft",
+            "took",
+            "lost"
+          ],
+          "value": "robbed"
+        },
+        {
+          "synonyms": [],
+          "value": "hate crime"
+        },
+        {
+          "synonyms": [],
+          "value": "vandalism"
+        },
+        {
+          "synonyms": [
+            "cyberbullying",
+            "cyberbullied",
+            "text harassment",
+            "online abuse"
+          ],
+          "value": "cybercrime"
+        },
+        {
+          "synonyms": [
+            "drugs",
+            "weed"
+          ],
+          "value": "drug"
+        },
+        {
+          "synonyms": [
+            "loud",
+            "noisy"
+          ],
+          "value": "excessive noise"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "dental centre": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "dentists"
+          ],
+          "value": "dentist"
+        },
+        {
+          "synonyms": [],
+          "value": "dental centre"
+        },
+        {
+          "synonyms": [
+            "dental hygienist"
+          ],
+          "value": "hygienist"
+        },
+        {
+          "synonyms": [
+            "tooth cleaning",
+            "hygiene"
+          ],
+          "value": "tooth hygiene"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "department": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "mental issue",
+            "mental health problem"
+          ],
+          "value": "mental health"
+        },
+        {
+          "synonyms": [
+            "caroline gilchrist",
+            "caroline"
+          ],
+          "value": "wellbeing adviser"
+        },
+        {
+          "synonyms": [
+            "wellbeing reps",
+            "wellbeing representatives"
+          ],
+          "value": "wellbeing representative"
+        },
+        {
+          "synonyms": [
+            "year representative"
+          ],
+          "value": "year representatives"
+        },
+        {
+          "synonyms": [
+            "my personal tutor"
+          ],
+          "value": "personal tutor"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "discount": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "18+ Oyster",
+            "Oyster Card"
+          ],
+          "value": "Oyster"
+        },
+        {
+          "synonyms": [
+            "16-25 railcard"
+          ],
+          "value": "railcard"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "effective study": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "learn"
+        },
+        {
+          "synonyms": [],
+          "value": "study resources"
+        },
+        {
+          "synonyms": [],
+          "value": "effective notes"
+        },
+        {
+          "synonyms": [],
+          "value": "lectures"
+        },
+        {
+          "synonyms": [],
+          "value": "productivity"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "events": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "meditating"
+          ],
+          "value": "meditation"
+        },
+        {
+          "synonyms": [],
+          "value": "interfaith"
+        },
+        {
+          "synonyms": [],
+          "value": "reflection group"
+        },
+        {
+          "synonyms": [
+            "Catholic Mass"
+          ],
+          "value": "mass"
+        },
+        {
+          "synonyms": [],
+          "value": "communion"
+        },
+        {
+          "synonyms": [],
+          "value": "evensong"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "extra": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "horizon"
+          ],
+          "value": "horizons"
+        },
+        {
+          "synonyms": [
+            "i explore"
+          ],
+          "value": "i-explore"
+        },
+        {
+          "synonyms": [
+            "language course"
+          ],
+          "value": "language"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "fee_status": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "home",
+            "england",
+            "scotland",
+            "wales",
+            "ne",
+            "northern ireland",
+            "gb",
+            "great britain",
+            "british"
+          ],
+          "value": "uk"
+        },
+        {
+          "synonyms": [
+            "non-eu",
+            "european",
+            "eu",
+            "international"
+          ],
+          "value": "international"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "fees": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "maintanance",
+            "living cost"
+          ],
+          "value": "cost of living"
+        },
+        {
+          "synonyms": [
+            "study"
+          ],
+          "value": "tuition"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "finance_type": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "loan"
+        },
+        {
+          "synonyms": [
+            "help with finance",
+            "finance help",
+            "financial help",
+            "hardship fund",
+            "doc hardship fund",
+            "department of computing hardship fund",
+            "dean's fund",
+            "deans fund"
+          ],
+          "value": "financial issue"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "food and drinks": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "bar"
+        },
+        {
+          "synonyms": [],
+          "value": "metric"
+        },
+        {
+          "synonyms": [],
+          "value": "fivesixeight"
+        },
+        {
+          "synonyms": [
+            "union bar",
+            "college bar",
+            "imperial bar"
+          ],
+          "value": "the union bar"
+        },
+        {
+          "synonyms": [],
+          "value": "reynolds bar"
+        },
+        {
+          "synonyms": [
+            "h bar"
+          ],
+          "value": "h-bar"
+        },
+        {
+          "synonyms": [],
+          "value": "book a venue"
+        },
+        {
+          "synonyms": [
+            "bar policy"
+          ],
+          "value": "bar policies"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "getting started": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "starting"
+        },
+        {
+          "synonyms": [
+            "come"
+          ],
+          "value": "coming"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "gp": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "contact gp"
+        },
+        {
+          "synonyms": [
+            "my gp"
+          ],
+          "value": "gp"
+        },
+        {
+          "synonyms": [
+            "gp online"
+          ],
+          "value": "online gp"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "health centre": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "health center"
+          ],
+          "value": "health centre"
+        },
+        {
+          "synonyms": [
+            "opening hour"
+          ],
+          "value": "opening hours"
+        },
+        {
+          "synonyms": [
+            "contact details"
+          ],
+          "value": "contact detail"
+        },
+        {
+          "synonyms": [
+            "covid19",
+            "covid-19"
+          ],
+          "value": "covid"
+        },
+        {
+          "synonyms": [
+            "vaccine",
+            "monkeypox vaccine"
+          ],
+          "value": "covid vaccine"
+        },
+        {
+          "synonyms": [
+            "monkeypox"
+          ],
+          "value": "monkey pox"
+        },
+        {
+          "synonyms": [
+            "booking an appointment"
+          ],
+          "value": "book appointment"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "jobs": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "job hunting",
+            "find jobs",
+            "research jobs"
+          ],
+          "value": "look for jobs"
+        },
+        {
+          "synonyms": [],
+          "value": "industry"
+        },
+        {
+          "synonyms": [],
+          "value": "work experience"
+        },
+        {
+          "synonyms": [
+            "unpaid work"
+          ],
+          "value": "volunteering"
+        },
+        {
+          "synonyms": [
+            "working outside the UK"
+          ],
+          "value": "working abroad"
+        },
+        {
+          "synonyms": [
+            "awards"
+          ],
+          "value": "competitions"
+        },
+        {
+          "synonyms": [],
+          "value": "career"
+        },
+        {
+          "synonyms": [
+            "work experience"
+          ],
+          "value": "internship"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "loan_type": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "us",
+            "usa",
+            "americans",
+            "us student",
+            "us students",
+            "american students",
+            "american student"
+          ],
+          "value": "american"
+        },
+        {
+          "synonyms": [
+            "canadians",
+            "canadian student",
+            "canadian students"
+          ],
+          "value": "canadian"
+        },
+        {
+          "synonyms": [
+            "living cost",
+            "accommodation",
+            "living"
+          ],
+          "value": "maintenance"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "meditation": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "mindfulness"
+        },
+        {
+          "synonyms": [],
+          "value": "buddhist"
+        },
+        {
+          "synonyms": [],
+          "value": "christian"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "mental health crisis": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "crisis lines"
+          ],
+          "value": "crisis line"
+        },
+        {
+          "synonyms": [],
+          "value": "medical help"
+        },
+        {
+          "synonyms": [],
+          "value": "mental health crisis"
+        },
+        {
+          "synonyms": [
+            "therapy"
+          ],
+          "value": "private therapy"
+        },
+        {
+          "synonyms": [
+            "support services"
+          ],
+          "value": "support service"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "mitigation_form": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "form"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "mitigation_type": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "cw",
+            "course-work"
+          ],
+          "value": "coursework"
+        },
+        {
+          "synonyms": [
+            "test",
+            "online assessment",
+            "exams",
+            "tests"
+          ],
+          "value": "exam"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "module_info": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "rule",
+            "regulations",
+            "rule"
+          ],
+          "value": "regulation"
+        },
+        {
+          "synonyms": [
+            "weight",
+            "weighing"
+          ],
+          "value": "weighting"
+        },
+        {
+          "synonyms": [
+            "summary"
+          ],
+          "value": "description"
+        },
+        {
+          "synonyms": [
+            "Computing Practical",
+            "Databases",
+            "Calculus",
+            "Compilers",
+            "Symbolic Reasoning",
+            "CompTech",
+            "Operating Systems",
+            "OS",
+            "Networks",
+            "Logic and Reasoning",
+            "Discrete Maths",
+            "Haskell",
+            "Java",
+            "C",
+            "Kotlin",
+            "SED",
+            "Software Engineering Design",
+            "Models of Computation",
+            "Models"
+          ],
+          "value": "Graphs and Algorithms"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "my union": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "representatives",
+            "representative"
+          ],
+          "value": "my representatives"
+        },
+        {
+          "synonyms": [],
+          "value": "constituent unions"
+        },
+        {
+          "synonyms": [
+            "govern"
+          ],
+          "value": "governing documents"
+        },
+        {
+          "synonyms": [],
+          "value": "committees"
+        },
+        {
+          "synonyms": [],
+          "value": "management group"
+        },
+        {
+          "synonyms": [],
+          "value": "impact"
+        },
+        {
+          "synonyms": [],
+          "value": "finances"
+        },
+        {
+          "synonyms": [],
+          "value": "policies"
+        },
+        {
+          "synonyms": [],
+          "value": "union awards"
+        },
+        {
+          "synonyms": [],
+          "value": "summer ball"
+        },
+        {
+          "synonyms": [
+            "leadership election"
+          ],
+          "value": "leadership elections"
+        },
+        {
+          "synonyms": [
+            "summer election"
+          ],
+          "value": "summer elections"
+        },
+        {
+          "synonyms": [
+            "autumn election"
+          ],
+          "value": "autumn elections"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "non_first_year_accommodation": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "parsons house"
+        },
+        {
+          "synonyms": [],
+          "value": "evelyn gardens"
+        },
+        {
+          "synonyms": [],
+          "value": "hall senior"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "perk": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "perk"
+          ],
+          "value": "perks"
+        },
+        {
+          "synonyms": [
+            "perks at Work"
+          ],
+          "value": "perks for family"
+        },
+        {
+          "synonyms": [],
+          "value": "offers"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "personal": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "bank"
+          ],
+          "value": "financial"
+        },
+        {
+          "synonyms": [
+            "mobile number",
+            "phone number"
+          ],
+          "value": "telephone"
+        },
+        {
+          "synonyms": [
+            "emergency contact"
+          ],
+          "value": "contact"
+        },
+        {
+          "synonyms": [],
+          "value": "address"
+        },
+        {
+          "synonyms": [],
+          "value": "email"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "pg_halls": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "brian flowers"
+        },
+        {
+          "synonyms": [],
+          "value": "john smith"
+        },
+        {
+          "synonyms": [],
+          "value": "mary flowers"
+        },
+        {
+          "synonyms": [],
+          "value": "southwood"
+        },
+        {
+          "synonyms": [],
+          "value": "william penney"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "prayer": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "Islamic"
+          ],
+          "value": "muslim"
+        },
+        {
+          "synonyms": [],
+          "value": "room booking"
+        },
+        {
+          "synonyms": [
+            "practice"
+          ],
+          "value": "worship"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "prescription": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "ordering"
+          ],
+          "value": "order"
+        },
+        {
+          "synonyms": [],
+          "value": "prescription"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "reason": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "wellbeing"
+          ],
+          "value": "health"
+        },
+        {
+          "synonyms": [
+            "money",
+            "economic"
+          ],
+          "value": "financial"
+        },
+        {
+          "synonyms": [
+            "individual",
+            "private"
+          ],
+          "value": "personal"
+        },
+        {
+          "synonyms": [
+            "study"
+          ],
+          "value": "work"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "register": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "register online"
+          ],
+          "value": "register"
+        },
+        {
+          "synonyms": [],
+          "value": "new patient"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "report": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "reporting"
+          ],
+          "value": "report"
+        },
+        {
+          "synonyms": [
+            "incident"
+          ],
+          "value": "report incident"
+        },
+        {
+          "synonyms": [
+            "report crime",
+            "crime reporting",
+            "report a crime"
+          ],
+          "value": "crime"
+        },
+        {
+          "synonyms": [],
+          "value": "security report"
+        },
+        {
+          "synonyms": [],
+          "value": "emergency"
+        },
+        {
+          "synonyms": [
+            "report accident"
+          ],
+          "value": "accident reporting"
+        },
+        {
+          "synonyms": [],
+          "value": "security issue"
+        },
+        {
+          "synonyms": [],
+          "value": "evidence"
+        },
+        {
+          "synonyms": [],
+          "value": "legal"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "resources": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "OpenAthens"
+        },
+        {
+          "synonyms": [],
+          "value": "BrowZine"
+        },
+        {
+          "synonyms": [],
+          "value": "e-books"
+        },
+        {
+          "synonyms": [],
+          "value": "Libby"
+        },
+        {
+          "synonyms": [
+            "thesis"
+          ],
+          "value": "Spiral"
+        },
+        {
+          "synonyms": [
+            "reading"
+          ],
+          "value": "book"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "room": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "training"
+        },
+        {
+          "synonyms": [
+            "study space",
+            "work"
+          ],
+          "value": "study"
+        },
+        {
+          "synonyms": [],
+          "value": "meeting"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "services": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "jobslive"
+        },
+        {
+          "synonyms": [
+            "book",
+            "meeting"
+          ],
+          "value": "appointment booking"
+        },
+        {
+          "synonyms": [
+            "careers library"
+          ],
+          "value": "library"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "shop": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "products"
+        },
+        {
+          "synonyms": [
+            "union products"
+          ],
+          "value": "union product"
+        },
+        {
+          "synonyms": [],
+          "value": "branded merchandise"
+        },
+        {
+          "synonyms": [
+            "hall product"
+          ],
+          "value": "hall products"
+        },
+        {
+          "synonyms": [
+            "shop extra"
+          ],
+          "value": "union shop"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "student type": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "internationals",
+            "oversees"
+          ],
+          "value": "international students"
+        },
+        {
+          "synonyms": [
+            "locals"
+          ],
+          "value": "home students"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "student_status": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "take a break from studies",
+            "break from studies"
+          ],
+          "value": "interrupt studies"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "student_year": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "1st year",
+            "1st years",
+            "first year",
+            "first years"
+          ],
+          "value": "year one"
+        },
+        {
+          "synonyms": [
+            "2nd year",
+            "2nd years",
+            "second year",
+            "second years"
+          ],
+          "value": "year two"
+        },
+        {
+          "synonyms": [
+            "3rd year",
+            "3rd years",
+            "third year",
+            "third years"
+          ],
+          "value": "year three"
+        },
+        {
+          "synonyms": [
+            "4th year",
+            "fourth years",
+            "fourth year"
+          ],
+          "value": "year four"
+        },
+        {
+          "synonyms": [
+            "pg",
+            "masters",
+            "master",
+            "msc",
+            "phd",
+            "doctorate"
+          ],
+          "value": "postgraduate"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "summer_accommodation": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "xenia"
+        },
+        {
+          "synonyms": [],
+          "value": "evelyn gardens"
+        },
+        {
+          "synonyms": [],
+          "value": "summer accommodation"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "support": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "help"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "tips": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "money saving tip",
+            "saving money"
+          ],
+          "value": "money saving tips"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "transport method": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "train"
+          ],
+          "value": "tube"
+        },
+        {
+          "synonyms": [
+            "coach"
+          ],
+          "value": "bus"
+        },
+        {
+          "synonyms": [
+            "cycle"
+          ],
+          "value": "bike"
+        },
+        {
+          "synonyms": [
+            "Imperial shuttle bus",
+            "shuttle"
+          ],
+          "value": "shuttle bus"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "ug_hall": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "wilson"
+        },
+        {
+          "synonyms": [
+            "kp"
+          ],
+          "value": "kemp porter"
+        },
+        {
+          "synonyms": [],
+          "value": "woodward"
+        },
+        {
+          "synonyms": [],
+          "value": "southside"
+        },
+        {
+          "synonyms": [],
+          "value": "eastside"
+        },
+        {
+          "synonyms": [],
+          "value": "beit"
+        },
+        {
+          "synonyms": [],
+          "value": "xenia"
+        },
+        {
+          "synonyms": [],
+          "value": "student halls"
+        },
+        {
+          "synonyms": [],
+          "value": "evelyn gardens"
+        },
+        {
+          "synonyms": [],
+          "value": "parsons house"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "careers": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "How do I make an "
+            },
+            {
+              "entity": "services",
+              "slot_name": "services",
+              "text": "jobslive"
+            },
+            {
+              "text": " (appointment) with the careers team"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is "
+            },
+            {
+              "entity": "services",
+              "slot_name": "services",
+              "text": "appointment booking"
+            },
+            {
+              "text": " (jobsLive)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What does the "
+            },
+            {
+              "entity": "services",
+              "slot_name": "services",
+              "text": "book"
+            },
+            {
+              "text": " (careers library) offer for first years"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What can I "
+            },
+            {
+              "entity": "career planning",
+              "slot_name": "career planning",
+              "text": "future"
+            },
+            {
+              "text": " (do with my degree) in the future"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I "
+            },
+            {
+              "entity": "career planning",
+              "slot_name": "career planning",
+              "text": "do with my degree"
+            },
+            {
+              "text": " (find jobs) and occupations"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What do imperial graduates do"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I "
+            },
+            {
+              "entity": "career planning",
+              "slot_name": "career planning",
+              "text": "use my degree"
+            },
+            {
+              "text": " (start a business)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm not sure if I should take a "
+            },
+            {
+              "entity": "career planning",
+              "slot_name": "career planning",
+              "text": "degree"
+            },
+            {
+              "text": " (year out). What do I do"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Where can I work in "
+            },
+            {
+              "entity": "jobs",
+              "slot_name": "jobs",
+              "text": "look for jobs"
+            },
+            {
+              "text": " (industry) with my degree"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Where can I find "
+            },
+            {
+              "entity": "jobs",
+              "slot_name": "jobs",
+              "text": "job hunting"
+            },
+            {
+              "text": " (unpaid work)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want some advice on "
+            },
+            {
+              "entity": "jobs",
+              "slot_name": "jobs",
+              "text": "find jobs"
+            },
+            {
+              "text": " (working abroad)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Are there any "
+            },
+            {
+              "entity": "jobs",
+              "slot_name": "jobs",
+              "text": "research jobs"
+            },
+            {
+              "text": " (awards) I can get to make myself stand out"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I write a good "
+            },
+            {
+              "entity": "applications",
+              "slot_name": "applications",
+              "text": "CV"
+            },
+            {
+              "text": " (cover letter)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I need help completing an application "
+            },
+            {
+              "entity": "applications",
+              "slot_name": "applications",
+              "text": "CVs"
+            },
+            {
+              "text": " (form)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I write a convincing "
+            },
+            {
+              "entity": "applications",
+              "slot_name": "applications",
+              "text": "resume"
+            },
+            {
+              "text": " (personal statement)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Who can I ask to be my "
+            },
+            {
+              "entity": "applications",
+              "slot_name": "applications",
+              "text": "cover letter"
+            },
+            {
+              "text": " (reference)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What can I do to be better at "
+            },
+            {
+              "entity": "applications",
+              "slot_name": "applications",
+              "text": "forms"
+            },
+            {
+              "text": " (interviews)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I have a fear of "
+            },
+            {
+              "entity": "applications",
+              "slot_name": "applications",
+              "text": "personal statement"
+            },
+            {
+              "text": " (presentations), how can I overcome it"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What "
+            },
+            {
+              "entity": "events",
+              "slot_name": "events",
+              "text": "meditation"
+            },
+            {
+              "text": " (fairs) are the career service running"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How can I use LinkedIn to improve my (networking)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are career "
+            },
+            {
+              "entity": "events",
+              "slot_name": "events",
+              "text": "meditating"
+            },
+            {
+              "text": " (panels)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what can i do with my "
+            },
+            {
+              "entity": "career planning",
+              "slot_name": "career planning",
+              "text": "self reflection"
+            },
+            {
+              "text": " (degree)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "as a computing student, what "
+            },
+            {
+              "entity": "jobs",
+              "slot_name": "jobs",
+              "text": "industry"
+            },
+            {
+              "text": " (career) can i pursue"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "When should I apply for "
+            },
+            {
+              "entity": "jobs",
+              "slot_name": "jobs",
+              "text": "work experience"
+            },
+            {
+              "text": " (internships)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What can I do if I have no "
+            },
+            {
+              "entity": "jobs",
+              "slot_name": "jobs",
+              "text": "volunteering"
+            },
+            {
+              "text": " (work experience)"
+            }
+          ]
+        }
+      ]
+    },
+    "chaplaincy": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "When and where is friday "
+            },
+            {
+              "entity": "prayer",
+              "slot_name": "prayer",
+              "text": "muslim"
+            },
+            {
+              "text": " (prayer)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "If I am religious, can I do "
+            },
+            {
+              "entity": "meditation",
+              "slot_name": "meditation",
+              "text": "mindfulness"
+            },
+            {
+              "text": " (mindfulness) as well"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What does the chaplaincy "
+            },
+            {
+              "entity": "events",
+              "slot_name": "events",
+              "text": "interfaith"
+            },
+            {
+              "text": " (provide)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can I use the "
+            },
+            {
+              "entity": "prayer",
+              "slot_name": "prayer",
+              "text": "Islamic"
+            },
+            {
+              "text": " (Islamic) room"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Is there a "
+            },
+            {
+              "entity": "events",
+              "slot_name": "events",
+              "text": "reflection group"
+            },
+            {
+              "text": " (Catholic Mass)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is "
+            },
+            {
+              "entity": "events",
+              "slot_name": "events",
+              "text": "mass"
+            },
+            {
+              "text": " (meditation)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How can I start practicing "
+            },
+            {
+              "entity": "events",
+              "slot_name": "events",
+              "text": "Catholic Mass"
+            },
+            {
+              "text": " (meditation)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can I use the chaplaincy centre for my own "
+            },
+            {
+              "entity": "prayer",
+              "slot_name": "prayer",
+              "text": "room booking"
+            },
+            {
+              "text": " (worship) or "
+            },
+            {
+              "entity": "events",
+              "slot_name": "events",
+              "text": "communion"
+            },
+            {
+              "text": " (meditation)"
+            }
+          ]
+        }
+      ]
+    },
+    "crime": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "where can I "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "report"
+            },
+            {
+              "text": " (report) a crime"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how can I "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "reporting"
+            },
+            {
+              "text": " (report a crime)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "who should I contact if there's a "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "report incident"
+            },
+            {
+              "text": " (security issue)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am being "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "bullying"
+            },
+            {
+              "text": " (bullied), who should I tell"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Someone has "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "bullied"
+            },
+            {
+              "text": " (stolen) my phone from my pocket. How can I get it back"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What do I do if my laptop has been "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "abuse"
+            },
+            {
+              "text": " (stolen)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I contact the "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "incident"
+            },
+            {
+              "text": " (emergency) services"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the campus "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "crime"
+            },
+            {
+              "text": " (emergency) numbers"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Is there anyone on campus that can help me to file a "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "report crime"
+            },
+            {
+              "text": " (security report) about an "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "crime reporting"
+            },
+            {
+              "text": " (incident)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I know someone who is being "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "abusive"
+            },
+            {
+              "text": " (bullied) is there anyone in the department that I can talk to about it"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "My friend has previously been "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "attach"
+            },
+            {
+              "text": " (sexually harassed). Where can I "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "report a crime"
+            },
+            {
+              "text": " (report) this"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I know if i am being "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "verbal abuse"
+            },
+            {
+              "text": " (cyberbullied)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I may be being "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "assault"
+            },
+            {
+              "text": " (stalked) and feel unsafe."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "One of my flatmates is acting "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "harassment"
+            },
+            {
+              "text": " (racist) towards my friends. Should I "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "security report"
+            },
+            {
+              "text": " (report) this"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I think that my friend is a "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "racism"
+            },
+            {
+              "text": " (drug) addict. What can I do to help him"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i got "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "racist"
+            },
+            {
+              "text": " (robbed), what should i do"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Someone "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "sexual harassment"
+            },
+            {
+              "text": " (took) my laptop from labs. Is there a lost property I can look in"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The front wheel of my bike has been "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "sexual assault"
+            },
+            {
+              "text": " (stolen)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "My neighbour smokes weed outside every morning. Who do I report this to, and what "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "emergency"
+            },
+            {
+              "text": " (evidence) should I collect"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "My neighbors are extremely "
+            },
+            {
+              "entity": "crime",
+              "slot_name": "crime",
+              "text": "sexually harassed"
+            },
+            {
+              "text": " (loud) and are disrupting my sleep. Is this "
+            },
+            {
+              "entity": "report",
+              "slot_name": "report",
+              "text": "accident reporting"
+            },
+            {
+              "text": " (legal)"
+            }
+          ]
+        }
+      ]
+    },
+    "getAccommodationInfo": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "can I get information on "
+            },
+            {
+              "entity": "accommodation_type",
+              "slot_name": "accommodationType",
+              "text": "undergraduate"
+            },
+            {
+              "text": " (summer) accommodation for "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "year one"
+            },
+            {
+              "text": " (second years)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can I get information on "
+            },
+            {
+              "entity": "accommodation_type",
+              "slot_name": "accommodationType",
+              "text": "undergraduates"
+            },
+            {
+              "text": " (summer) student halls for "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "1st year"
+            },
+            {
+              "text": " (first years)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what "
+            },
+            {
+              "entity": "accommodation_type",
+              "slot_name": "accommodationType",
+              "text": "postgraduate"
+            },
+            {
+              "text": " (postgraduate) accommodation is available"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is there availability for "
+            },
+            {
+              "entity": "accommodation_type",
+              "slot_name": "accommodationType",
+              "text": "postgraduates"
+            },
+            {
+              "text": " (summer) halls"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is there availability for "
+            },
+            {
+              "entity": "accommodation_type",
+              "slot_name": "accommodationType",
+              "text": "summer"
+            },
+            {
+              "text": " (summer) accommodation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can i get information on "
+            },
+            {
+              "entity": "accommodation_type",
+              "slot_name": "accommodationType",
+              "text": "non-first-year"
+            },
+            {
+              "text": " (postgraduate) halls"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can i get information on "
+            },
+            {
+              "entity": "ug_hall",
+              "slot_name": "undergraduateHalls",
+              "text": "wilson"
+            },
+            {
+              "text": " (xenia)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "ug_hall",
+              "slot_name": "undergraduateHalls",
+              "text": "kemp porter"
+            },
+            {
+              "text": " (beit) information"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can i get information on "
+            },
+            {
+              "entity": "pg_halls",
+              "slot_name": "postgraduateHalls",
+              "text": "brian flowers"
+            },
+            {
+              "text": " (southwood)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can I get information for "
+            },
+            {
+              "entity": "pg_halls",
+              "slot_name": "postgraduateHalls",
+              "text": "john smith"
+            },
+            {
+              "text": " (brian flowers)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please "
+            },
+            {
+              "entity": "ug_hall",
+              "slot_name": "undergraduateHalls",
+              "text": "kp"
+            },
+            {
+              "text": " (william penney) information"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what accommodations can "
+            },
+            {
+              "entity": "accommodation_type",
+              "slot_name": "accommodationType",
+              "text": "non first year"
+            },
+            {
+              "text": " (postgraduates) get"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what accommodations are available for (accommodationType) (non first-year)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "accommodation for "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "1st years"
+            },
+            {
+              "text": " (msc) students"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "student accommodation "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "first year"
+            },
+            {
+              "text": " (1st years)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I apply to be a "
+            },
+            {
+              "entity": "non_first_year_accommodation",
+              "slot_name": "non_first_year_accommodation",
+              "text": "parsons house"
+            }
+          ]
+        }
+      ]
+    },
+    "getCourseInfo": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "what is the course "
+            },
+            {
+              "entity": "module_info",
+              "slot_name": "moduleInfo",
+              "text": "regulation"
+            },
+            {
+              "text": " (regulation) for "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "first years"
+            },
+            {
+              "text": " (1st year) students"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know the "
+            },
+            {
+              "entity": "module_info",
+              "slot_name": "moduleInfo",
+              "text": "rule"
+            },
+            {
+              "text": " (weighting) for "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "year two"
+            },
+            {
+              "text": " (3rd years)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what kind of "
+            },
+            {
+              "entity": "extra",
+              "slot_name": "extra",
+              "text": "horizons"
+            },
+            {
+              "text": " (horizons) course can I take"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "imperial "
+            },
+            {
+              "entity": "extra",
+              "slot_name": "extra",
+              "text": "horizon"
+            },
+            {
+              "text": " (language) options"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can i get "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "2nd year"
+            },
+            {
+              "text": " (4th year) course "
+            },
+            {
+              "entity": "module_info",
+              "slot_name": "moduleInfo",
+              "text": "regulations"
+            },
+            {
+              "text": " (regulation)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can i have course "
+            },
+            {
+              "entity": "module_info",
+              "slot_name": "moduleInfo",
+              "text": "rule"
+            },
+            {
+              "text": " (weighting) for "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "2nd years"
+            },
+            {
+              "text": " (fourth years)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what "
+            },
+            {
+              "entity": "extra",
+              "slot_name": "extra",
+              "text": "i-explore"
+            },
+            {
+              "text": " (i-explore) options are there"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "imperial "
+            },
+            {
+              "entity": "extra",
+              "slot_name": "extra",
+              "text": "i explore"
+            },
+            {
+              "text": " (horizons)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can I find course "
+            },
+            {
+              "entity": "module_info",
+              "slot_name": "moduleInfo",
+              "text": "weighting"
+            },
+            {
+              "text": " (description) for "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "second year"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "course "
+            },
+            {
+              "entity": "module_info",
+              "slot_name": "moduleInfo",
+              "text": "weight"
+            },
+            {
+              "text": " (description) for "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "second years"
+            },
+            {
+              "text": " (second year) students"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "course "
+            },
+            {
+              "entity": "module_info",
+              "slot_name": "moduleInfo",
+              "text": "weighing"
+            },
+            {
+              "text": " (weight) for "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "year three"
+            },
+            {
+              "text": " (masters) students"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can "
+            },
+            {
+              "entity": "student_year",
+              "slot_name": "studentYear",
+              "text": "3rd year"
+            },
+            {
+              "text": " (msc) students get information for course "
+            },
+            {
+              "entity": "module_info",
+              "slot_name": "module_info",
+              "text": "description"
+            },
+            {
+              "text": " (description)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "course "
+            },
+            {
+              "entity": "module_info",
+              "slot_name": "module_info",
+              "text": "summary"
+            },
+            {
+              "text": " (description)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "imperial "
+            },
+            {
+              "entity": "extra",
+              "slot_name": "extra",
+              "text": "language"
+            },
+            {
+              "text": " (language course)"
+            }
+          ]
+        }
+      ]
+    },
+    "getExamAssessmentInfo": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "can I get information on "
+            },
+            {
+              "entity": "mitigation_type",
+              "slot_name": "mitigationType",
+              "text": "coursework"
+            },
+            {
+              "text": " (exam) mitigation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can I find the exam "
+            },
+            {
+              "entity": "assessment_info",
+              "slot_name": "assessmentInfo",
+              "text": "weighting"
+            },
+            {
+              "text": " (weighting)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the "
+            },
+            {
+              "entity": "assessment_type",
+              "slot_name": "assessmentType",
+              "text": "coursework"
+            },
+            {
+              "text": " (coursework) "
+            },
+            {
+              "entity": "assessment_info",
+              "slot_name": "assessmentInfo",
+              "text": "weight"
+            },
+            {
+              "text": " (weighting)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can I have "
+            },
+            {
+              "entity": "mitigation_type",
+              "slot_name": "mitigationType",
+              "text": "cw"
+            },
+            {
+              "text": " (exam) mitigation "
+            },
+            {
+              "entity": "mitigation_form",
+              "slot_name": "mitigationForm",
+              "text": "form"
+            },
+            {
+              "text": " (form)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "find "
+            },
+            {
+              "entity": "mitigation_type",
+              "slot_name": "mitigationType",
+              "text": "course-work"
+            },
+            {
+              "text": " (cw) mitigation "
+            },
+            {
+              "entity": "mitigation_form",
+              "slot_name": "mitigationForm",
+              "text": "form"
+            },
+            {
+              "text": " (form)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where is the mitigation "
+            },
+            {
+              "entity": "mitigation_form",
+              "slot_name": "mitigationForm",
+              "text": "form"
+            },
+            {
+              "text": " (form) for "
+            },
+            {
+              "entity": "mitigation_type",
+              "slot_name": "mitigationType",
+              "text": "exam"
+            },
+            {
+              "text": " (coursework)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the "
+            },
+            {
+              "entity": "assessment_type",
+              "slot_name": "assessmentType",
+              "text": "cw"
+            },
+            {
+              "text": " (test) "
+            },
+            {
+              "entity": "assessment_info",
+              "slot_name": "assessmentInfo",
+              "text": "weighing"
+            },
+            {
+              "text": " (weighting)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "info on "
+            },
+            {
+              "entity": "assessment_type",
+              "slot_name": "assessmentType",
+              "text": "course-work"
+            },
+            {
+              "text": " (test) "
+            },
+            {
+              "entity": "assessment_info",
+              "slot_name": "assessmentInfo",
+              "text": "description"
+            },
+            {
+              "text": " (weighting)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please can I have "
+            },
+            {
+              "entity": "assessment_type",
+              "slot_name": "assessmentType",
+              "text": "exam"
+            },
+            {
+              "text": " (test) "
+            },
+            {
+              "entity": "assessment_info",
+              "slot_name": "assessmentInfo",
+              "text": "summary"
+            },
+            {
+              "text": " (weighting) information"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "information "
+            },
+            {
+              "entity": "assessment_type",
+              "slot_name": "assessmentType",
+              "text": "test"
+            },
+            {
+              "text": " (test) "
+            },
+            {
+              "entity": "assessment_info",
+              "slot_name": "assessmentInfo",
+              "text": "weighting"
+            },
+            {
+              "text": " (weighting)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where is "
+            },
+            {
+              "entity": "mitigation_type",
+              "slot_name": "mitigationType",
+              "text": "test"
+            },
+            {
+              "text": " (exam) mitigation "
+            },
+            {
+              "entity": "mitigation_form",
+              "slot_name": "mitigationForm",
+              "text": "form"
+            },
+            {
+              "text": " (form)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where is "
+            },
+            {
+              "entity": "mitigation_type",
+              "slot_name": "mitigationType",
+              "text": "online assessment"
+            },
+            {
+              "text": " (exam) "
+            },
+            {
+              "entity": "mitigation_form",
+              "slot_name": "mitigationForm",
+              "text": "form"
+            },
+            {
+              "text": " (form)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "link to "
+            },
+            {
+              "entity": "mitigation_type",
+              "slot_name": "mitigationType",
+              "text": "exams"
+            },
+            {
+              "text": " (exam) "
+            },
+            {
+              "entity": "mitigation_form",
+              "slot_name": "mitigationForm",
+              "text": "form"
+            },
+            {
+              "text": " (form)"
+            }
+          ]
+        }
+      ]
+    },
+    "getFinanceInfo": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "can I get information on "
+            },
+            {
+              "entity": "loan_type",
+              "slot_name": "loanType",
+              "text": "american"
+            },
+            {
+              "text": " (american) student "
+            },
+            {
+              "entity": "finance_type",
+              "slot_name": "financeType",
+              "text": "loan"
+            },
+            {
+              "text": " (loan)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "info "
+            },
+            {
+              "entity": "loan_type",
+              "slot_name": "loanType",
+              "text": "us"
+            },
+            {
+              "text": " (us) student "
+            },
+            {
+              "entity": "finance_type",
+              "slot_name": "financeType",
+              "text": "financial issue"
+            },
+            {
+              "text": " (loan)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "information on "
+            },
+            {
+              "entity": "loan_type",
+              "slot_name": "loanType",
+              "text": "usa"
+            },
+            {
+              "text": " (american) student "
+            },
+            {
+              "entity": "finance_type",
+              "slot_name": "financeType",
+              "text": "help with finance"
+            },
+            {
+              "text": " (loan)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "help "
+            },
+            {
+              "entity": "loan_type",
+              "slot_name": "loanType",
+              "text": "americans"
+            },
+            {
+              "text": " (canadian student) "
+            },
+            {
+              "entity": "finance_type",
+              "slot_name": "financeType",
+              "text": "finance help"
+            },
+            {
+              "text": " (financial issue)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can get "
+            },
+            {
+              "entity": "finance_type",
+              "slot_name": "financeType",
+              "text": "financial help"
+            },
+            {
+              "text": " (loan) from"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can I get "
+            },
+            {
+              "entity": "finance_type",
+              "slot_name": "financeType",
+              "text": "hardship fund"
+            },
+            {
+              "text": " (hardship fund)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the "
+            },
+            {
+              "entity": "fees",
+              "slot_name": "fees",
+              "text": "cost of living"
+            },
+            {
+              "text": " (tuition) fees for "
+            },
+            {
+              "entity": "fee_status",
+              "slot_name": "feeStatus",
+              "text": "uk"
+            },
+            {
+              "text": " (home) students"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "help with "
+            },
+            {
+              "entity": "finance_type",
+              "slot_name": "financeType",
+              "text": "doc hardship fund"
+            },
+            {
+              "text": " (financial issue)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can I get information on "
+            },
+            {
+              "entity": "finance_type",
+              "slot_name": "financeType",
+              "text": "department of computing hardship fund"
+            },
+            {
+              "text": " (hardship fund)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "find "
+            },
+            {
+              "entity": "fees",
+              "slot_name": "fees",
+              "text": "maintanance"
+            },
+            {
+              "text": " (tuition) fee status for "
+            },
+            {
+              "entity": "fee_status",
+              "slot_name": "feeStatus",
+              "text": "home"
+            },
+            {
+              "text": " (international) students"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "fee status for "
+            },
+            {
+              "entity": "fee_status",
+              "slot_name": "feeStatus",
+              "text": "england"
+            },
+            {
+              "text": " (eu) students"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How much do I owe Imperial College. I am an "
+            },
+            {
+              "entity": "fee_status",
+              "slot_name": "feeStatus",
+              "text": "scotland"
+            },
+            {
+              "text": " (international) student"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the "
+            },
+            {
+              "entity": "fee_status",
+              "slot_name": "feeStatus",
+              "text": "wales"
+            },
+            {
+              "text": " (international) student "
+            },
+            {
+              "entity": "fees",
+              "slot_name": "fees",
+              "text": "living cost"
+            },
+            {
+              "text": " (tuition) fees"
+            }
+          ]
+        }
+      ]
+    },
+    "getTravelAdvice": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What discount can I get if I'm travelling by "
+            },
+            {
+              "entity": "transport method",
+              "slot_name": "transport method",
+              "text": "tube"
+            },
+            {
+              "text": " (tube)?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What travel information is there for "
+            },
+            {
+              "entity": "student type",
+              "slot_name": "student type",
+              "text": "international students"
+            },
+            {
+              "text": " (international students)?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are my travel options for travelling to "
+            },
+            {
+              "entity": "campus type",
+              "slot_name": "campus type",
+              "text": "South Kensington"
+            },
+            {
+              "text": " (South Kensington) campus?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I book the "
+            },
+            {
+              "entity": "transport method",
+              "slot_name": "transport method",
+              "text": "train"
+            },
+            {
+              "text": " (shuttle bus)?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How can I get an "
+            },
+            {
+              "entity": "discount",
+              "slot_name": "discount",
+              "text": "Oyster"
+            },
+            {
+              "text": " (18+ oyster card)?"
+            }
+          ]
+        }
+      ]
+    },
+    "health": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "what is the "
+            },
+            {
+              "entity": "health centre",
+              "slot_name": "health centre",
+              "text": "health centre"
+            },
+            {
+              "text": " (opening hours) of the health centre"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can get my "
+            },
+            {
+              "entity": "health centre",
+              "slot_name": "health centre",
+              "text": "health center"
+            },
+            {
+              "text": " (monkeypox vaccine)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how can I "
+            },
+            {
+              "entity": "health centre",
+              "slot_name": "health centre",
+              "text": "opening hours"
+            },
+            {
+              "text": " (book an appointment)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can I "
+            },
+            {
+              "entity": "register",
+              "slot_name": "register",
+              "text": "register"
+            },
+            {
+              "text": " as a new patient"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can I contact "
+            },
+            {
+              "entity": "gp",
+              "slot_name": "gp",
+              "text": "contact gp"
+            },
+            {
+              "text": " (my gp)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can I order "
+            },
+            {
+              "entity": "prescription",
+              "slot_name": "prescription",
+              "text": "order"
+            },
+            {
+              "text": " (prescription)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is the "
+            },
+            {
+              "entity": "dental centre",
+              "slot_name": "dental centre",
+              "text": "dentist"
+            },
+            {
+              "text": " (tooth hygiene) free in imperial"
+            }
+          ]
+        }
+      ]
+    },
+    "library": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Can I still access "
+            },
+            {
+              "entity": "resources",
+              "slot_name": "resources",
+              "text": "OpenAthens"
+            },
+            {
+              "text": " (BrowZine) as an alumnus"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Who can join the library"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How can I get hold of an item which is not available at Imperial"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I see an Imperial PhD "
+            },
+            {
+              "entity": "resources",
+              "slot_name": "resources",
+              "text": "BrowZine"
+            },
+            {
+              "text": " (thesis)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I access "
+            },
+            {
+              "entity": "resources",
+              "slot_name": "resources",
+              "text": "e-books"
+            },
+            {
+              "text": " (e-books)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I need help with "
+            },
+            {
+              "entity": "resources",
+              "slot_name": "resources",
+              "text": "Libby"
+            },
+            {
+              "text": " (OpenAthens)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can I book a Central Library "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "training"
+            },
+            {
+              "text": " (training) room"
+            }
+          ]
+        }
+      ]
+    },
+    "mental health": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "how can I contact "
+            },
+            {
+              "entity": "department",
+              "slot_name": "department",
+              "text": "mental health"
+            },
+            {
+              "text": " (Caroline)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Who is my "
+            },
+            {
+              "entity": "department",
+              "slot_name": "department",
+              "text": "mental issue"
+            },
+            {
+              "text": " (year representative)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "who should I contact if I need "
+            },
+            {
+              "entity": "department",
+              "slot_name": "department",
+              "text": "mental health problem"
+            },
+            {
+              "text": " (mental health) help"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "can I contact "
+            },
+            {
+              "entity": "department",
+              "slot_name": "department",
+              "text": "wellbeing adviser"
+            },
+            {
+              "text": " (my personal tutor) for "
+            },
+            {
+              "entity": "department",
+              "slot_name": "department",
+              "text": "caroline gilchrist"
+            },
+            {
+              "text": " (mental health problem)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is there a "
+            },
+            {
+              "entity": "mental health crisis",
+              "slot_name": "mental health crisis",
+              "text": "crisis line"
+            },
+            {
+              "text": " (therapy) in Imperial"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what "
+            },
+            {
+              "entity": "mental health crisis",
+              "slot_name": "mental health crisis",
+              "text": "crisis lines"
+            },
+            {
+              "text": " (medical help) can the college provide"
+            }
+          ]
+        }
+      ]
+    },
+    "saving money": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "what "
+            },
+            {
+              "entity": "discount",
+              "slot_name": "discount",
+              "text": "Oyster"
+            },
+            {
+              "text": " (discount) can I get"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can I find information about "
+            },
+            {
+              "entity": "discount",
+              "slot_name": "discount",
+              "text": "18+ Oyster"
+            },
+            {
+              "text": " (discount)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Is there any "
+            },
+            {
+              "entity": "discount",
+              "slot_name": "discount",
+              "text": "Oyster Card"
+            },
+            {
+              "text": " (discount for food)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "is there any tip for "
+            },
+            {
+              "entity": "tips",
+              "slot_name": "tips",
+              "text": "money saving tips"
+            },
+            {
+              "text": " (saving money)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what "
+            },
+            {
+              "entity": "perk",
+              "slot_name": "perk",
+              "text": "perks"
+            },
+            {
+              "text": " (offers) are there at work"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Is there any "
+            },
+            {
+              "entity": "discount",
+              "slot_name": "discount",
+              "text": "railcard"
+            },
+            {
+              "text": " (discount for food) for lunch on campus"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How can I "
+            },
+            {
+              "entity": "discount",
+              "slot_name": "discount",
+              "text": "16-25 railcard"
+            },
+            {
+              "text": " (save money) for lunch"
+            }
+          ]
+        }
+      ]
+    },
+    "societies": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "how can I start a "
+            },
+            {
+              "entity": "activities",
+              "slot_name": "activities",
+              "text": "new"
+            },
+            {
+              "text": " (new) society"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Is there any "
+            },
+            {
+              "entity": "activities",
+              "slot_name": "activities",
+              "text": "start"
+            },
+            {
+              "text": " (art) events"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How can I join "
+            },
+            {
+              "entity": "activities",
+              "slot_name": "activities",
+              "text": "art"
+            },
+            {
+              "text": " (imperial athletes) community"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is "
+            },
+            {
+              "entity": "activities",
+              "slot_name": "activities",
+              "text": "visual art"
+            },
+            {
+              "text": " (tankard)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is "
+            },
+            {
+              "entity": "campaign",
+              "slot_name": "campaign",
+              "text": "black history month"
+            },
+            {
+              "text": " (black history month)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Is there any event for "
+            },
+            {
+              "entity": "campaign",
+              "slot_name": "campaign",
+              "text": "ICUsToo"
+            },
+            {
+              "text": " (LGBTQ)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Are there any resources for "
+            },
+            {
+              "entity": "campaign",
+              "slot_name": "campaign",
+              "text": "black lives matter"
+            },
+            {
+              "text": " (Black History Month)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Who is "
+            },
+            {
+              "entity": "my union",
+              "slot_name": "my union",
+              "text": "my representatives"
+            },
+            {
+              "text": " (my representatives)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "when is "
+            },
+            {
+              "entity": "my union",
+              "slot_name": "my union",
+              "text": "representatives"
+            },
+            {
+              "text": " (summer ball)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "who is the candidates for "
+            },
+            {
+              "entity": "my union",
+              "slot_name": "my union",
+              "text": "representative"
+            },
+            {
+              "text": " (summer election)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can I give "
+            },
+            {
+              "entity": "advice",
+              "slot_name": "advice",
+              "text": "academic issues"
+            },
+            {
+              "text": " (feedback)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what should I do if I have "
+            },
+            {
+              "entity": "advice",
+              "slot_name": "advice",
+              "text": "academic"
+            },
+            {
+              "text": " (accommodation issues)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where can I buy "
+            },
+            {
+              "entity": "shop",
+              "slot_name": "shop",
+              "text": "products"
+            },
+            {
+              "text": " (union products)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "where's the college "
+            },
+            {
+              "entity": "food and drinks",
+              "slot_name": "food and drinks",
+              "text": "bar"
+            },
+            {
+              "text": " (bar)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what is the opening times for "
+            },
+            {
+              "entity": "food and drinks",
+              "slot_name": "food and drinks",
+              "text": "metric"
+            },
+            {
+              "text": " (FiveSixEight)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am interested in rowing. Is there a "
+            },
+            {
+              "entity": "activities",
+              "slot_name": "activities",
+              "text": "media"
+            },
+            {
+              "text": " (club) that I can join"
+            }
+          ]
+        }
+      ]
+    },
+    "studentStatusAndEnrolment": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Can I "
+            },
+            {
+              "entity": "student_status",
+              "slot_name": "student_status",
+              "text": "interrupt studies"
+            },
+            {
+              "text": " (interrupt studies)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can I interrupt my studies due to "
+            },
+            {
+              "entity": "reason",
+              "slot_name": "reason",
+              "text": "health"
+            },
+            {
+              "text": " (health) reasons"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "My "
+            },
+            {
+              "entity": "personal",
+              "slot_name": "personal",
+              "text": "financial"
+            },
+            {
+              "text": " (financial) details have changed. How can I update them"
+            }
+          ]
+        }
+      ]
+    },
+    "success": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "How is university different"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What to do before "
+            },
+            {
+              "entity": "getting started",
+              "slot_name": "getting started",
+              "text": "starting"
+            },
+            {
+              "text": " (starting) Imperial"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How will I "
+            },
+            {
+              "entity": "effective study",
+              "slot_name": "effective study",
+              "text": "learn"
+            },
+            {
+              "text": " (learn) at Imperial"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Are there any useful "
+            },
+            {
+              "entity": "effective study",
+              "slot_name": "effective study",
+              "text": "study resources"
+            },
+            {
+              "text": " (effective notes)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I take "
+            },
+            {
+              "entity": "effective study",
+              "slot_name": "effective study",
+              "text": "effective notes"
+            },
+            {
+              "text": " (effective notes)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How to make the most of "
+            },
+            {
+              "entity": "effective study",
+              "slot_name": "effective study",
+              "text": "lectures"
+            },
+            {
+              "text": " (lectures)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is coaching"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How to increase "
+            },
+            {
+              "entity": "effective study",
+              "slot_name": "effective study",
+              "text": "productivity"
+            },
+            {
+              "text": " (productivity)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How will I be "
+            },
+            {
+              "entity": "assessments and feedback",
+              "slot_name": "assessments and feedback",
+              "text": "assessed"
+            },
+            {
+              "text": " (assessed)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How do I give the college "
+            },
+            {
+              "entity": "assessments and feedback",
+              "slot_name": "assessments and feedback",
+              "text": "feedback"
+            },
+            {
+              "text": " (suggestions)"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Who do I ask for "
+            },
+            {
+              "entity": "support",
+              "slot_name": "support",
+              "text": "help"
+            },
+            {
+              "text": " (help)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}
