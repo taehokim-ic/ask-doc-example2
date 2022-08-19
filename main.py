@@ -58,7 +58,10 @@ def process_message(client_message: ClientMessage = None):
     intent = result['intent']['intentName']
     
     if not intent:
-        link = ''
+        return {
+            "message": "",
+            "link": ""
+        }
     elif intent == 'getAccommodationInfo':
         link = select_first_accommodation()
     # elif intent == 'careers':
@@ -91,12 +94,7 @@ def process_message(client_message: ClientMessage = None):
         link = select_first_travel()
 
     return {
-        "keyword_link_pair": [
-            {
-                "keyword": "wilson",
-                "link": link
-            }
-        ]
+        "keyword_link_pair": [{"keyword": keyword, "link":data} for keyword, data in link]
     }
     
 # def link_preview_json(link: str, message: str) -> dict:
