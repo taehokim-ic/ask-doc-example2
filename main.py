@@ -59,8 +59,7 @@ def process_message(client_message: ClientMessage = None):
     
     if not intent:
         return {
-            "message": "",
-            "link": ""
+            "keyword_link_pair": []
         }
     elif intent == 'getAccommodationInfo':
         link = select_table(Accommodation)
