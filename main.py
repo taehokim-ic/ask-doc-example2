@@ -1,4 +1,3 @@
-# import random
 from fastapi import FastAPI
 from pydantic import BaseModel
 from nlu_engine import nlu_engine
@@ -9,12 +8,6 @@ from starlette.requests import Request
 from starlette.responses import Response
 
 app = FastAPI()
-
-db = {
-    "tuition": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2022-23/faculty-of-engineering/",
-    "loan": "https://www.imperial.ac.uk/study/ug/fees-and-funding/loans-and-grants/tuition-loan/",
-    "mitigation": "https://imperiallondon.sharepoint.com/sites/UG-DocMitigations-CO/_layouts/15/AccessDenied.aspx?Source=https%3A%2F%2Fimperiallondon%2Esharepoint%2Ecom%2Fsites%2FUG%2DDocMitigations%2DCO&correlation=a9ef58a0%2Df037%2D4000%2Dd051%2D627321c1d153"
-}
 
 random_messages = [
     "This is the result you're looking for",

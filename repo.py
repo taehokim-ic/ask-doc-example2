@@ -1,9 +1,8 @@
 from db import engine
 from models.data_models import *
-from sqlmodel import Session, select, or_
+from sqlmodel import Session, select
 
-
-def select_table(table):
+def select_table(table: SQLModel, engine):
     with Session(engine) as session:
         statement = select(table)
         result = session.exec(statement)
