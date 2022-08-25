@@ -18,11 +18,6 @@ def select_category_table(table, category):
         statement = select(table).where(table.category == category)
         result = session.exec(statement)
         first = result.all()
-        print(first)
         if not first:
             return []
         return [(row.keyword, row.link) for row in first]
-    
-
-if __name__ == "__main__":
-    print(select_category_table(SpecificHalls, "beit"))

@@ -125,8 +125,10 @@ def process_message(client_message: ClientMessage = None):
     elif intent == 'summer_accommodation':
         link = select_no_category_table(SummerAccommodation)
     elif intent == 'specific_halls':
-        slots = result["slots"] 
+        slots = result["slots"][0]
+        print(slots)
         if len(slots) > 0:
+            print(slots["value"]["value"])
             link = select_category_table(SpecificHalls, slots["value"]["value"])
         else:
             link = ""
