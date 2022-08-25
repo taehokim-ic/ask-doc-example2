@@ -1,0 +1,5269 @@
+{
+    "entities": {
+      "halls": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [],
+            "value": "wilson"
+          },
+          {
+            "synonyms": [
+              "kp"
+            ],
+            "value": "kemp porter"
+          },
+          {
+            "synonyms": [],
+            "value": "woodward"
+          },
+          {
+            "synonyms": [],
+            "value": "southside"
+          },
+          {
+            "synonyms": [],
+            "value": "eastside"
+          },
+          {
+            "synonyms": [],
+            "value": "beit"
+          },
+          {
+            "synonyms": [],
+            "value": "xenia"
+          },
+          {
+            "synonyms": [],
+            "value": "evelyn gardens"
+          },
+          {
+            "synonyms": [],
+            "value": "parsons house"
+          },
+          {
+            "synonyms": [],
+            "value": "brian flowers"
+          },
+          {
+            "synonyms": [],
+            "value": "john smith"
+          },
+          {
+            "synonyms": [],
+            "value": "mary flowers"
+          },
+          {
+            "synonyms": [],
+            "value": "southwood"
+          },
+          {
+            "synonyms": [],
+            "value": "william penney"
+          },
+          {
+            "synonyms": [
+              "silwood park"
+            ],
+            "value": "silwood"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      }
+    },
+    "intents": {
+      "careers": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "How do I make an appointment with the careers team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What is jobsLive"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What does the careers library offer for first years"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What can I do with my degree in the future"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I find jobs and occupations"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What do imperial graduates do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I start a business"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I'm not sure if I should take a year out. What do I do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I work in industry with my degree"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I find unpaid work"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I want some advice on working abroad"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Are there any awards I can get to make myself stand out"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I write a good cover letter"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I need help completing an application form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I write a convincing personal statement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who can I ask to be my reference"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What can I do to be better at interviews"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I have a fear of presentations, how can I overcome it"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What fairs are the career service running"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How can I use LinkedIn to improve my networking"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What are career panels"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can i do with my degree"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "as a computing student, what career can i pursue"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When should I apply for internships"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What can I do if I have no work experience"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I get a list of companies to apply to for internships"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I get advice on applying for jobs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i find a job"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to find a job, what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to find a placement, what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to find a placement"
+              }
+            ]
+          }
+        ]
+      },
+      "crime": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "where can I report a crime"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can I report a crime"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should I contact if there's a security issue"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I am being bullied, who should I tell"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Someone has stolen my phone from my pocket. How can I get it back"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What do I do if my laptop has been stolen"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I contact the emergency services"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What are the campus emergency numbers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Is there anyone on campus that can help me to file a security report about an incident"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I know someone who is being bullied is there anyone in the department that I can talk to about it"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "My friend has previously been sexually harassed. Where can I report this"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I know if i am being cyberbullied"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I may be being stalked and feel unsafe."
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "One of my flatmates is acting racist towards my friends. Should I report this"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I think that my friend is a drug addict. What can I do to help him"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i got robbed, what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Someone took my laptop from labs. Is there a lost property I can look in"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "The front wheel of my bike has been stolen"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "My neighbour smokes weed outside every morning. Who do I report this to, and what evidence should I collect"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "My neighbors are extremely loud and are disrupting my sleep. Is this legal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to report a crime"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to report a crime"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the hotline for reporting a crime"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i report a crime inside imperial"
+              }
+            ]
+          }
+        ]
+      },
+      "dental": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "i have tooth decay"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a decaying tooth"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my teeth hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a toothache"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to i register with the dental centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to register with the dental centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is the location of the dental center"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to get more information on the dental centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i would like to register with the dental center"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "dental centre registration"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get dental services"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to get teeth whitening"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get teeth scaling"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a place where i can get my teeth whitened"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to register with a dental clinic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what options are available in dental centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what treatments are available in dental center"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what treatments are available at imperial dental center"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know about the treatments available at imperial dental center"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what kind of dental treatment can i get"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with imperial dental centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with imperial's dental clinic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my teeth is hurting so much"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my gum hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i broke my tooth"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to get a new crown for my tooth"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to get resin filled in my tooth"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what resin filling options are available at dental clinics"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find more information on the treatment options at a dental clinic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is the nearest dental clinic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get more information on dental clinic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on dental procedures"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "dental clinic information please"
+              }
+            ]
+          }
+        ]
+      },
+      "doctor": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "should i register with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "should i register with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "should i register with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "should i register with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "should i register with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i register with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i register with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i register with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i register with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i register with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i register with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i register with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i register with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i register with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i register with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what doctor should i register with"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what dr should i register with"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what doctor's practice should i register with"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what gp should i register with"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what gp surgery should i register with"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need urgent healthcare"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need a doctor urgently"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need a dr urgently"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need a gp urgently"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need urgent healthcare assistance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need urgent medical care"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need urgent medical help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i register with imperial health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i register with imperial college health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i register with the health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i register with the nhs health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with imperial health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with imperial college health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with the health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i register with the nhs health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is imperial health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is imperial college health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is the health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is the nhs health centre"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do international students register with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do overseas students register with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do international students register with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do overseas students register with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do international students register with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do overseas students register with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do international students register with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do overseas students register with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do international students register with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do overseas students register with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do home students need to register with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do uk students need to register with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do home students need to register with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do uk students need to register with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do home students need to register with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do uk students need to register with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do home students need to register with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do uk students need to register with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do home students need to register with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do uk students need to register with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to pay immigration health surcharge"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to pay ihs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to pay immigration healthcare surcharge"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to pay healthcare surcharge"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to pay health surcharge"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need a european health insurance card"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need a ehic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to register for a gp again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to register for a doctor again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to register for a dr again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to register for a gp surgery again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to register for a doctor's practice again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to reregister with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to reregister with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to reregister with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to reregister with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to reregister with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm already registered with a gp at home, do i need to register again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm already registered with a gp surgery at home, do i need to register again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm already registered with a doctor at home, do i need to register again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm already registered with a dr at home, do i need to register again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm already registered with a doctor's practice at home, do i need to register again"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i book an urgent appointment"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to see a doctor now"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to see a dr now"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to see a gp now"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to talk to my gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to talk to my dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to talk to my doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i book an appointment with a gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i book an appointment with a dr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i book an appointment with a doctor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i book an appointment with a gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i book an appointment with a doctor's practice"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to talk to a medical specialist"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i see a medical specialist"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get private health insurance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get health insurance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get health insurance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i apply for health clearance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i order a prescription"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to order a repeat prescription"
+              }
+            ]
+          }
+        ]
+      },
+      "finances": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "i need to get a loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't have enough money to pay for my studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to get a loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get a student loan from"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get information on student finance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have bad finances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i really need help for money"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need financial help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i apply for financial assistance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i apply for financial help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i apply for doc hardship fund"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to apply for doc hardship find"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get more information on department of computing hardship fund"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need help with funding my education"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need money to study"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to apply for financial assistance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information about scholarship"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see what scholarships i can get"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i apply for hardship fund"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i apply for harship fund"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the process of apply for hardship fund"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i apply for dean's fund"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i apply for deans fund"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know how i can apply for deans fund"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get information on loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on student loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "info on loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "info on student loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "help with funding education"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "scholarship information available"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "cost of living"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need help so i can pay for my studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need financial help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "financial help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "money help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't think i have enough money to pay for my education"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get help with money"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't think i can afford education"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am struggling financially"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "financial struggle"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial bursary"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial bursery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the imperial bursary"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the imperial bursery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i know if i should get the imperial bursary"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i know if i should get the imperial bursery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "am i eligible for imperial bursary"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "am i eligible for imperial bursery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i haven't received my imperial bursary. who should i contact"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i haven't received my imperial bursery. who should i contact"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get maintenance loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to get maintenance loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get loan to cover living cost"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i repay my student loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "repayment for student loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "loan repayment"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "tuition fees loan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to get loan for tuition fees"
+              }
+            ]
+          }
+        ]
+      },
+      "general_accommodation": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "I need accommodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need accommodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find accommodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find accommodation information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "accommodation web page"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i contact accommodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find summer accommodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many student halls does imperial have"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i change my accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get refund if i don't like and want to quite my student accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i get refund for my student accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i stay in my accommodation over easter break"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i stay in my accommodation over christmas"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay if i am not first year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay if i am non-first-year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does student accommodation usually cost"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i switch my student hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i report a problem for my student hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to find student accommodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i email if i have questions for student accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the email address of student accommodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the phone number of student accommodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i stay next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to find accommodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i stay over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student accommodation can i stay over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the advantage of staying in a student accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i still apply to stay in imperial student accommodation in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i still apply to imperial student accommodation as non-fresher"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i apply to imperial summer student accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should i do if i don't like my student accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i contact if i dislike my student accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I need acomodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need acomodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find acomodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find acomodation information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "acomodation web page"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i contact acomodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find summer acomodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many student halls does imperial have"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i change my acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get refund if i don't like and want to quite my student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i get refund for my student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i stay in my acomodation over easter break"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i stay in my acomodation over christmas"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay if i am not first year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay if i am non-first-year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does student acomodation usually cost"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i switch my student hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i report a problem for my student hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to find student acomodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i email if i have questions for student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the email address of student acomodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the phone number of student acomodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i stay next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to find acomodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i stay over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student acomodation can i stay over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the advantage of staying in a student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i still apply to stay in imperial student acomodation in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i still apply to imperial student acomodation as non-fresher"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i apply to imperial summer student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should i do if i don't like my student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i contact if i dislike my student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I need accomodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need accomodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find accomodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find accomodation information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "accomodation web page"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i contact accomodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find summer accomodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many student halls does imperial have"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i change my accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get refund if i don't like and want to quite my student accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i get refund for my student accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i stay in my accomodation over easter break"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i stay in my accomodation over christmas"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay if i am not first year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay if i am non-first-year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does student accomodation usually cost"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i switch my student hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i report a problem for my student hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to find student accomodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i email if i have questions for student accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the email address of student accomodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the phone number of student accomodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i stay next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to find accomodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i stay over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student accomodation can i stay over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the advantage of staying in a student accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i still apply to stay in imperial student accomodation in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i still apply to imperial student accomodation as non-fresher"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i apply to imperial summer student accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should i do if i don't like my student accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i contact if i dislike my student accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I need acomodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need acomodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find acomodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find acomodation information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "acomodation web page"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i contact acomodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find summer acomodation info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many student halls does imperial have"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i change my acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get refund if i don't like and want to quite my student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i get refund for my student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i stay in my acomodation over easter break"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i stay in my acomodation over christmas"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay if i am not first year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student hall can i stay if i am non-first-year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does student acomodation usually cost"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i switch my student hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i report a problem for my student hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to find student acomodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i email if i have questions for student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the email address of student acomodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the phone number of student acomodation team"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i stay next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to find acomodation for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i stay over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which student acomodation can i stay over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the advantage of staying in a student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i still apply to stay in imperial student acomodation in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i still apply to imperial student acomodation as non-fresher"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i apply to imperial summer student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should i do if i don't like my student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i contact if i dislike my student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've got a problem with my accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've got a problem with my acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've got a problem with my accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've got a problem with my acomodation"
+              }
+            ]
+          }
+        ]
+      },
+      "hall_senior": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "how can i be a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i apply to be a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who can be a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when will i be informed that i am a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when will i know if i am a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where should i apply to become a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do hall seniors have to pay the same rent"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what does a hall senior have to do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the hall senior's duty"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i quit being a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i email to be a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is the hall senior role open to third year students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can fourth year student apply to be a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should i do if i'm a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the email address of the person who's in charge of hall seniors"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who oversees the hall seniors"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get paid to become a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do hall seniors get paid"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "will i get paid as a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i have to clean the floor if i am a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i choose specific student hall to apply for being a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what halls need hall seniors"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i become a hall senior in beit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i become a hall senior in southside"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i become a hall senior in woodward"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i become a hall senior in kemp porter"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i become a hall senior in xenia"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the email address for applying to be a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the link for applying to become a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me more info about hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me more information about hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find more information about hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many hall seniors are there in one student hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need information about hall seniors"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need info about the application process of becoming a hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know more about hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information of hall senior"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to become a hall senior next year, what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do hall seniors get paid"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need to be interviewed to become a hall senior"
+              }
+            ]
+          }
+        ]
+      },
+      "library": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "i need to borrow a book"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find computing related books"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what kind of books does imperial library have"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "does imperial only have one library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i return a book from library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many books maximum can i borrow from library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should i do if i lost a book borrowed from library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much will i be charged if i lost a book from library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is the imperial library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i book a room in library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i book a study place in library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i book a study space in library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need my college id card to go into library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i go inside the library without my college card"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find computing textbooks"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which floor is the silence floor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which floor is the silent floor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i talk in the library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i eat in library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "does the library have computers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get help for writing citations"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "does library have e-books"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i access ebooks"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i access e book"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long can i borrow a book"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i download an e-book"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all catalogues of books in imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when is library closed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when does the library close"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when does the library open"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is the library still open over the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is the library still open over chirstmas"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i stay ovrnight in the library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where should i return my book"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i talk in library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I still access BrowZine as an alumnus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who can join the library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How can I get hold of an item which is not available at Imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I see an Imperial PhD thesis"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I access e-books"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I need help with OpenAthens"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I book a Central Library training room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i book a room on the second floor of the library"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i view all the catalogues"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i access e-books"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get any help for latex"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get any guide for finding resources"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find references for my paper"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get any help for citing resources"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i sign up for academic english support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is academic english centre"
+              }
+            ]
+          }
+        ]
+      },
+      "mental_health": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "how can I contact Caroline"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who is my year representative"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who are my year reps"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the wellbeing rep"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should I contact if I need mental health help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can I contact my personal tutor if i have mental health problems"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get a therapist"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get a councillor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what medical help can the college provide"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i make friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i make more friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel lonely, what can i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel isolated, what can i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's Caroline's email"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who is my well-being representative"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who is my well-being rep"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is my well being representative"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should I contact if I need mental health support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who can i get mental health support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel so stressed, what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am so stressed, what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel lonely, is there anyone that i can talk to"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am very upset with my grades, who can i talk to"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i can't take it anymore"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "the workload is killing me"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i can't handle all the exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel overwhelmed by the coursework and exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel unmotivated and unfocused"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i can't focus on my studying"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am overwhelmed by the workload"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "does imperial provide any mental health support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should i do if i need mental health support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i contact my personal tutor if i feel stressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i failed so many exams, is there anyone that i can talk to"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am very anxious about my grade"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need mental health support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is the mental health support in confidence"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there any way that i can get mental health support anonymously"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is caroline"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i book a session with caroline"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is the therapy free in imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long are counselling sessions"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long do i have to wait for counselling"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i hate my course"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to drop out"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to kill myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel depressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am suffering from depression"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am so depressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm having a mental health crisis"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "mental health crisis"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm at a crisis point"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel stressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm stressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm anxious"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel anxious"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have trouble sleeping"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i can't sleep at night"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel tired all the time"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm losing weight"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i keep losing weight"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have trouble relaxing"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i can't relax"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel upset"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel upset all the time"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel homesick"
+              }
+            ]
+          }
+        ]
+      },
+      "private_housing": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "how can I find flatmates to live with"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can I choose flatmates to live with"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should I look for a flat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should I look for a house"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where do I look to find a house"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where do I look to find a flat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where should I live while studying"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find potential flats to live"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find affordable private accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which letting agent should I use"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i am getting scammed by my landlord"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can I budget my spending for the rent"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can I budget my spending for the flat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do I need to pay council tax"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can I do to stay safe while living in a rented property"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "should I live alone or flat share"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find flats for my family"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can I be charged for by my landlord"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can I be charged for by my agent"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can't I be charged for by my landlord"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can't I be charged for by my agent"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what if I change my mind on the rented property before moving in"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can I negotiate the rent"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should I ensure I do before renting a property"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do I need a guarantor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what if I don't have (can't find) a guarantor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can Imperial be my guarantor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do I need to have a right to rent"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the difference between imperial private housing and student accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is the private housing from imperial cheaper"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does private housing usually cost"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "does private housing in imperial have an agent"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find more info on imperial private housing"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find affordable private acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find affordable private accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find affordable private acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the difference between imperial private housing and student acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the difference between imperial private housing and student acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the difference between imperial private housing and student accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "am i exempt from council tax"
+              }
+            ]
+          }
+        ]
+      },
+      "specific_halls": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "i want to know where "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "wilson"
+              },
+              {
+                "text": " (xenia) is located"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there availability for "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "kemp porter"
+              },
+              {
+                "text": " (xenia) accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get information on "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "kp"
+              },
+              {
+                "text": " (southside) halls"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get information on "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "woodward"
+              },
+              {
+                "text": " (xenia)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "please "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "southside"
+              },
+              {
+                "text": " (beit) information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get information on "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "eastside"
+              },
+              {
+                "text": " (southside)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I get information for "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "beit"
+              },
+              {
+                "text": " (xenia)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "please "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "xenia"
+              },
+              {
+                "text": " (beit) information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do I book "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "evelyn gardens"
+              },
+              {
+                "text": " (wilson) accommodation?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how for is "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "parsons house"
+              },
+              {
+                "text": " (evelyn gardens) from campus?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long does it take for me to commute from "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "brian flowers"
+              },
+              {
+                "text": " (wilson)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do I become a hall senior for "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "john smith"
+              },
+              {
+                "text": " (woodward)?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "mary flowers"
+              },
+              {
+                "text": " (parsons house) located?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what area is "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "southwood"
+              },
+              {
+                "text": " (kp) in?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does it cost to stay at "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "william penney"
+              },
+              {
+                "text": " (southside)?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to get more information on "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "silwood"
+              },
+              {
+                "text": " (beit) hall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know where "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "silwood park"
+              },
+              {
+                "text": " (eastside) is located?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what rooms are avaible in "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "wilson"
+              },
+              {
+                "text": " (wilson)?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what room options for "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "kemp porter"
+              },
+              {
+                "text": " (eastside)?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does it cost to live in "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "kp"
+              },
+              {
+                "text": " (woodward)?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is the contract for "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "woodward"
+              },
+              {
+                "text": " (wilson)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what hall events are there for "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "southside"
+              },
+              {
+                "text": " (eastside)?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do I book "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "eastside"
+              },
+              {
+                "text": " (wilson) acommodation?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there availability for "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "beit"
+              },
+              {
+                "text": " (xenia) acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do I book "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "xenia"
+              },
+              {
+                "text": " (wilson) accomodation?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there availability for "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "evelyn gardens"
+              },
+              {
+                "text": " (xenia) accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do I book "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "parsons house"
+              },
+              {
+                "text": " (wilson) acomodation?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there availability for "
+              },
+              {
+                "entity": "halls",
+                "slot_name": "halls",
+                "text": "brian flowers"
+              },
+              {
+                "text": " (xenia) acomodation"
+              }
+            ]
+          }
+        ]
+      },
+      "summer_accommodation": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "what summer accommodations are available"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to stay in a summer accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to get information on summer halls"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what students halls are available in the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information for summer accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "help with finding summer halls"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get information for summer accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "availability for summer accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know what summer accommodations are available"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what halls are available over the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need a accommodation for the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can you tell me about summer accommodation options"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what options are there for summer accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know halls that are available over the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get an accommodation over the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i get student halls for the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to stay in student halls over the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to stay in student accommodation during summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i please get some information on summer student halls"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what do i have to do to stay in accommodation during summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find more information on summer accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know more about summer student halls"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i apply to summer accommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to stay in a summer acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information for summer acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get information for summer acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "availability for summer acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need a acomodation for the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can you tell me about summer acomodation options"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what options are there for summer acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get an acomodation over the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to stay in student acomodation during summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what do i have to do to stay in acomodation during summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find more information on summer acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i apply to summer acomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to stay in a summer accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information for summer accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get information for summer accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "availability for summer accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need a accomodation for the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can you tell me about summer accomodation options"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what options are there for summer accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get an accomodation over the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to stay in student accomodation during summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what do i have to do to stay in accomodation during summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find more information on summer accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i apply to summer accomodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to stay in a summer acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information for summer acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get information for summer acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "availability for summer acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need a acommodation for the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can you tell me about summer acommodation options"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what options are there for summer acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get an acommodation over the summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to stay in student acommodation during summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what do i have to do to stay in acommodation during summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find more information on summer acommodation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i apply to summer acommodation"
+              }
+            ]
+          }
+        ]
+      },
+      "tuition_fees": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "where can i find information on tuition fees"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the tuition fees for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "tuition fees for international student"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "tuition fee for student"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "tuition fee information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "fees information to study at imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the tuition fees for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "tuition fees next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "tuition fee next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the tuition fees for next academic year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on tuition fees"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on tuition fees"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the cost of studying in imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does it cost to study in imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does is the cost to study at imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get information on tuition fees for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are the fees for studying at imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does it cost to study at imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does the imperial degree cost"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "cost of degree"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know how much it costs to study at imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the tuition fees for the following year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "tuition fees for the following academic year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does it cost to study"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "cost of the degree"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial cost of studying"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "language": "en"
+  }
+  
