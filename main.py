@@ -44,6 +44,56 @@ class ClientMessage(BaseModel):
 #         "link": db[random.choice(list(db.keys()))]
 #     }
 
+# @app.post('/askdoc/chat-api/v1')
+# def process_message(client_message: ClientMessage = None):
+    
+#     result = nlu_engine.parse(client_message.message)
+#     intent = result['intent']['intentName']
+    
+#     if not intent:
+#         return {
+#             "keyword_link_pair": []
+#         }
+#     elif intent == 'getAccommodationInfo':
+#         link = select_table(Accommodation)
+#     elif intent == 'careers':
+#         link = select_table(Careers)
+#     elif intent == 'chaplaincy':
+#         link = select_table(Chaplaincy)
+#     elif intent == 'societies':
+#         link = select_table(Societies)
+#     elif intent == 'getCourseInfo':
+#         link = select_table(CourseInfo)
+#     elif intent == 'crime':
+#         link = select_table(Crime)
+#     elif intent == 'saving money':
+#         link = select_table(Discount)
+#     elif intent == 'getExamAssessmentInfo':
+#         link = select_table(ExamsAndAssessment)
+#     elif intent == 'getFinanceInfo':
+#         link = select_table(Finance)
+#     elif intent == 'health':
+#         link = select_table(Health)
+#     elif intent == 'library':
+#         link = select_table(Library)
+#     elif intent == 'mental health':
+#         link = select_table(MentalHealth)
+#     elif intent == 'studentStatusAndEnrolment':
+#         link = select_table(StudentStatus)
+#     elif intent == 'success':
+#         link = select_table(Success)
+#     else: # travel
+#         link = select_table(Travel)
+
+#     if not link:
+#         return {
+#             "keyword_link_pair": link
+#         }
+#     return {
+#         "keyword_link_pair": [{"keyword": keyword, "link":data} for keyword, data in link]
+#     }
+    
+
 @app.post('/askdoc/chat-api/v1')
 def process_message(client_message: ClientMessage = None):
     
@@ -54,36 +104,36 @@ def process_message(client_message: ClientMessage = None):
         return {
             "keyword_link_pair": []
         }
-    elif intent == 'getAccommodationInfo':
-        link = select_table(Accommodation)
+    elif intent == 'general_accmoodation':
+        link = select_no_category_table(GeneralAccommodation)
     elif intent == 'careers':
-        link = select_table(Careers)
-    elif intent == 'chaplaincy':
-        link = select_table(Chaplaincy)
-    elif intent == 'societies':
-        link = select_table(Societies)
-    elif intent == 'getCourseInfo':
-        link = select_table(CourseInfo)
+        link = select_no_category_table(Careers)
     elif intent == 'crime':
-        link = select_table(Crime)
-    elif intent == 'saving money':
-        link = select_table(Discount)
-    elif intent == 'getExamAssessmentInfo':
-        link = select_table(ExamsAndAssessment)
-    elif intent == 'getFinanceInfo':
-        link = select_table(Finance)
-    elif intent == 'health':
-        link = select_table(Health)
+        link = select_no_category_table(Crime)
+    elif intent == 'finances':
+        link = select_no_category_table(Finances)
+    elif intent == 'doctor':
+        link = select_no_category_table(Doctor)
+    elif intent == 'dental':
+        link = select_no_category_table(Doctor)
     elif intent == 'library':
-        link = select_table(Library)
-    elif intent == 'mental health':
-        link = select_table(MentalHealth)
-    elif intent == 'studentStatusAndEnrolment':
-        link = select_table(StudentStatus)
-    elif intent == 'success':
-        link = select_table(Success)
-    else: # travel
-        link = select_table(Travel)
+        link = select_no_category_table(Library)
+    elif intent == 'mental_health':
+        link = select_no_category_table(MentalHealth)
+    elif intent == 'private_housing':
+        link = select_no_category_table(PrivateHousing)
+    elif intent == 'summer_accommodation':
+        link = select_no_category_table(SummerAccommodation)
+    elif intent == 'specific_halls':
+        slots = result["slots"] 
+        if len(slots) > 0:
+            link = select_category_table(SpecificHalls, slots["value"]["value"])
+        else:
+            link = ""
+    elif intent == 'hall_senior':
+        link = select_no_category_table(HallSenior)
+    else: # tuition fees
+        link = select_no_category_table(TuitionFees)
 
     if not link:
         return {
@@ -92,21 +142,3 @@ def process_message(client_message: ClientMessage = None):
     return {
         "keyword_link_pair": [{"keyword": keyword, "link":data} for keyword, data in link]
     }
-    
-# def link_preview_json(link: str, message: str) -> dict:
-#     result: dict = {}
-#     result["message"] = message
-#     result["preview_objects"] = []
-#     if link:
-#         preview = link_preview(link, parser="lxml")
-#         result["preview_objects"].append({
-#             "link": link,
-#             "title": preview.title,
-#             "description": preview.description,
-#             "image": preview.image
-#         })        
-#     else:
-#         return result
-
-# def fetch_data_from():
-#     return
