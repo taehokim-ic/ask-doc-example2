@@ -93,7 +93,7 @@ def process_message(client_message: ClientMessage = None):
 
     if not link:
         return {
-            "keyword_link_pair": link
+            "keyword_link_pair": [link]
         }
     return {
         "keyword_link_pair": [{"keyword": keyword, "link":data} for keyword, data in link]
