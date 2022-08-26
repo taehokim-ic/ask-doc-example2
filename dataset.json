@@ -258,6 +258,120 @@
         "matching_strictness": 1.0,
         "use_synonyms": true
       },
+      "extra": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "horizon"
+            ],
+            "value": "horizons"
+          },
+          {
+            "synonyms": [
+              "i explore"
+            ],
+            "value": "i-explore"
+          },
+          {
+            "synonyms": [
+              "language course"
+            ],
+            "value": "language"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "first year": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "1st year",
+              "1st years",
+              "first year",
+              "first years"
+            ],
+            "value": "year one"
+          },
+          {
+            "synonyms": [
+              "introduction to computer system",
+              "ICS"
+            ],
+            "value": "40001"
+          },
+          {
+            "synonyms": [
+              "introduction to databases",
+              "databases",
+              "database",
+              "intro to databases"
+            ],
+            "value": "40007"
+          },
+          {
+            "synonyms": [
+              "calculus"
+            ],
+            "value": "40016"
+          },
+          {
+            "synonyms": [
+              "computing practical",
+              "java",
+              "haskell",
+              "kotlin",
+              "c",
+              "c project"
+            ],
+            "value": "40009"
+          },
+          {
+            "synonyms": [
+              "discrete mathematics",
+              "logic",
+              "reasoning",
+              "discrete",
+              "discrete math"
+            ],
+            "value": "40018"
+          },
+          {
+            "synonyms": [
+              "introduction to computer architecture",
+              "architecturem computer architecture"
+            ],
+            "value": "40005"
+          },
+          {
+            "synonyms": [
+              "graphs and algorithms",
+              "graphs"
+            ],
+            "value": "40008"
+          },
+          {
+            "synonyms": [
+              "linear algebra"
+            ],
+            "value": "40017"
+          },
+          {
+            "synonyms": [
+              "ppt",
+              "mmt",
+              "personal math tutor",
+              "personal programing tutor",
+              "tutorial"
+            ],
+            "value": "pmt"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
       "food and drinks": {
         "automatically_extensible": true,
         "data": [
@@ -300,6 +414,201 @@
               "bar policy"
             ],
             "value": "bar policies"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "fourth year": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "4th year",
+              "fourth years",
+              "fourth year"
+            ],
+            "value": "year four"
+          },
+          {
+            "synonyms": [
+              "industrial placement",
+              "placement"
+            ],
+            "value": "70012"
+          },
+          {
+            "synonyms": [
+              "individual project"
+            ],
+            "value": "70011"
+          },
+          {
+            "synonyms": [
+              "advanced computer architecture",
+              "aca",
+              "advanced architecture"
+            ],
+            "value": "60001"
+          },
+          {
+            "synonyms": [
+              "simulation and modelling",
+              "simulation",
+              "modelling"
+            ],
+            "value": "60020"
+          },
+          {
+            "synonyms": [
+              "advanced computer security"
+            ],
+            "value": "70004"
+          },
+          {
+            "synonyms": [
+              "complexity"
+            ],
+            "value": "70005"
+          },
+          {
+            "synonyms": [
+              "computational finance"
+            ],
+            "value": "70006"
+          },
+          {
+            "synonyms": [
+              "concurrent processes"
+            ],
+            "value": "70008"
+          },
+          {
+            "synonyms": [
+              "mathematics for machine learning"
+            ],
+            "value": "70015"
+          },
+          {
+            "synonyms": [
+              "privacy engineering"
+            ],
+            "value": "70018"
+          },
+          {
+            "synonyms": [
+              "program analysis"
+            ],
+            "value": "70020"
+          },
+          {
+            "synonyms": [
+              "scalable systems and data"
+            ],
+            "value": "70022"
+          },
+          {
+            "synonyms": [
+              "scalable software verification"
+            ],
+            "value": "70023"
+          },
+          {
+            "synonyms": [
+              "reinforcement learning"
+            ],
+            "value": "70028"
+          },
+          {
+            "synonyms": [
+              "scheduling and resource allocation"
+            ],
+            "value": "70068"
+          },
+          {
+            "synonyms": [
+              "custom computing"
+            ],
+            "value": "60008"
+          },
+          {
+            "synonyms": [
+              "advanced computer graphics"
+            ],
+            "value": "70001"
+          },
+          {
+            "synonyms": [
+              "computational optimisation"
+            ],
+            "value": "70007"
+          },
+          {
+            "synonyms": [
+              "cryptography engineering"
+            ],
+            "value": "70009"
+          },
+          {
+            "synonyms": [
+              "deep learning"
+            ],
+            "value": "70010"
+          },
+          {
+            "synonyms": [
+              "natural language processing",
+              "nlp"
+            ],
+            "value": "70016"
+          },
+          {
+            "synonyms": [
+              "principles of distributed ledgers"
+            ],
+            "value": "70017"
+          },
+          {
+            "synonyms": [
+              "probabilistic inference"
+            ],
+            "value": "70019"
+          },
+          {
+            "synonyms": [
+              "software reliability"
+            ],
+            "value": "70024"
+          },
+          {
+            "synonyms": [
+              "software engineering for industry"
+            ],
+            "value": "70025"
+          },
+          {
+            "synonyms": [
+              "knowledge representation"
+            ],
+            "value": "70030"
+          },
+          {
+            "synonyms": [
+              "modal logic for strategic reasoning in ai"
+            ],
+            "value": "70031"
+          },
+          {
+            "synonyms": [
+              "decentralised finance"
+            ],
+            "value": "70066"
+          },
+          {
+            "synonyms": [
+              "robot learning and control"
+            ],
+            "value": "70067"
           }
         ],
         "matching_strictness": 1.0,
@@ -562,6 +871,109 @@
         "matching_strictness": 1.0,
         "use_synonyms": true
       },
+      "second year": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "2nd year",
+              "2nd years",
+              "second year",
+              "second years"
+            ],
+            "value": "year two"
+          },
+          {
+            "synonyms": [
+              "algorithm design and analysis",
+              "second year algorithm",
+              "algorithm"
+            ],
+            "value": "50001"
+          },
+          {
+            "synonyms": [
+              "software engineering design",
+              "sed",
+              "software design"
+            ],
+            "value": "50002"
+          },
+          {
+            "synonyms": [
+              "models of computation",
+              "models",
+              "model"
+            ],
+            "value": "50003"
+          },
+          {
+            "synonyms": [
+              "operating systems",
+              "os"
+            ],
+            "value": "50004"
+          },
+          {
+            "synonyms": [
+              "Networks and communications",
+              "Networks",
+              "Network"
+            ],
+            "value": "50005"
+          },
+          {
+            "synonyms": [
+              "compilers",
+              "compiler"
+            ],
+            "value": "50006"
+          },
+          {
+            "synonyms": [
+              "lab",
+              "laboratory",
+              "pintos",
+              "wacc",
+              "prolog"
+            ],
+            "value": "50007"
+          },
+          {
+            "synonyms": [
+              "probability and statistics",
+              "stats",
+              "probability"
+            ],
+            "value": "50008"
+          },
+          {
+            "synonyms": [
+              "year2 group project",
+              "drp",
+              "second year group project",
+              "group project"
+            ],
+            "value": "50010"
+          },
+          {
+            "synonyms": [
+              "symbolic reasoning",
+              "symbolic"
+            ],
+            "value": "50009"
+          },
+          {
+            "synonyms": [
+              "computational techniques",
+              "comp tech"
+            ],
+            "value": "50011"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
       "shop": {
         "automatically_extensible": true,
         "data": [
@@ -633,6 +1045,147 @@
               "home status"
             ],
             "value": "home students"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "third year": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "3rd year",
+              "3rd years",
+              "third year",
+              "third years"
+            ],
+            "value": "year three"
+          },
+          {
+            "synonyms": [
+              "software engineering group project",
+              "software group project"
+            ],
+            "value": "60021"
+          },
+          {
+            "synonyms": [
+              "advanced computer architecture",
+              "aca",
+              "advanced architecture"
+            ],
+            "value": "60001"
+          },
+          {
+            "synonyms": [
+              "the theory and practice of concurrent programming",
+              "concurrent programming"
+            ],
+            "value": "60007"
+          },
+          {
+            "synonyms": [
+              "operations research",
+              "operation research"
+            ],
+            "value": "60016"
+          },
+          {
+            "synonyms": [
+              "simulation and modelling",
+              "simulation",
+              "modelling"
+            ],
+            "value": "60020"
+          },
+          {
+            "synonyms": [
+              "type systems for programming languages",
+              "type system",
+              "type systems"
+            ],
+            "value": "60023"
+          },
+          {
+            "synonyms": [
+              "introduction to machine learning",
+              "machine learning",
+              "ml",
+              "intro to ml"
+            ],
+            "value": "70050"
+          },
+          {
+            "synonyms": [
+              "advanced databases",
+              "advanced database"
+            ],
+            "value": "60002"
+          },
+          {
+            "synonyms": [
+              "communicating computer science in schools",
+              "communicating"
+            ],
+            "value": "60003"
+          },
+          {
+            "synonyms": [
+              "graphics"
+            ],
+            "value": "60005"
+          },
+          {
+            "synonyms": [
+              "computer vision"
+            ],
+            "value": "60006"
+          },
+          {
+            "synonyms": [
+              "custom computing"
+            ],
+            "value": "60008"
+          },
+          {
+            "synonyms": [
+              "distributed algorithms",
+              "distributed algorithm"
+            ],
+            "value": "60009"
+          },
+          {
+            "synonyms": [
+              "logic-based learning"
+            ],
+            "value": "60013"
+          },
+          {
+            "synonyms": [
+              "network and web security",
+              "third year network"
+            ],
+            "value": "60015"
+          },
+          {
+            "synonyms": [
+              "system performance engineering"
+            ],
+            "value": "60017"
+          },
+          {
+            "synonyms": [
+              "robotics"
+            ],
+            "value": "60019"
+          },
+          {
+            "synonyms": [
+              "i explore",
+              "i-explore"
+            ],
+            "value": "third year i explore"
           }
         ],
         "matching_strictness": 1.0,
@@ -1048,6 +1601,1546 @@
             "data": [
               {
                 "text": "i need to find somewhere to pray"
+              }
+            ]
+          }
+        ]
+      },
+      "course_info": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "what is the course regulation for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "year one"
+              },
+              {
+                "text": " (1st year) students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the course regulation for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "year two"
+              },
+              {
+                "text": " (second year) students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "1st year"
+              },
+              {
+                "text": " (40009)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "1st years"
+              },
+              {
+                "text": " (40001)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "first year"
+              },
+              {
+                "text": " (40018)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "first years"
+              },
+              {
+                "text": " (40007)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i perpare for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "40001"
+              },
+              {
+                "text": " (java)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what books should i read for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "introduction to computer system"
+              },
+              {
+                "text": " (database)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i perpare for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "ICS"
+              },
+              {
+                "text": " (linear algebra)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "40007"
+              },
+              {
+                "text": " (databases)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group porject in "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "introduction to databases"
+              },
+              {
+                "text": " (first year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the infomation on "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "databases"
+              },
+              {
+                "text": " (database)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "database"
+              },
+              {
+                "text": " (40018)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "intro to databases"
+              },
+              {
+                "text": " (first year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info on "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "40016"
+              },
+              {
+                "text": " (first year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "calculus"
+              },
+              {
+                "text": " (java)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all the modules in "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "40009"
+              },
+              {
+                "text": " (first year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "computing practical"
+              },
+              {
+                "text": " (first year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "java"
+              },
+              {
+                "text": " (first year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "2nd year"
+              },
+              {
+                "text": " (50001)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "2nd years"
+              },
+              {
+                "text": " (50002)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "second year"
+              },
+              {
+                "text": " (stats)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "second years"
+              },
+              {
+                "text": " (compiler)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i perpare for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50001"
+              },
+              {
+                "text": " (WACC)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see more course info on "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "algorithm design and analysis"
+              },
+              {
+                "text": " (comp tech)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i get to choose between "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "second year algorithm"
+              },
+              {
+                "text": " (comp tech) and "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "algorithm"
+              },
+              {
+                "text": " (symbolic)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what books should i read for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50002"
+              },
+              {
+                "text": " (os)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i perpare for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "software engineering design"
+              },
+              {
+                "text": " (compiler)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "sed"
+              },
+              {
+                "text": " (comp tech)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group porject in "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "software design"
+              },
+              {
+                "text": " (second year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the infomation on "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50003"
+              },
+              {
+                "text": " (algorithm)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "models of computation"
+              },
+              {
+                "text": " (50001)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "models"
+              },
+              {
+                "text": " (second year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info on "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "model"
+              },
+              {
+                "text": " (second year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50004"
+              },
+              {
+                "text": " (50003)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all the modules in "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "operating systems"
+              },
+              {
+                "text": " (second year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "os"
+              },
+              {
+                "text": " (second year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50005"
+              },
+              {
+                "text": " (second year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "year three"
+              },
+              {
+                "text": " (60009)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "3rd year"
+              },
+              {
+                "text": " (60001)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "3rd years"
+              },
+              {
+                "text": " (60002)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "third year"
+              },
+              {
+                "text": " (60007)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i perpare for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "third years"
+              },
+              {
+                "text": " (operations research)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what books should i read for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "60021"
+              },
+              {
+                "text": " (computer vision)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i perpare for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "software engineering group project"
+              },
+              {
+                "text": " (graphics)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "software group project"
+              },
+              {
+                "text": " (computer vision)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group porject in "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "60001"
+              },
+              {
+                "text": " (third year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the infomation on "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "advanced computer architecture"
+              },
+              {
+                "text": " (database)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "aca"
+              },
+              {
+                "text": " (60003)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "advanced architecture"
+              },
+              {
+                "text": " (third year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info on "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "60007"
+              },
+              {
+                "text": " (third year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "the theory and practice of concurrent programming"
+              },
+              {
+                "text": " (computer vision)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all the modules in "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "concurrent programming"
+              },
+              {
+                "text": " (third year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "60016"
+              },
+              {
+                "text": " (third year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "operations research"
+              },
+              {
+                "text": " (third year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "year four"
+              },
+              {
+                "text": " (70015)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "4th year"
+              },
+              {
+                "text": " (70001)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "fourth years"
+              },
+              {
+                "text": " (70018)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "fourth year"
+              },
+              {
+                "text": " (70020)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i perpare for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "70012"
+              },
+              {
+                "text": " (complexity)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what books should i read for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "industrial placement"
+              },
+              {
+                "text": " (custom computing)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i perpare for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "placement"
+              },
+              {
+                "text": " (deep learning)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "70011"
+              },
+              {
+                "text": " (deep learning)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group porject in "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "individual project"
+              },
+              {
+                "text": " (fourth year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the infomation on "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "60001"
+              },
+              {
+                "text": " (advanced computer security)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "advanced computer architecture"
+              },
+              {
+                "text": " (advanced computer security)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "aca"
+              },
+              {
+                "text": " (fourth year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info on "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "advanced architecture"
+              },
+              {
+                "text": " (fourth year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "60020"
+              },
+              {
+                "text": " (computer vision)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all the modules in "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "simulation and modelling"
+              },
+              {
+                "text": " (fourth year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "simulation"
+              },
+              {
+                "text": " (fourth year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "modelling"
+              },
+              {
+                "text": " (fourth year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I want to know the weighting for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "operation research"
+              },
+              {
+                "text": " (3rd years)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what kind of "
+              },
+              {
+                "entity": "extra",
+                "slot_name": "extra",
+                "text": "horizons"
+              },
+              {
+                "text": " (horizons) course can I take"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial "
+              },
+              {
+                "entity": "extra",
+                "slot_name": "extra",
+                "text": "horizon"
+              },
+              {
+                "text": " (language) options"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "70004"
+              },
+              {
+                "text": " (4th year) course regulation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i have course weighting for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "advanced computer security"
+              },
+              {
+                "text": " (fourth years)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what "
+              },
+              {
+                "entity": "extra",
+                "slot_name": "extra",
+                "text": "i-explore"
+              },
+              {
+                "text": " (i-explore) options are there"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial "
+              },
+              {
+                "entity": "extra",
+                "slot_name": "extra",
+                "text": "i explore"
+              },
+              {
+                "text": " (horizons)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find course description for "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "70005"
+              },
+              {
+                "text": " (fourth year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find course description for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "haskell"
+              },
+              {
+                "text": " (first year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find course description for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "Networks and communications"
+              },
+              {
+                "text": " (second year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find course description for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "60020"
+              },
+              {
+                "text": " (third year)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "course description for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "Networks"
+              },
+              {
+                "text": " (second year) students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "course weight for "
+              },
+              {
+                "entity": "third year",
+                "slot_name": "third year",
+                "text": "simulation and modelling"
+              },
+              {
+                "text": " (third year) students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can "
+              },
+              {
+                "entity": "fourth year",
+                "slot_name": "fourth year",
+                "text": "complexity"
+              },
+              {
+                "text": " (4th year) students get information for course description"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "course description"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial "
+              },
+              {
+                "entity": "extra",
+                "slot_name": "extra",
+                "text": "language"
+              },
+              {
+                "text": " (language course)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When should I submit which modules I have chosen for the next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When should I submit which modules I have chosen for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When should I submit which modules I have chosen for third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When should I submit which modules I have chosen for fourth year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where do I submit which modules I want to pick for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where do I submit which modules I want to pick for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where do I submit which modules I want to pick for third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where do I submit which modules I want to pick for fourth year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What are the module weightings for first year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What are the module weightings for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What are the module weightings for third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What are the module weightings for fourth year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What programming languages am I going to learn in first year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What programming languages am I going to learn in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What programming languages am I going to learn in third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What programming languages am I going to learn in fourth year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Are horizons compulsory for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Are horizons compulsory for third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Are "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "kotlin"
+              },
+              {
+                "text": " (PPT) tutorials required"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i not attend "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "c"
+              },
+              {
+                "text": " (pmt)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Are "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "c project"
+              },
+              {
+                "text": " (PMT) tutorials required"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many session are there for "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "40018"
+              },
+              {
+                "text": " (pmt)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How many people do we need for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "Network"
+              },
+              {
+                "text": " (DRP)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How many people do we need for the "
+              },
+              {
+                "entity": "first year",
+                "slot_name": "first year",
+                "text": "discrete mathematics"
+              },
+              {
+                "text": " (C project)"
               }
             ]
           }
@@ -2476,6 +4569,885 @@
                 "text": "i want to order a repeat prescription"
               }
             ]
+          },
+          {
+            "data": [
+              {
+                "text": "my arm hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my leg hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my finger hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my neck hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my back hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my ankle hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my head hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my arm is broken"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have broken my arm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my leg is broken"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have broken my leg"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have burnt my skin"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my arm is bleeding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my foot is bleeding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my leg is bleeding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my foot is swollen"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my finger is swollen"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my ankle is dislocated"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my elbow is dislocated"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have severe stomach pain"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am in pain"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my eye is bruised"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my leg is sore"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my arm is sore"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have broken my arm. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've broken my arm. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have bruised my eye. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've bruised my eye. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have dislocated my toe. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've dislocated my toe. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have badly burned my skin. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've badly burned my skin. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have burst my eardrum. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've burst my eardrum. what should i do"
+              }
+            ]
+          }
+        ]
+      },
+      "exam_revision": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "where can i find past exam papers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find past programming tests"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "find old haskell programming papers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "find old java programming papers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "find old c programming papers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i revise for the exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find revision information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get information to help me with revision"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "past java programming papers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "past java papers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "past java final test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "past java practive test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "java practive test revision"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i revise for programming tests"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need help with revising"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get help with revision"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on java practice test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find java final test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find haskell final test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on c final test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on programming exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i prepare for haskell test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for haskell practice test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i revise for programming test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want help with revising for java final test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need help with revising java practive test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need help with revising c final test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need information on exam revision"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need information to help me with revising for exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i do better on my exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i improve on my exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i do a good job on the exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to do better on my exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to do well on my exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "help with doing better on test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to do better on the test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need exam information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i access past exam paper"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find my exam dates"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when is my exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know my exam dates"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know my exams dates"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "exam info"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "exams infomation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "exam website"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the exam website"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see my exam timetables"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see my second year exam modules"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need access to the third year exam timetable"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see my exam results"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find exam feedbacks"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there any exam feedback from examiners"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there any exam feedback on 2018-2019"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there any exam feedback on 2021-2022"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there any exam feedback last year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is exam feedback"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i appeal for my result"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the rubrics for first year exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find examiner contact details"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find my unofficial grades"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to appeal for my exam result, what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "there's something wrong with my exam result, what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how i find the contact details of the examiner"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when does the third year final begin"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see my finals timetable"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see my finals grade"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the finals feedbacks"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know the date and time of my modules' exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is one exam in first year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long are the finals for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is the Haskell exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is the Java final"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is the OS finial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do all exams in first year 80 minutes long"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do all finals in second year 90 minutes long"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long are 3rd year exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i see the results of my third year finals"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the exam website"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long does the exam take in 4th year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "are there any exam instructions"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the general exam instructions"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get more information about the java final test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get information on the haskell programming test"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get information on operating system exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on operating system exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on compiler exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "more information on algorithm exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on software engineering design"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on network exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on networks exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long does network exam take"
+              }
+            ]
           }
         ]
       },
@@ -3852,249 +6824,271 @@
           }
         ]
       },
-      "getTravelAdvice": {
+      "getMitigatingCircumstances Info": {
         "utterances": [
           {
             "data": [
               {
-                "text": "what discount can I get if I'm travelling by "
-              },
-              {
-                "entity": "transport method",
-                "slot_name": "transport method",
-                "text": "tube"
-              },
-              {
-                "text": " (tube)"
+                "text": "what counts as mitigating circumstances"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what travel information is there for "
-              },
-              {
-                "entity": "student type",
-                "slot_name": "student type",
-                "text": "international students"
-              },
-              {
-                "text": " (international students)"
+                "text": "what counts as acceptable evidence"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what are my travel options for travelling to "
-              },
-              {
-                "entity": "campus type",
-                "slot_name": "campus type",
-                "text": "south kensington"
-              },
-              {
-                "text": " (south kensington) campus"
+                "text": "when can i expect to know the outcome of my mitigating circumstances"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how do I book the "
-              },
-              {
-                "entity": "transport method",
-                "slot_name": "transport method",
-                "text": "train"
-              },
-              {
-                "text": " (shuttle bus)"
+                "text": "can i self-certify"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "can I get a "
-              },
-              {
-                "entity": "discount",
-                "slot_name": "discount",
-                "text": "photo card"
-              },
-              {
-                "text": " (18+ oyster card)"
+                "text": "what is the deadline for applying for mitigating circumstances"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "can part time students get a "
-              },
-              {
-                "entity": "discount",
-                "slot_name": "discount",
-                "text": "railcard"
-              },
-              {
-                "text": " (18+ oyster card)"
+                "text": "how do i apply for mitigating circumstances"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how do I top up my "
-              },
-              {
-                "entity": "card",
-                "slot_name": "card",
-                "text": "oyster"
-              },
-              {
-                "text": " (18+ oyster card)"
+                "text": "how do i make a claim for mitigating circumstances"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "can I get "
-              },
-              {
-                "entity": "insurance",
-                "slot_name": "insurance",
-                "text": "travel insurance"
-              },
-              {
-                "text": " (travel insurance)"
+                "text": "who can i contact if i need support with my mitigating circumstances application"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what can an "
-              },
-              {
-                "entity": "card",
-                "slot_name": "card",
-                "text": "18+ oyster"
-              },
-              {
-                "text": " (18+ oyster card) be "
-              },
-              {
-                "entity": "purpose",
-                "slot_name": "purpose",
-                "text": "use"
-              },
-              {
-                "text": " (used) for"
+                "text": "what typical outcome can i expect if my mitigating circumstances are approved"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what is the "
-              },
-              {
-                "entity": "proximity",
-                "slot_name": "proximity",
-                "text": "closest"
-              },
-              {
-                "text": " (closest) "
-              },
-              {
-                "entity": "station",
-                "slot_name": "station",
-                "text": "tube"
-              },
-              {
-                "text": " (tube station) to "
-              },
-              {
-                "entity": "campus type",
-                "slot_name": "campus type",
-                "text": "sk"
-              },
-              {
-                "text": " (south kensington) campus"
+                "text": "can i get a repeat attempt"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how do i get to campus"
+                "text": "can i get an uncapped resit"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how can i get to campus"
+                "text": "can i repeat the year"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what are the travel options to get to campus"
+                "text": "can i delay my exams"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "information on travel options"
+                "text": "can i make a late claim for mitigating circumstances"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "travel options information"
+                "text": "i've submitted my mitigating circumstances late"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how do i cycle to campus"
+                "text": "can i request an extension deadline"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "cycling to campus"
+                "text": "do disabilities count as mitigating circumstances"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "taking a bus to campus"
+                "text": "do ongoing conditions count as mitigating circumstances"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "student travel card discounts"
+                "text": "do long-term conditions count as mitigating circumstances"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "oyster student card discount"
+                "text": "when will i find out the outcome of my mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when will i find out the decision of my mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i appeal a decision from the board of examiners"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when do the board of examiners meet"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i apply for an arithmetic mark check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when will i hear back about an arithmetic mark check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get the mitigation form from"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to access the mitigation form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is the mitigating circumstances form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a mitigating circumstance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who do i contact about mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "why have my mitigating circumstances not been approved"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "why have my mitigating circumstances been rejected"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i apply for an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get a coursework extension"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get advice with my mitigation application"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get help with my mitigation application"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get support with my mitigation application"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who can i speak to about my mitigating circumstances"
               }
             ]
           }
@@ -7136,6 +10130,254 @@
             "data": [
               {
                 "text": "when should i apply to summer acommodation"
+              }
+            ]
+          }
+        ]
+      },
+      "travel": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "what discount can I get if I'm travelling by "
+              },
+              {
+                "entity": "transport method",
+                "slot_name": "transport method",
+                "text": "tube"
+              },
+              {
+                "text": " (tube)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what travel information is there for "
+              },
+              {
+                "entity": "student type",
+                "slot_name": "student type",
+                "text": "international students"
+              },
+              {
+                "text": " (international students)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are my travel options for travelling to "
+              },
+              {
+                "entity": "campus type",
+                "slot_name": "campus type",
+                "text": "south kensington"
+              },
+              {
+                "text": " (south kensington) campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do I book the "
+              },
+              {
+                "entity": "transport method",
+                "slot_name": "transport method",
+                "text": "train"
+              },
+              {
+                "text": " (shuttle bus)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can I get a "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "photo card"
+              },
+              {
+                "text": " (18+ oyster card)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can part time students get a "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "railcard"
+              },
+              {
+                "text": " (18+ oyster card)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do I top up my "
+              },
+              {
+                "entity": "card",
+                "slot_name": "card",
+                "text": "oyster"
+              },
+              {
+                "text": " (18+ oyster card)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can I get "
+              },
+              {
+                "entity": "insurance",
+                "slot_name": "insurance",
+                "text": "travel insurance"
+              },
+              {
+                "text": " (travel insurance)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can an "
+              },
+              {
+                "entity": "card",
+                "slot_name": "card",
+                "text": "18+ oyster"
+              },
+              {
+                "text": " (18+ oyster card) be "
+              },
+              {
+                "entity": "purpose",
+                "slot_name": "purpose",
+                "text": "use"
+              },
+              {
+                "text": " (used) for"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the "
+              },
+              {
+                "entity": "proximity",
+                "slot_name": "proximity",
+                "text": "closest"
+              },
+              {
+                "text": " (closest) "
+              },
+              {
+                "entity": "station",
+                "slot_name": "station",
+                "text": "tube"
+              },
+              {
+                "text": " (tube station) to "
+              },
+              {
+                "entity": "campus type",
+                "slot_name": "campus type",
+                "text": "sk"
+              },
+              {
+                "text": " (south kensington) campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get to campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i get to campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are the travel options to get to campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on travel options"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "travel options information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i cycle to campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "cycling to campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "taking a bus to campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "student travel card discounts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "oyster student card discount"
               }
             ]
           }
