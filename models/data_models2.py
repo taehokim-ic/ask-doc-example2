@@ -70,3 +70,6 @@ class TuitionFees(NoCatergory, table=True):
 
 class Travel(NoCatergory, table=True):
     pass
+
+class ExamRevision(NoCatergory, table=True):
+    pass
