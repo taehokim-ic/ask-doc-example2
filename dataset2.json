@@ -1,5 +1,310 @@
 {
     "entities": {
+      "activities": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "start"
+            ],
+            "value": "new"
+          },
+          {
+            "synonyms": [
+              "visual art"
+            ],
+            "value": "art"
+          },
+          {
+            "synonyms": [],
+            "value": "media"
+          },
+          {
+            "synonyms": [
+              "imperial athletes",
+              "athletic"
+            ],
+            "value": "athletes"
+          },
+          {
+            "synonyms": [
+              "yearly engraving"
+            ],
+            "value": "tankard"
+          },
+          {
+            "synonyms": [
+              "societies",
+              "groups",
+              "club",
+              "group"
+            ],
+            "value": "clubs"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "advice": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "academic",
+              "academic issue"
+            ],
+            "value": "academic issues"
+          },
+          {
+            "synonyms": [
+              "imperial accommodation issue",
+              "accommodation issue",
+              "hall issue"
+            ],
+            "value": "imperial accommodation issues"
+          },
+          {
+            "synonyms": [
+              "complain",
+              "complaint"
+            ],
+            "value": "complaints"
+          },
+          {
+            "synonyms": [],
+            "value": "signposting"
+          },
+          {
+            "synonyms": [],
+            "value": "feedback"
+          },
+          {
+            "synonyms": [],
+            "value": "wellbeing resources"
+          },
+          {
+            "synonyms": [],
+            "value": "advice service policies"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "campaign": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [],
+            "value": "black history month"
+          },
+          {
+            "synonyms": [],
+            "value": "ICUsToo"
+          },
+          {
+            "synonyms": [],
+            "value": "black lives matter"
+          },
+          {
+            "synonyms": [],
+            "value": "disability history month"
+          },
+          {
+            "synonyms": [
+              "LGBTQ+"
+            ],
+            "value": "LGBTQ"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "campus type": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "sk"
+            ],
+            "value": "south kensington"
+          },
+          {
+            "synonyms": [
+              "wc"
+            ],
+            "value": "white city"
+          },
+          {
+            "synonyms": [
+              "hs"
+            ],
+            "value": "hammersmith"
+          },
+          {
+            "synonyms": [
+              "cc"
+            ],
+            "value": "charing cross"
+          },
+          {
+            "synonyms": [
+              "cw"
+            ],
+            "value": "chelsea and westminster"
+          },
+          {
+            "synonyms": [
+              "sm"
+            ],
+            "value": "st mary's"
+          },
+          {
+            "synonyms": [
+              "sp"
+            ],
+            "value": "silwood park"
+          },
+          {
+            "synonyms": [
+              "cmh"
+            ],
+            "value": "central middlesex hospital"
+          },
+          {
+            "synonyms": [
+              "rb"
+            ],
+            "value": "royal brompton"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "card": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "18+ oyster",
+              "oyster card",
+              "photo card"
+            ],
+            "value": "oyster"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "discount": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "18+ oyster",
+              "oyster card",
+              "photo card"
+            ],
+            "value": "oyster"
+          },
+          {
+            "synonyms": [
+              "16-25 railcard",
+              "student railcard"
+            ],
+            "value": "railcard"
+          },
+          {
+            "synonyms": [
+              "bus ticket"
+            ],
+            "value": "bus season ticket"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "events": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "meditating"
+            ],
+            "value": "meditation"
+          },
+          {
+            "synonyms": [],
+            "value": "interfaith"
+          },
+          {
+            "synonyms": [],
+            "value": "reflection group"
+          },
+          {
+            "synonyms": [
+              "Catholic Mass"
+            ],
+            "value": "mass"
+          },
+          {
+            "synonyms": [],
+            "value": "communion"
+          },
+          {
+            "synonyms": [],
+            "value": "evensong"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "food and drinks": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [],
+            "value": "bar"
+          },
+          {
+            "synonyms": [],
+            "value": "metric"
+          },
+          {
+            "synonyms": [],
+            "value": "fivesixeight"
+          },
+          {
+            "synonyms": [
+              "union bar",
+              "college bar",
+              "imperial bar"
+            ],
+            "value": "the union bar"
+          },
+          {
+            "synonyms": [],
+            "value": "reynolds bar"
+          },
+          {
+            "synonyms": [
+              "h bar"
+            ],
+            "value": "h-bar"
+          },
+          {
+            "synonyms": [],
+            "value": "book a venue"
+          },
+          {
+            "synonyms": [
+              "bar policy"
+            ],
+            "value": "bar policies"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
       "halls": {
         "automatically_extensible": true,
         "data": [
@@ -66,6 +371,321 @@
               "silwood park"
             ],
             "value": "silwood"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "insurance": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "liability insurance"
+            ],
+            "value": "travel insurance"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "meditation": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [],
+            "value": "mindfulness"
+          },
+          {
+            "synonyms": [],
+            "value": "buddhist"
+          },
+          {
+            "synonyms": [],
+            "value": "christian"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "my union": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "representatives",
+              "representative"
+            ],
+            "value": "my representatives"
+          },
+          {
+            "synonyms": [],
+            "value": "constituent unions"
+          },
+          {
+            "synonyms": [
+              "govern"
+            ],
+            "value": "governing documents"
+          },
+          {
+            "synonyms": [],
+            "value": "committees"
+          },
+          {
+            "synonyms": [],
+            "value": "management group"
+          },
+          {
+            "synonyms": [],
+            "value": "impact"
+          },
+          {
+            "synonyms": [],
+            "value": "finances"
+          },
+          {
+            "synonyms": [],
+            "value": "policies"
+          },
+          {
+            "synonyms": [],
+            "value": "union awards"
+          },
+          {
+            "synonyms": [],
+            "value": "summer ball"
+          },
+          {
+            "synonyms": [
+              "leadership election"
+            ],
+            "value": "leadership elections"
+          },
+          {
+            "synonyms": [
+              "summer election"
+            ],
+            "value": "summer elections"
+          },
+          {
+            "synonyms": [
+              "autumn election"
+            ],
+            "value": "autumn elections"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "perk": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "perk"
+            ],
+            "value": "perks"
+          },
+          {
+            "synonyms": [
+              "perks at work"
+            ],
+            "value": "perks for family"
+          },
+          {
+            "synonyms": [],
+            "value": "offers"
+          },
+          {
+            "synonyms": [
+              "rewards scheme"
+            ],
+            "value": "rewards"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "prayer": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "Islamic"
+            ],
+            "value": "muslim"
+          },
+          {
+            "synonyms": [],
+            "value": "room booking"
+          },
+          {
+            "synonyms": [
+              "practice"
+            ],
+            "value": "worship"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "proximity": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "close",
+              "nearest",
+              "near",
+              "not far"
+            ],
+            "value": "closest"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "purpose": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "used",
+              "purpose",
+              "goal",
+              "aim"
+            ],
+            "value": "use"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "shop": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [],
+            "value": "products"
+          },
+          {
+            "synonyms": [
+              "union products"
+            ],
+            "value": "union product"
+          },
+          {
+            "synonyms": [],
+            "value": "branded merchandise"
+          },
+          {
+            "synonyms": [
+              "hall product"
+            ],
+            "value": "hall products"
+          },
+          {
+            "synonyms": [
+              "shop extra"
+            ],
+            "value": "union shop"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "station": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "underground",
+              "station",
+              "tube station",
+              "underground station",
+              "train station",
+              "metro",
+              "metro station",
+              "subway",
+              "subway station"
+            ],
+            "value": "tube"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "student type": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "internationals",
+              "oversees students",
+              "international status"
+            ],
+            "value": "international students"
+          },
+          {
+            "synonyms": [
+              "uk students",
+              "home status"
+            ],
+            "value": "home students"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "tips": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "money saving tip",
+              "saving money"
+            ],
+            "value": "money saving tips"
+          },
+          {
+            "synonyms": [
+              "guidance",
+              "suggestions"
+            ],
+            "value": "advice"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
+      "transport method": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "train"
+            ],
+            "value": "tube"
+          },
+          {
+            "synonyms": [
+              "coach"
+            ],
+            "value": "bus"
+          },
+          {
+            "synonyms": [
+              "cycle"
+            ],
+            "value": "bike"
+          },
+          {
+            "synonyms": [
+              "Imperial shuttle bus",
+              "shuttle"
+            ],
+            "value": "shuttle bus"
           }
         ],
         "matching_strictness": 1.0,
@@ -289,6 +909,145 @@
             "data": [
               {
                 "text": "how to find a placement"
+              }
+            ]
+          }
+        ]
+      },
+      "chaplaincy": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "When and where is friday "
+              },
+              {
+                "entity": "prayer",
+                "slot_name": "prayer",
+                "text": "muslim"
+              },
+              {
+                "text": " (prayer)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "If I am religious, can I do "
+              },
+              {
+                "entity": "meditation",
+                "slot_name": "meditation",
+                "text": "mindfulness"
+              },
+              {
+                "text": " (mindfulness) as well"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What does the chaplaincy "
+              },
+              {
+                "entity": "events",
+                "slot_name": "events",
+                "text": "meditation"
+              },
+              {
+                "text": " (provide)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I use the "
+              },
+              {
+                "entity": "prayer",
+                "slot_name": "prayer",
+                "text": "Islamic"
+              },
+              {
+                "text": " (Islamic) room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Is there a "
+              },
+              {
+                "entity": "events",
+                "slot_name": "events",
+                "text": "meditating"
+              },
+              {
+                "text": " (Catholic Mass)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What is "
+              },
+              {
+                "entity": "events",
+                "slot_name": "events",
+                "text": "interfaith"
+              },
+              {
+                "text": " (meditation)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How can I start practicing "
+              },
+              {
+                "entity": "events",
+                "slot_name": "events",
+                "text": "reflection group"
+              },
+              {
+                "text": " (meditation)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I use the chaplaincy centre for my own "
+              },
+              {
+                "entity": "prayer",
+                "slot_name": "prayer",
+                "text": "room booking"
+              },
+              {
+                "text": " (worship) or "
+              },
+              {
+                "entity": "events",
+                "slot_name": "events",
+                "text": "mass"
+              },
+              {
+                "text": " (meditation)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to find somewhere to pray"
               }
             ]
           }
@@ -696,6 +1455,279 @@
             "data": [
               {
                 "text": "dental clinic information please"
+              }
+            ]
+          }
+        ]
+      },
+      "discount": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "what "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "oyster"
+              },
+              {
+                "text": " (discounts) can I get"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I find information about "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "18+ oyster"
+              },
+              {
+                "text": " (discounts)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Is there any "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "oyster card"
+              },
+              {
+                "text": " (discount for food)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there any tip for "
+              },
+              {
+                "entity": "tips",
+                "slot_name": "tips",
+                "text": "money saving tips"
+              },
+              {
+                "text": " (saving money)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what "
+              },
+              {
+                "entity": "perk",
+                "slot_name": "perk",
+                "text": "perks"
+              },
+              {
+                "text": " (offers) are working for imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Is there any "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "photo card"
+              },
+              {
+                "text": " (discount for food) for lunch on campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How can I "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "railcard"
+              },
+              {
+                "text": " (save money) for lunch"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I sign up for "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "16-25 railcard"
+              },
+              {
+                "text": " (yoyo)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Lunch on campus is too expensive. Is there any way I can "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "student railcard"
+              },
+              {
+                "text": " (save money)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there any "
+              },
+              {
+                "entity": "tips",
+                "slot_name": "tips",
+                "text": "money saving tip"
+              },
+              {
+                "text": " (advice) for reducing costs as a student"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "are there any exclusive "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "bus season ticket"
+              },
+              {
+                "text": " (discounts) as an Imperial student"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Does the department offer "
+              },
+              {
+                "entity": "tips",
+                "slot_name": "tips",
+                "text": "saving money"
+              },
+              {
+                "text": " (guidance) for which computers to purchase"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Do I have access to any "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "bus ticket"
+              },
+              {
+                "text": " (free) software"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What kind of "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "oyster"
+              },
+              {
+                "text": " (free) merchandise does DocSoc give out"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Is there a "
+              },
+              {
+                "entity": "perk",
+                "slot_name": "perk",
+                "text": "perk"
+              },
+              {
+                "text": " (rewards scheme) in place for purchases on campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I get "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "18+ oyster"
+              },
+              {
+                "text": " (cheaper) clothes from"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Are there any apps where I can get "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "oyster card"
+              },
+              {
+                "text": " (discounted) foods from"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I want to find a place to have lunch"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I want cheap food"
               }
             ]
           }
@@ -2820,6 +3852,184 @@
           }
         ]
       },
+      "getTravelAdvice": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "what discount can I get if I'm travelling by "
+              },
+              {
+                "entity": "transport method",
+                "slot_name": "transport method",
+                "text": "tube"
+              },
+              {
+                "text": " (tube)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what travel information is there for "
+              },
+              {
+                "entity": "student type",
+                "slot_name": "student type",
+                "text": "international students"
+              },
+              {
+                "text": " (international students)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are my travel options for travelling to "
+              },
+              {
+                "entity": "campus type",
+                "slot_name": "campus type",
+                "text": "south kensington"
+              },
+              {
+                "text": " (south kensington) campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do I book the "
+              },
+              {
+                "entity": "transport method",
+                "slot_name": "transport method",
+                "text": "train"
+              },
+              {
+                "text": " (shuttle bus)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can I get a "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "photo card"
+              },
+              {
+                "text": " (18+ oyster card)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can part time students get a "
+              },
+              {
+                "entity": "discount",
+                "slot_name": "discount",
+                "text": "railcard"
+              },
+              {
+                "text": " (18+ oyster card)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do I top up my "
+              },
+              {
+                "entity": "card",
+                "slot_name": "card",
+                "text": "oyster"
+              },
+              {
+                "text": " (18+ oyster card)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can I get "
+              },
+              {
+                "entity": "insurance",
+                "slot_name": "insurance",
+                "text": "travel insurance"
+              },
+              {
+                "text": " (travel insurance)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can an "
+              },
+              {
+                "entity": "card",
+                "slot_name": "card",
+                "text": "18+ oyster"
+              },
+              {
+                "text": " (18+ oyster card) be "
+              },
+              {
+                "entity": "purpose",
+                "slot_name": "purpose",
+                "text": "use"
+              },
+              {
+                "text": " (used) for"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the "
+              },
+              {
+                "entity": "proximity",
+                "slot_name": "proximity",
+                "text": "closest"
+              },
+              {
+                "text": " (closest) "
+              },
+              {
+                "entity": "station",
+                "slot_name": "station",
+                "text": "tube"
+              },
+              {
+                "text": " (tube station) to "
+              },
+              {
+                "entity": "campus type",
+                "slot_name": "campus type",
+                "text": "sk"
+              },
+              {
+                "text": " (south kensington) campus"
+              }
+            ]
+          }
+        ]
+      },
       "hall_senior": {
         "utterances": [
           {
@@ -3952,6 +5162,178 @@
           }
         ]
       },
+      "mitigation": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "what counts as mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what counts as acceptable evidence"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when can i expect to know the outcome of my mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i self-certify"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the deadline for applying for mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i apply for mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i make a claim for mitigating circumstances?"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who can i contact if i need support with my mitigating circumstances application"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what typical outcome can i expect if my mitigating circumstances are approved"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get a repeat attempt"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get an uncapped resit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i repeat the year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i make a late claim for mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i request an extension deadline"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do disabilities count as mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do ongoing conditions count as mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do long-term conditions count as mitigating circumstances"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i appeal a decision from the board of examiners"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i apply for an arithmetic mark check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get the mitigation form from"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to access the mitigation form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is the mitigating circumstances form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a mitigating circumstance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who do i contact about mitigating circumstances"
+              }
+            ]
+          }
+        ]
+      },
       "private_housing": {
         "utterances": [
           {
@@ -4231,6 +5613,250 @@
             "data": [
               {
                 "text": "am i exempt from council tax"
+              }
+            ]
+          }
+        ]
+      },
+      "societies": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "how can I start a "
+              },
+              {
+                "entity": "activities",
+                "slot_name": "activities",
+                "text": "new"
+              },
+              {
+                "text": " (new) society"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Is there any "
+              },
+              {
+                "entity": "activities",
+                "slot_name": "activities",
+                "text": "start"
+              },
+              {
+                "text": " (art) events"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How can I join "
+              },
+              {
+                "entity": "activities",
+                "slot_name": "activities",
+                "text": "art"
+              },
+              {
+                "text": " (imperial athletes) community"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is "
+              },
+              {
+                "entity": "activities",
+                "slot_name": "activities",
+                "text": "visual art"
+              },
+              {
+                "text": " (tankard)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is "
+              },
+              {
+                "entity": "campaign",
+                "slot_name": "campaign",
+                "text": "black history month"
+              },
+              {
+                "text": " (black history month)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Is there any event for "
+              },
+              {
+                "entity": "campaign",
+                "slot_name": "campaign",
+                "text": "ICUsToo"
+              },
+              {
+                "text": " (LGBTQ)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Are there any resources for "
+              },
+              {
+                "entity": "campaign",
+                "slot_name": "campaign",
+                "text": "black lives matter"
+              },
+              {
+                "text": " (Black History Month)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who is "
+              },
+              {
+                "entity": "my union",
+                "slot_name": "my union",
+                "text": "my representatives"
+              },
+              {
+                "text": " (my representatives)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when is "
+              },
+              {
+                "entity": "my union",
+                "slot_name": "my union",
+                "text": "representatives"
+              },
+              {
+                "text": " (summer ball)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the candidates for "
+              },
+              {
+                "entity": "my union",
+                "slot_name": "my union",
+                "text": "representative"
+              },
+              {
+                "text": " (summer election)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I give "
+              },
+              {
+                "entity": "advice",
+                "slot_name": "advice",
+                "text": "academic issues"
+              },
+              {
+                "text": " (feedback)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should I do if I have "
+              },
+              {
+                "entity": "advice",
+                "slot_name": "advice",
+                "text": "academic"
+              },
+              {
+                "text": " (accommodation issues)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can I buy "
+              },
+              {
+                "entity": "shop",
+                "slot_name": "shop",
+                "text": "products"
+              },
+              {
+                "text": " (union products)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where's the college "
+              },
+              {
+                "entity": "food and drinks",
+                "slot_name": "food and drinks",
+                "text": "bar"
+              },
+              {
+                "text": " (bar)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the opening times for "
+              },
+              {
+                "entity": "food and drinks",
+                "slot_name": "food and drinks",
+                "text": "metric"
+              },
+              {
+                "text": " (FiveSixEight)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I am interested in rowing. Is there a "
+              },
+              {
+                "entity": "activities",
+                "slot_name": "activities",
+                "text": "media"
+              },
+              {
+                "text": " (club) that I can join"
               }
             ]
           }
@@ -4655,6 +6281,374 @@
               },
               {
                 "text": " (xenia) acomodation"
+              }
+            ]
+          }
+        ]
+      },
+      "student_status": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "can i interrupt my studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i interrupt my studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "should i interrupt my studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to take a break from my studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i take a break from my studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access my statement of registration letter"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get my registration document"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access my statement of award letter"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get my award document"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access my pre award transcript"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access my pre-award transcript"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get my pre award document"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get my pre-award document"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access My Imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access myimperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i update my bank details"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i change my bank details"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to change my bank details"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access my short-term study visa letter"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access my study visa letter"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access my short-term study visa document"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access my tier 2 visa reference letter"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i access my tier 2 visa document"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to drop out of my course"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to leave my course"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to quit my studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to drop out of imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to quit my course"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to quit imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to leave imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to switch courses"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to switch programmes"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to switch degrees"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to change courses"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to change programmes"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to change degrees"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i enrol for next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i see my results"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i see my exam results"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i see what i-explore i'm doing"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what i-explore am i doing"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i check my personal details"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to change my personal details"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to check my basic details"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to change my basic details"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i re-enrol on my course"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i re-enrol on my programme"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i re-enrol on my degree"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what support do study abroad students get"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what do i do if i lose my student id card"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what do i do if i lose my id card"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what do i do if i lose my student card"
               }
             ]
           }
