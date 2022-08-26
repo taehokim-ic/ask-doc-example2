@@ -87,7 +87,9 @@ def process_message(client_message: ClientMessage = None):
     elif intent == 'chaplaincy':
         link = select_no_category_table(Chaplaincy)
     elif intent == 'travel':
-        link = select_no_category_table(Travel)            
+        link = select_no_category_table(Travel)
+    elif intent == 'exam_revision':
+        link = select_no_category_table(ExamRevision)                     
     else: # tuition fees
         link = select_no_category_table(TuitionFees)
 
