@@ -17,10 +17,19 @@ class Catergory(SQLModel):
 class Careers(NoCatergory, table=True):
     pass
 
+class Chaplaincy(NoCatergory, table=True):
+    pass
+
+class Societies(NoCatergory, table=True):
+    pass
+
 class Crime(NoCatergory, table=True):
     pass
 
 class Dental(NoCatergory, table=True):
+    pass
+
+class Discount(NoCatergory, table=True):
     pass
 
 class Doctor(NoCatergory, table=True):
@@ -35,7 +44,13 @@ class Finances(NoCatergory, table=True):
 class Library(NoCatergory, table=True):
     pass
 
+class Mitigation(NoCatergory, table=True):
+    pass
+
 class GeneralAccommodation(NoCatergory, table=True):
+    pass
+
+class StudentStatus(NoCatergory, table=True):
     pass
     
 class MentalHealth(NoCatergory, table=True):
@@ -51,4 +66,7 @@ class SummerAccommodation(NoCatergory, table=True):
     pass
 
 class TuitionFees(NoCatergory, table=True):
+    pass
+
+class Travel(NoCatergory, table=True):
     pass
