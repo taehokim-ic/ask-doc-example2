@@ -42,7 +42,7 @@
             "value": "clubs"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "advice": {
@@ -87,7 +87,7 @@
             "value": "advice service policies"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "campaign": {
@@ -116,7 +116,7 @@
             "value": "LGBTQ"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "campus type": {
@@ -177,7 +177,7 @@
             "value": "royal brompton"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "card": {
@@ -192,7 +192,7 @@
             "value": "oyster"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "discount": {
@@ -220,7 +220,7 @@
             "value": "bus season ticket"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "events": {
@@ -255,7 +255,7 @@
             "value": "evensong"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "food and drinks": {
@@ -302,7 +302,7 @@
             "value": "bar policies"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "halls": {
@@ -373,7 +373,7 @@
             "value": "silwood"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "insurance": {
@@ -386,7 +386,7 @@
             "value": "travel insurance"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "meditation": {
@@ -405,7 +405,7 @@
             "value": "christian"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "my union": {
@@ -475,7 +475,7 @@
             "value": "autumn elections"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "perk": {
@@ -504,7 +504,7 @@
             "value": "rewards"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "prayer": {
@@ -527,7 +527,7 @@
             "value": "worship"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "proximity": {
@@ -543,7 +543,7 @@
             "value": "closest"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "purpose": {
@@ -559,7 +559,7 @@
             "value": "use"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "shop": {
@@ -592,7 +592,7 @@
             "value": "union shop"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "station": {
@@ -613,7 +613,7 @@
             "value": "tube"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "student type": {
@@ -635,7 +635,7 @@
             "value": "home students"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "tips": {
@@ -656,7 +656,7 @@
             "value": "advice"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       },
       "transport method": {
@@ -688,7 +688,7 @@
             "value": "shuttle bus"
           }
         ],
-        "matching_strictness": 1.0,
+        "matching_strictness": 0.8,
         "use_synonyms": true
       }
     },
