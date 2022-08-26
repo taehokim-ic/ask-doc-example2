@@ -36,64 +36,6 @@ class ClientMessage(BaseModel):
     class Config:
         orm_mode = True
 
-# @app.get('/askdoc/chat-api/v1')
-# def process_message():
-#     print(db.keys())
-#     return {
-#         "message": random.choice(random_messages),
-#         "link": db[random.choice(list(db.keys()))]
-#     }
-
-# @app.post('/askdoc/chat-api/v1')
-# def process_message(client_message: ClientMessage = None):
-    
-#     result = nlu_engine.parse(client_message.message)
-#     intent = result['intent']['intentName']
-    
-#     if not intent:
-#         return {
-#             "keyword_link_pair": []
-#         }
-#     elif intent == 'getAccommodationInfo':
-#         link = select_table(Accommodation)
-#     elif intent == 'careers':
-#         link = select_table(Careers)
-#     elif intent == 'chaplaincy':
-#         link = select_table(Chaplaincy)
-#     elif intent == 'societies':
-#         link = select_table(Societies)
-#     elif intent == 'getCourseInfo':
-#         link = select_table(CourseInfo)
-#     elif intent == 'crime':
-#         link = select_table(Crime)
-#     elif intent == 'saving money':
-#         link = select_table(Discount)
-#     elif intent == 'getExamAssessmentInfo':
-#         link = select_table(ExamsAndAssessment)
-#     elif intent == 'getFinanceInfo':
-#         link = select_table(Finance)
-#     elif intent == 'health':
-#         link = select_table(Health)
-#     elif intent == 'library':
-#         link = select_table(Library)
-#     elif intent == 'mental health':
-#         link = select_table(MentalHealth)
-#     elif intent == 'studentStatusAndEnrolment':
-#         link = select_table(StudentStatus)
-#     elif intent == 'success':
-#         link = select_table(Success)
-#     else: # travel
-#         link = select_table(Travel)
-
-#     if not link:
-#         return {
-#             "keyword_link_pair": link
-#         }
-#     return {
-#         "keyword_link_pair": [{"keyword": keyword, "link":data} for keyword, data in link]
-#     }
-    
-
 @app.post('/askdoc/chat-api/v1')
 def process_message(client_message: ClientMessage = None):
     
@@ -115,7 +57,7 @@ def process_message(client_message: ClientMessage = None):
     elif intent == 'doctor':
         link = select_no_category_table(Doctor)
     elif intent == 'dental':
-        link = select_no_category_table(Doctor)
+        link = select_no_category_table(Dental)
     elif intent == 'library':
         link = select_no_category_table(Library)
     elif intent == 'mental_health':
@@ -134,6 +76,18 @@ def process_message(client_message: ClientMessage = None):
             link = ""
     elif intent == 'hall_senior':
         link = select_no_category_table(HallSenior)
+    elif intent == 'discount':
+        link = select_no_category_table(Discount)
+    elif intent == 'mitigation':
+        link = select_no_category_table(Mitigation)
+    elif intent == 'student_status':
+        link = select_no_category_table(StudentStatus)
+    elif intent == 'societies':
+        link = select_no_category_table(Societies)    
+    elif intent == 'chaplaincy':
+        link = select_no_category_table(Chaplaincy)
+    elif intent == 'travel':
+        link = select_no_category_table(Travel)            
     else: # tuition fees
         link = select_no_category_table(TuitionFees)
 
