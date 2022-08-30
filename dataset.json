@@ -1927,7 +1927,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "pintos"
+                "text": "year two"
               },
               {
                 "text": " (second year) students"
@@ -2197,7 +2197,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "wacc"
+                "text": "2nd year"
               },
               {
                 "text": " (50001)"
@@ -2212,7 +2212,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "prolog"
+                "text": "2nd years"
               },
               {
                 "text": " (50002)"
@@ -2227,7 +2227,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50008"
+                "text": "second year"
               },
               {
                 "text": " (stats)"
@@ -2242,7 +2242,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "probability and statistics"
+                "text": "second years"
               },
               {
                 "text": " (compiler)"
@@ -2257,7 +2257,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "stats"
+                "text": "50001"
               },
               {
                 "text": " (WACC)"
@@ -2272,7 +2272,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "probability"
+                "text": "algorithm design and analysis"
               },
               {
                 "text": " (comp tech)"
@@ -2287,7 +2287,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50010"
+                "text": "second year algorithm"
               },
               {
                 "text": " (comp tech) and "
@@ -2295,7 +2295,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "year2 group project"
+                "text": "algorithm"
               },
               {
                 "text": " (symbolic)"
@@ -2310,7 +2310,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "drp"
+                "text": "50002"
               },
               {
                 "text": " (os)"
@@ -2325,7 +2325,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "second year group project"
+                "text": "software engineering design"
               },
               {
                 "text": " (compiler)"
@@ -2340,7 +2340,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "group project"
+                "text": "sed"
               },
               {
                 "text": " (comp tech)"
@@ -2355,7 +2355,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50009"
+                "text": "software design"
               },
               {
                 "text": " (second year)"
@@ -2370,7 +2370,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "symbolic reasoning"
+                "text": "50003"
               },
               {
                 "text": " (algorithm)"
@@ -2385,7 +2385,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "symbolic"
+                "text": "models of computation"
               },
               {
                 "text": " (50001)"
@@ -2400,7 +2400,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50011"
+                "text": "models"
               },
               {
                 "text": " (second year)"
@@ -2415,7 +2415,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "computational techniques"
+                "text": "model"
               },
               {
                 "text": " (second year)"
@@ -2430,7 +2430,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "comp tech"
+                "text": "50004"
               },
               {
                 "text": " (50003)"
@@ -2445,7 +2445,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "year two"
+                "text": "operating systems"
               },
               {
                 "text": " (second year)"
@@ -2460,7 +2460,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "2nd year"
+                "text": "os"
               },
               {
                 "text": " (second year)"
@@ -2475,7 +2475,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "2nd years"
+                "text": "50005"
               },
               {
                 "text": " (second year)"
@@ -3135,7 +3135,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "second year"
+                "text": "Networks and communications"
               },
               {
                 "text": " (second year)"
@@ -3165,7 +3165,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "second years"
+                "text": "Networks"
               },
               {
                 "text": " (second year) students"
@@ -3418,7 +3418,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50001"
+                "text": "Network"
               },
               {
                 "text": " (DRP)"
@@ -4341,443 +4341,1099 @@
           {
             "data": [
               {
-                "text": "what is the course regulation for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "year two"
-              },
-              {
-                "text": " (year 2) students"
+                "text": "what is the course regulation for second year students"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "2nd year"
-              },
-              {
-                "text": " (50001)"
+                "text": "what is the course regulation for year 2 students"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "2nd years"
-              },
-              {
-                "text": " (50002)"
+                "text": "what is the course regulation for yr2 students"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "second year"
-              },
-              {
-                "text": " (stats)"
+                "text": "what is the course regulation for yr 2 students"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "second years"
-              },
-              {
-                "text": " (compiler)"
+                "text": "what is the course regulation for year two students"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50001"
-              },
-              {
-                "text": " (wacc)"
+                "text": "what is the course regulation for 2nd year students"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i want to see more course info on "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "algorithm design and analysis"
-              },
-              {
-                "text": " (comp tech)"
+                "text": "what is the recommended reading list for 50001"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "do i get to choose between "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "second year algorithm"
-              },
-              {
-                "text": " (comp tech) and "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "algorithm"
-              },
-              {
-                "text": " (symbolic)"
+                "text": "what is the recommended reading list for comp50001"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what books should i read for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50002"
-              },
-              {
-                "text": " (os)"
+                "text": "what is the recommended reading list for algorithm design and analysis"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "software engineering design"
-              },
-              {
-                "text": " (compiler)"
+                "text": "what is the recommended reading list for second year algorithm"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "who teaches "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "sed"
-              },
-              {
-                "text": " (comp tech)"
+                "text": "what is the recommended reading list for algorithm"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "is there a group project in "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "software design"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for 50002"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i want to see the information on "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50003"
-              },
-              {
-                "text": " (algorithm)"
+                "text": "what is the recommended reading list for comp50002"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "can i know the content of "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "models of computation"
-              },
-              {
-                "text": " (50001)"
+                "text": "what is the recommended reading list for software engineering design"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "where can i see the course info for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "models"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for sed"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "give me the course info for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "model"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for software design"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "who is the lecturer of "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50004"
-              },
-              {
-                "text": " (50003)"
+                "text": "what is the recommended reading list for 50008"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i want to see all the modules for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "operating systems"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for comp50008"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how many modules are there in "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "os"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for stats"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "where can i see all the modules in "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50005"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for probability and statistics"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "where can i find course description for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "Networks and communications"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for probability"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "course description for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "Networks"
-              },
-              {
-                "text": " (year 2) students"
+                "text": "what is the recommended reading list for statistics"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "when should i submit which modules i have chosen for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "Network"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for 50006"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "where do i submit which modules i want to pick for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50006"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for comp50006"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what are the module weightings for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "compilers"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for compiler"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "what programming languages am i going to learn in "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "compiler"
-              },
-              {
-                "text": " (year 2)"
+                "text": "what is the recommended reading list for compilers"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "is horizons compulsory for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50007"
-              },
-              {
-                "text": " (year 2)"
+                "text": "how can i prepare for wacc"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "do i have to do horizons in "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "lab"
-              },
-              {
-                "text": " (year 2)"
+                "text": "how can i prepare for 50007"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how many people do we need for "
-              },
+                "text": "how can i prepare for comp50007"
+              }
+            ]
+          },
+          {
+            "data": [
               {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "laboratory"
-              },
+                "text": "how can i prepare for lab"
+              }
+            ]
+          },
+          {
+            "data": [
               {
-                "text": " (drp)"
+                "text": "how can i prepare for laboratory"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for prolog"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for pintos"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for yr2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for yr 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see more course info on comp tech"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see more course info on computational techniques"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see more course info on comp50011"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see more course info on 50011"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i get to choose between comp tech and symbolic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i get to choose between comp tech and symbolic reasoning"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i get to choose between computational techniques and symbolic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i get to choose between computational techniques and symbolic reasoning"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what books should i read for os"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what books should i read for operating systems"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what books should i read for comp50004"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what books should i read for 50004"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for compiler"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for compilers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for comp50006"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for 50006"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches comp tech"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches computational techniques"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 50011"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches comp50011"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group project in year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group project in yr2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group project in yr 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group project in 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group project in year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group project in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the information on algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the information on second year algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the information on 2nd year algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on second year algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 2nd year algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the information on algorithm design and analysis"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on algorithm design and analysis"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the information on 50001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the information on comp50001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 50001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the information on comp50001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of 50001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of comp50001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of second year algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of 2nd year algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of algorithm design and analysis"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for yr2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for yr 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info for year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info for 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info for year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info for yr 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info for yr2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of 50003"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of comp50003"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of model"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of models"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of models of computation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all the modules for year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all the modules for year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all the modules for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all the modules for 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in yr2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in yr 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in yr 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in yr2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find course description for year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find course description for year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find course description for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find course description for 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find course description for yr 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find course description for yr2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "course description for year 2 students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "course description for second year students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "course description for 2nd year students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "course description for year two students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i submit which modules i have chosen for year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i submit which modules i have chosen for year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i submit which modules i have chosen for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i submit which modules i have chosen for 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where do i submit which modules i want to pick for year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where do i submit which modules i want to pick for year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where do i submit which modules i want to pick for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where do i submit which modules i want to pick for 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are the module weightings for year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are the module weightings for year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are the module weightings for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are the module weightings for 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what programming languages am i going to learn in year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what programming languages am i going to learn in 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what programming languages am i going to learn in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what programming languages am i going to learn in year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is horizons compulsory for year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is horizons compulsory for year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is horizons compulsory for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is horizons compulsory for 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i have to do horizons in year 2"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i have to do horizons in year two"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i have to do horizons in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i have to do horizons in 2nd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many people do we need for drp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many people do we need for 50010"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many people do we need for comp50010"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many people do we need for year 2 group project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many people do we need for year2 group project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many people do we need for second year group project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many people do we need for group project"
               }
             ]
           }
