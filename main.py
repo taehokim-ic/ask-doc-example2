@@ -1,11 +1,12 @@
+import re
 from fastapi import FastAPI
 from pydantic import BaseModel
 from nlu_engine import nlu_engine
 from repo import *
 
-from starlette.middleware.cors import CORSMiddleware
-from starlette.requests import Request
-from starlette.responses import Response
+# from starlette.middleware.cors import CORSMiddleware
+# from starlette.requests import Request
+# from starlette.responses import Response
 
 app = FastAPI()
 
@@ -14,21 +15,21 @@ random_messages = [
     "Please follow the link for more information"
 ]
 
-async def catch_exceptions_middleware(request: Request, call_next):
-    try:
-        return await call_next(request)
-    except Exception:
-        # you probably want some kind of logging here
-        return Response("Internal server error", status_code=500)
+# async def catch_exceptions_middleware(request: Request, call_next):
+#     try:
+#         return await call_next(request)
+#     except Exception:
+#         # you probably want some kind of logging here
+#         return Response("Internal server error", status_code=500)
         
-app.middleware('http')(catch_exceptions_middleware)
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# app.middleware('http')(catch_exceptions_middleware)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["*"],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
 class ClientMessage(BaseModel):
     message: str
@@ -67,13 +68,24 @@ def process_message(client_message: ClientMessage = None):
     elif intent == 'summer_accommodation':
         link = select_no_category_table(SummerAccommodation)
     elif intent == 'specific_halls':
-        slots = result["slots"][0]
-        print(slots)
-        if len(slots) > 0:
-            print(slots["value"]["value"])
-            link = select_category_table(SpecificHalls, slots["value"]["value"])
+        result_slot = result["slots"]
+        
+        if len(result_slot) > 0:
+            slots = result_slot[0]
+            if len(slots) > 0:
+                link = select_category_table(SpecificHalls, slots["value"]["value"])
         else:
             link = ""
+        
+        
+        
+        # slots = result["slots"][0]
+        # print(slots)
+        # if len(slots) > 0:
+        #     print(slots["value"]["value"])
+        #     link = select_category_table(SpecificHalls, slots["value"]["value"])
+        # else:
+        #     link = ""
     elif intent == 'hall_senior':
         link = select_no_category_table(HallSenior)
     elif intent == 'discount':
@@ -90,9 +102,13 @@ def process_message(client_message: ClientMessage = None):
         link = select_no_category_table(Travel)
     elif intent == 'exam_revision':
         link = select_no_category_table(ExamRevision)                     
-    else: # tuition fees
+    elif intent == 'tuition_fees': # tuition fees
         link = select_no_category_table(TuitionFees)
-
+    elif intent == 'course_info':
+        # NO SLOTS
+        link = select_category_module_table(CourseInfo)
+    else:
+        link = ""
     if not link:
         return {
             "keyword_link_pair": [link]

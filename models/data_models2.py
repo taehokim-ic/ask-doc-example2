@@ -1,6 +1,5 @@
+from sys import modules
 from typing import Optional
-from unicodedata import category
-
 from sqlmodel import SQLModel, Field
 
 class NoCatergory(SQLModel):
@@ -13,6 +12,13 @@ class Catergory(SQLModel):
     category: str = Field(index=True)
     keyword: str
     link: str
+    
+class CatergoryModule(SQLModel):
+    id: Optional[int] = Field(primary_key=True)
+    category: str = Field(index=True)
+    module: str
+    keyword: str
+    link: str    
     
 class Careers(NoCatergory, table=True):
     pass
@@ -72,4 +78,7 @@ class Travel(NoCatergory, table=True):
     pass
 
 class ExamRevision(NoCatergory, table=True):
+    pass
+
+class CourseInfo(CatergoryModule, table=True):
     pass

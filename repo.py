@@ -21,3 +21,12 @@ def select_category_table(table, category):
         if not first:
             return []
         return [(row.keyword, row.link) for row in first]
+    
+def select_category_module_table(table, category="general",module="general"):
+    with Session(engine) as session:
+        statement = select(table).where(table.category == category).where(table.module == module)
+        result = session.exec(statement)
+        first = result.all()
+        if not first:
+            return []
+        return [(row.keyword, row.link) for row in first]
