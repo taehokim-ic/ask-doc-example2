@@ -42,11 +42,7 @@ def process_message(client_message: ClientMessage = None):
     result = nlu_engine.parse(client_message.message)
     intent = result['intent']['intentName']
     
-    if not intent:
-        return {
-            "keyword_link_pair": []
-        }
-    elif intent == 'general_accmoodation':
+    if intent == 'general_accmoodation':
         link = select_no_category_table(GeneralAccommodation)
     elif intent == 'careers':
         link = select_no_category_table(Careers)
