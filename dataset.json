@@ -1192,6 +1192,147 @@
         "matching_strictness": 1.0,
         "use_synonyms": true
       },
+      "third year modules": {
+        "automatically_extensible": true,
+        "data": [
+          {
+            "synonyms": [
+              "3rd year",
+              "3rd years",
+              "third year",
+              "third years"
+            ],
+            "value": "year three"
+          },
+          {
+            "synonyms": [
+              "software engineering group project",
+              "software group project"
+            ],
+            "value": "60021"
+          },
+          {
+            "synonyms": [
+              "advanced computer architecture",
+              "aca",
+              "advanced architecture"
+            ],
+            "value": "60001"
+          },
+          {
+            "synonyms": [
+              "the theory and practice of concurrent programming",
+              "concurrent programming"
+            ],
+            "value": "60007"
+          },
+          {
+            "synonyms": [
+              "operations research",
+              "operation research"
+            ],
+            "value": "60016"
+          },
+          {
+            "synonyms": [
+              "simulation and modelling",
+              "simulation",
+              "modelling"
+            ],
+            "value": "60020"
+          },
+          {
+            "synonyms": [
+              "type systems for programming languages",
+              "type system",
+              "type systems"
+            ],
+            "value": "60023"
+          },
+          {
+            "synonyms": [
+              "introduction to machine learning",
+              "machine learning",
+              "ml",
+              "intro to ml"
+            ],
+            "value": "70050"
+          },
+          {
+            "synonyms": [
+              "advanced databases",
+              "advanced database"
+            ],
+            "value": "60002"
+          },
+          {
+            "synonyms": [
+              "communicating computer science in schools",
+              "communicating"
+            ],
+            "value": "60003"
+          },
+          {
+            "synonyms": [
+              "graphics"
+            ],
+            "value": "60005"
+          },
+          {
+            "synonyms": [
+              "computer vision"
+            ],
+            "value": "60006"
+          },
+          {
+            "synonyms": [
+              "custom computing"
+            ],
+            "value": "60008"
+          },
+          {
+            "synonyms": [
+              "distributed algorithms",
+              "distributed algorithm"
+            ],
+            "value": "60009"
+          },
+          {
+            "synonyms": [
+              "logic-based learning"
+            ],
+            "value": "60013"
+          },
+          {
+            "synonyms": [
+              "network and web security",
+              "third year network"
+            ],
+            "value": "60015"
+          },
+          {
+            "synonyms": [
+              "system performance engineering"
+            ],
+            "value": "60017"
+          },
+          {
+            "synonyms": [
+              "robotics"
+            ],
+            "value": "60019"
+          },
+          {
+            "synonyms": [
+              "i explore",
+              "i-explore"
+            ],
+            "value": "third year i explore"
+          }
+        ],
+        "matching_strictness": 1.0,
+        "use_synonyms": true
+      },
       "tips": {
         "automatically_extensible": true,
         "data": [
@@ -1786,7 +1927,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "year two"
+                "text": "pintos"
               },
               {
                 "text": " (second year) students"
@@ -1856,7 +1997,7 @@
           {
             "data": [
               {
-                "text": "how can i perpare for "
+                "text": "how can i prepare for "
               },
               {
                 "entity": "first year",
@@ -1886,7 +2027,7 @@
           {
             "data": [
               {
-                "text": "how can i perpare for "
+                "text": "how can i prepare for "
               },
               {
                 "entity": "first year",
@@ -1916,7 +2057,7 @@
           {
             "data": [
               {
-                "text": "is there a group porject in "
+                "text": "is there a group project in "
               },
               {
                 "entity": "first year",
@@ -1931,7 +2072,7 @@
           {
             "data": [
               {
-                "text": "i want to see the infomation on "
+                "text": "i want to see the information on "
               },
               {
                 "entity": "first year",
@@ -2056,7 +2197,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "2nd year"
+                "text": "wacc"
               },
               {
                 "text": " (50001)"
@@ -2071,7 +2212,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "2nd years"
+                "text": "prolog"
               },
               {
                 "text": " (50002)"
@@ -2086,7 +2227,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "second year"
+                "text": "50008"
               },
               {
                 "text": " (stats)"
@@ -2101,7 +2242,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "second years"
+                "text": "probability and statistics"
               },
               {
                 "text": " (compiler)"
@@ -2111,12 +2252,12 @@
           {
             "data": [
               {
-                "text": "how can i perpare for "
+                "text": "how can i prepare for "
               },
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50001"
+                "text": "stats"
               },
               {
                 "text": " (WACC)"
@@ -2131,7 +2272,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "algorithm design and analysis"
+                "text": "probability"
               },
               {
                 "text": " (comp tech)"
@@ -2146,7 +2287,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "second year algorithm"
+                "text": "50010"
               },
               {
                 "text": " (comp tech) and "
@@ -2154,7 +2295,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "algorithm"
+                "text": "year2 group project"
               },
               {
                 "text": " (symbolic)"
@@ -2169,7 +2310,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50002"
+                "text": "drp"
               },
               {
                 "text": " (os)"
@@ -2179,12 +2320,12 @@
           {
             "data": [
               {
-                "text": "how can i perpare for "
+                "text": "how can i prepare for "
               },
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "software engineering design"
+                "text": "second year group project"
               },
               {
                 "text": " (compiler)"
@@ -2199,7 +2340,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "sed"
+                "text": "group project"
               },
               {
                 "text": " (comp tech)"
@@ -2209,12 +2350,12 @@
           {
             "data": [
               {
-                "text": "is there a group porject in "
+                "text": "is there a group project in "
               },
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "software design"
+                "text": "50009"
               },
               {
                 "text": " (second year)"
@@ -2224,12 +2365,12 @@
           {
             "data": [
               {
-                "text": "i want to see the infomation on "
+                "text": "i want to see the information on "
               },
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50003"
+                "text": "symbolic reasoning"
               },
               {
                 "text": " (algorithm)"
@@ -2244,7 +2385,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "models of computation"
+                "text": "symbolic"
               },
               {
                 "text": " (50001)"
@@ -2259,7 +2400,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "models"
+                "text": "50011"
               },
               {
                 "text": " (second year)"
@@ -2274,7 +2415,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "model"
+                "text": "computational techniques"
               },
               {
                 "text": " (second year)"
@@ -2289,7 +2430,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50004"
+                "text": "comp tech"
               },
               {
                 "text": " (50003)"
@@ -2304,7 +2445,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "operating systems"
+                "text": "year two"
               },
               {
                 "text": " (second year)"
@@ -2319,7 +2460,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "os"
+                "text": "2nd year"
               },
               {
                 "text": " (second year)"
@@ -2334,7 +2475,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "50005"
+                "text": "2nd years"
               },
               {
                 "text": " (second year)"
@@ -2404,7 +2545,7 @@
           {
             "data": [
               {
-                "text": "how can i perpare for "
+                "text": "how can i prepare for "
               },
               {
                 "entity": "third year",
@@ -2434,7 +2575,7 @@
           {
             "data": [
               {
-                "text": "how can i perpare for "
+                "text": "how can i prepare for "
               },
               {
                 "entity": "third year",
@@ -2464,7 +2605,7 @@
           {
             "data": [
               {
-                "text": "is there a group porject in "
+                "text": "is there a group project in "
               },
               {
                 "entity": "third year",
@@ -2479,7 +2620,7 @@
           {
             "data": [
               {
-                "text": "i want to see the infomation on "
+                "text": "i want to see the information on "
               },
               {
                 "entity": "third year",
@@ -2659,7 +2800,7 @@
           {
             "data": [
               {
-                "text": "how can i perpare for "
+                "text": "how can i prepare for "
               },
               {
                 "entity": "fourth year",
@@ -2689,7 +2830,7 @@
           {
             "data": [
               {
-                "text": "how can i perpare for "
+                "text": "how can i prepare for "
               },
               {
                 "entity": "fourth year",
@@ -2719,7 +2860,7 @@
           {
             "data": [
               {
-                "text": "is there a group porject in "
+                "text": "is there a group project in "
               },
               {
                 "entity": "fourth year",
@@ -2734,7 +2875,7 @@
           {
             "data": [
               {
-                "text": "i want to see the infomation on "
+                "text": "i want to see the information on "
               },
               {
                 "entity": "fourth year",
@@ -2994,7 +3135,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "Networks and communications"
+                "text": "second year"
               },
               {
                 "text": " (second year)"
@@ -3024,7 +3165,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "Networks"
+                "text": "second years"
               },
               {
                 "text": " (second year) students"
@@ -3277,7 +3418,7 @@
               {
                 "entity": "second year",
                 "slot_name": "second year",
-                "text": "Network"
+                "text": "50001"
               },
               {
                 "text": " (DRP)"
@@ -3318,6 +3459,1669 @@
             "data": [
               {
                 "text": "module information"
+              }
+            ]
+          }
+        ]
+      },
+      "course_info_y1": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "give me more info on computer systems"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me more info on computer architecture"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "40001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "40007"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "40016"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "40009"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "40018"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "40005"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "40008"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "40017"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "computer architecture"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "introduction to computer architecture"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "ICA"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "introduction to computer systems"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "calculus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "linear algebra"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "graphs and algorithms"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "graphs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "database"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "introduction to databases"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "introduction to database"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "computing practical I"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "computing practical first year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "computing first year practical"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "first year computing practical"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "first year computing modules"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "first year modules"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "discrete mathematics"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "logic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "reasoning about programs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "reasoning"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "java"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "haskell"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "kotlin"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "c programming"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "c group project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "c project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "pmt"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "mmt"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "ppt"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "personal programming tutor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "personal maths tutor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 40001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 40007"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 40016"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 40009"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 40018"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 40005"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 40008"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 40017"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 40001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 40007"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 40016"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 40009"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 40018"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 40005"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 40008"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 40017"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on calculus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on linear algebra"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on computer systems"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on computer architecture"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on discrete mathematics"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on databases"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on reasoning"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on reasoning about programs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on logic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on computing practical 1"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on graphs and algorithms"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on graphs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on 40017"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on 40001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on 40007"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on 40016"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on 40009"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on 40018"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on 40005"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on 40008"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on 40017"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on calculus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on linear algebra"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on computer systems"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on computer architecture"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on discrete mathematics"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on databases"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on reasoning"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on reasoning about programs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on logic"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on computing practical 1"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on graphs and algorithms"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on graphs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "information on 40017"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "prepare 40001"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "prepare 40007"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "prepare 40016"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "prepare 40009"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "prepare 40018"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "prepare 40005"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "prepare 40008"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "prepare 40017"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "1st year computing practical"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "1st year computing modules"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "1st year modules"
+              }
+            ]
+          }
+        ]
+      },
+      "course_info_y2": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "what is the course regulation for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "year two"
+              },
+              {
+                "text": " (year 2) students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "2nd year"
+              },
+              {
+                "text": " (50001)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "2nd years"
+              },
+              {
+                "text": " (50002)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "second year"
+              },
+              {
+                "text": " (stats)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "second years"
+              },
+              {
+                "text": " (compiler)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50001"
+              },
+              {
+                "text": " (wacc)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see more course info on "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "algorithm design and analysis"
+              },
+              {
+                "text": " (comp tech)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i get to choose between "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "second year algorithm"
+              },
+              {
+                "text": " (comp tech) and "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "algorithm"
+              },
+              {
+                "text": " (symbolic)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what books should i read for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50002"
+              },
+              {
+                "text": " (os)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i prepare for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "software engineering design"
+              },
+              {
+                "text": " (compiler)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "sed"
+              },
+              {
+                "text": " (comp tech)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a group project in "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "software design"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the information on "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50003"
+              },
+              {
+                "text": " (algorithm)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i know the content of "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "models of computation"
+              },
+              {
+                "text": " (50001)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the course info for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "models"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me the course info for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "model"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50004"
+              },
+              {
+                "text": " (50003)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see all the modules for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "operating systems"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules are there in "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "os"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all the modules in "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50005"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find course description for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "Networks and communications"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "course description for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "Networks"
+              },
+              {
+                "text": " (year 2) students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i submit which modules i have chosen for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "Network"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where do i submit which modules i want to pick for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50006"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are the module weightings for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "compilers"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what programming languages am i going to learn in "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "compiler"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is horizons compulsory for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "50007"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i have to do horizons in "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "lab"
+              },
+              {
+                "text": " (year 2)"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many people do we need for "
+              },
+              {
+                "entity": "second year",
+                "slot_name": "second year",
+                "text": "laboratory"
+              },
+              {
+                "text": " (drp)"
+              }
+            ]
+          }
+        ]
+      },
+      "course_info_y3": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "what is the course regulation for 3rd year students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the course regulation for third year students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the course regulation for year three students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "year 3"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many modules can i take in year 3"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches 60021"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the recommended reading list for advanced computer architecture"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't like math modules, what can i take in year 3"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is operations research"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is graphics hard"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to take custom computing, what do i need to prepare"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many people are there in a group for the 3rd year group project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is the third year software engineering group project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "which language do i need to use for software group project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what do i need to prepare for concurrent programming"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is operation research a math module"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches operations research"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is simulation and modelling"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the course info on simulation and modelling"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need the course infomation on simulation and modelling"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does the coursework weight on type systems"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many coursework will i have for type ststems"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches intro to ml"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is intro to ml easy"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does the exam weight on intro to ml"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "introduction to machine learning"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i have to take i-explore in third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is i-explore compulsory in 3rd year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is robotics in spring term or autumn term"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is system performance engineering"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is third year network taught by kgk"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what language should i use for 3rd year group project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "give me more info on computer vision"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "modules for third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "modules for year 3"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "year 3 modules"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "third year modules"
+              }
+            ]
+          }
+        ]
+      },
+      "course_info_y4": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "how much do the exams weight in year four"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "4th year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "fourth year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "modules for fourth year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "year 4 modules"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see all modules in year four"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see fourth year modules"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need to see 4th year modules"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does the individual project weight"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who teaches advanced computer security"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the recommended reading list for comlexity"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is Tony teaching complexity"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are the pre-requisites for deep learning"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "are there any pre-requisities for nlp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the pre-requisities for decentralised finance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the recommended reading list for cryptography engineering"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is 70018 hard"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does the exam weight for program analysis"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the assessments for probabilistic inference"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is scalable systems taught by Paul"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who is the lecturer of advanced computer graphics"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "if i want to take advanced computer graphics, do i need to take graphics in third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "if i want to take 70006, is operations research pre requisited"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the pre-requisited for all modules"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what course do i had to take in order to take scalable systems and data"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "if i didn't take intro to ml in third year, can i still take reinforcement learning"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "if i didn't take comp tech in second year, will there be a problem for me to take 70015"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see course info on custom computing"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is probabilistic inference"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "if i have no experience in finance, can i take decentralised finance"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i know nothing about finance, will there be a trouble for taking decentralised finance"
               }
             ]
           }

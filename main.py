@@ -103,9 +103,18 @@ def process_message(client_message: ClientMessage = None):
         link = select_no_category_table(ExamRevision)                     
     elif intent == 'tuition_fees': # tuition fees
         link = select_no_category_table(TuitionFees)
-    elif intent == 'course_info':
+    elif intent == 'course_info_y1':
         # NO SLOTS
-        link = select_category_module_table(CourseInfo)
+        link = select_category_module_table(CourseInfo, category="first year")
+    elif intent == 'course_info_y2':
+        # NO SLOTS
+        link = select_category_module_table(CourseInfo, category="second year")
+    elif intent == 'course_info_y3':
+        # NO SLOTS
+        link = select_category_module_table(CourseInfo, category="third year")
+    elif intent == 'course_info_y4':
+        # NO SLOTS
+        link = select_category_module_table(CourseInfo, category="fourth year")
     else:
         link = ""
     if not link:
