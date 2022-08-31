@@ -46,6 +46,8 @@ def process_message(client_message: ClientMessage = None):
         link = select_no_category_table(GeneralAccommodation)
     elif intent == 'careers':
         link = select_no_category_table(Careers)
+    elif intent == 'study_interruption':
+        link = select_no_category_table(StudyInterruption)
     elif intent == 'crime':
         link = select_no_category_table(Crime)
     elif intent == 'finances':
