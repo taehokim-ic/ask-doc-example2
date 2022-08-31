@@ -19,6 +19,9 @@ class CatergoryModule(SQLModel):
     module: str
     keyword: str
     link: str    
+
+class AcademicAppeal(NoCatergory, table=True):
+    pass
     
 class Careers(NoCatergory, table=True):
     pass
@@ -81,4 +84,10 @@ class ExamRevision(NoCatergory, table=True):
     pass
 
 class CourseInfo(CatergoryModule, table=True):
+    pass
+
+class StudyInterruption(NoCatergory, table=True):
+    pass
+
+class Friends(NoCatergory, table=True):
     pass
