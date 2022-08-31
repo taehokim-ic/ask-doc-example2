@@ -112,7 +112,7 @@ def process_message(client_message: ClientMessage = None):
         # NO SLOTS
         link = select_category_module_table(CourseInfo, category="fourth year")
     else:
-        link = [('DoC FAQs', '/2122/questions')]
+        link = ""
     if not link:
         return {
             "keyword_link_pair": [link]
