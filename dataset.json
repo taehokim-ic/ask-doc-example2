@@ -258,31 +258,6 @@
         "matching_strictness": 1.0,
         "use_synonyms": true
       },
-      "extra": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "horizon"
-            ],
-            "value": "horizons"
-          },
-          {
-            "synonyms": [
-              "i explore"
-            ],
-            "value": "i-explore"
-          },
-          {
-            "synonyms": [
-              "language course"
-            ],
-            "value": "language"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
       "first year": {
         "automatically_extensible": true,
         "data": [
@@ -334,7 +309,8 @@
               "logic",
               "reasoning",
               "discrete",
-              "discrete math"
+              "discrete math",
+              "logic and reasoning"
             ],
             "value": "40018"
           },
@@ -880,7 +856,10 @@
               "2nd year",
               "2nd years",
               "second year",
-              "second years"
+              "second years",
+              "year 2",
+              "yr2",
+              "yr 2"
             ],
             "value": "year two"
           },
@@ -1046,147 +1025,6 @@
               "home status"
             ],
             "value": "home students"
-          }
-        ],
-        "matching_strictness": 1.0,
-        "use_synonyms": true
-      },
-      "third year": {
-        "automatically_extensible": true,
-        "data": [
-          {
-            "synonyms": [
-              "3rd year",
-              "3rd years",
-              "third year",
-              "third years"
-            ],
-            "value": "year three"
-          },
-          {
-            "synonyms": [
-              "software engineering group project",
-              "software group project"
-            ],
-            "value": "60021"
-          },
-          {
-            "synonyms": [
-              "advanced computer architecture",
-              "aca",
-              "advanced architecture"
-            ],
-            "value": "60001"
-          },
-          {
-            "synonyms": [
-              "the theory and practice of concurrent programming",
-              "concurrent programming"
-            ],
-            "value": "60007"
-          },
-          {
-            "synonyms": [
-              "operations research",
-              "operation research"
-            ],
-            "value": "60016"
-          },
-          {
-            "synonyms": [
-              "simulation and modelling",
-              "simulation",
-              "modelling"
-            ],
-            "value": "60020"
-          },
-          {
-            "synonyms": [
-              "type systems for programming languages",
-              "type system",
-              "type systems"
-            ],
-            "value": "60023"
-          },
-          {
-            "synonyms": [
-              "introduction to machine learning",
-              "machine learning",
-              "ml",
-              "intro to ml"
-            ],
-            "value": "70050"
-          },
-          {
-            "synonyms": [
-              "advanced databases",
-              "advanced database"
-            ],
-            "value": "60002"
-          },
-          {
-            "synonyms": [
-              "communicating computer science in schools",
-              "communicating"
-            ],
-            "value": "60003"
-          },
-          {
-            "synonyms": [
-              "graphics"
-            ],
-            "value": "60005"
-          },
-          {
-            "synonyms": [
-              "computer vision"
-            ],
-            "value": "60006"
-          },
-          {
-            "synonyms": [
-              "custom computing"
-            ],
-            "value": "60008"
-          },
-          {
-            "synonyms": [
-              "distributed algorithms",
-              "distributed algorithm"
-            ],
-            "value": "60009"
-          },
-          {
-            "synonyms": [
-              "logic-based learning"
-            ],
-            "value": "60013"
-          },
-          {
-            "synonyms": [
-              "network and web security",
-              "third year network"
-            ],
-            "value": "60015"
-          },
-          {
-            "synonyms": [
-              "system performance engineering"
-            ],
-            "value": "60017"
-          },
-          {
-            "synonyms": [
-              "robotics"
-            ],
-            "value": "60019"
-          },
-          {
-            "synonyms": [
-              "i explore",
-              "i-explore"
-            ],
-            "value": "third year i explore"
           }
         ],
         "matching_strictness": 1.0,
@@ -1388,6 +1226,423 @@
       }
     },
     "intents": {
+      "academic_appeal": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "how do i apply for an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i apply for an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find help for my academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what advice can i get for making an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what advice can i receive for making an appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what support can i get for my academic appeal submission"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what support can i get for my appeal submission"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what guidance can i get for making an appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what guidance can i get for making an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "should i make an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i make an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i appeal my results"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find the department appeal form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get the appeal form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "appeal form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is the academic appeal form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a link to the appeal form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is an appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find more information about making an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find info on academic appeals"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can i appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i appeal academic judgement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what can i expect after i submit an appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long do i have to wait to hear back after i submit an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the wait time for academic appeals"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the waiting time for appeals"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i appeal the decision of my academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i appeal the appeal decision"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i appeal the decision of my appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am unhappy with the outcome of my appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am unhappy with the outcome of my academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i contact if i am unhappy with the outcome of my appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i contact if i am unhappy with the outcome of my academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i contact the oia"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i contact the office of the independent adjudicator"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can the appeal deadline be extended for me"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can the academic appeal deadline be extended for me"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a disability. can the appeal deadline be adjusted for me"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a disability. can the academic appeal deadline be adjusted for me"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can the appeal procedure be adjusted for disabled people"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can the academic appeal procedure be adjusted for disabled people"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "on what grounds should i make an appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "on what grounds should i make an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "on what grounds should i raise an appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "on what grounds should i raise an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am dissatisfied with the outcome of my appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am dissatisfied with the outcome of my academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the deadline for making an appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the deadline for making an academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what happens if i submit my appeal late"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what happens if i submit my academic appeal late"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what happens if i submit my appeal after the published deadline"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what happens if i submit my academic appeal after the published deadline"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i submit my academic appeal to"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i submit my appeal to"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how should i submit my academic appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how should i submit my appeal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i appeal against a withdrawal for unsatisfactory progress"
+              }
+            ]
+          }
+        ]
+      },
       "careers": {
         "utterances": [
           {
@@ -1899,1566 +2154,18 @@
                 "text": "spirit"
               }
             ]
-          }
-        ]
-      },
-      "course_info": {
-        "utterances": [
-          {
-            "data": [
-              {
-                "text": "what is the course regulation for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "year one"
-              },
-              {
-                "text": " (1st year) students"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the course regulation for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "year two"
-              },
-              {
-                "text": " (second year) students"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "1st year"
-              },
-              {
-                "text": " (40009)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "1st years"
-              },
-              {
-                "text": " (40001)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "first year"
-              },
-              {
-                "text": " (40018)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "first years"
-              },
-              {
-                "text": " (40007)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "40001"
-              },
-              {
-                "text": " (java)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what books should i read for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "introduction to computer system"
-              },
-              {
-                "text": " (database)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "ICS"
-              },
-              {
-                "text": " (linear algebra)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who teaches "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "40007"
-              },
-              {
-                "text": " (databases)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "is there a group project in "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "introduction to databases"
-              },
-              {
-                "text": " (first year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to see the information on "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "databases"
-              },
-              {
-                "text": " (database)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i know the content of "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "database"
-              },
-              {
-                "text": " (40018)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can i see the course info for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "intro to databases"
-              },
-              {
-                "text": " (first year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "give me the course info on "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "40016"
-              },
-              {
-                "text": " (first year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who is the lecturer of "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "calculus"
-              },
-              {
-                "text": " (java)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to see all the modules in "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "40009"
-              },
-              {
-                "text": " (first year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how many modules are there in "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "computing practical"
-              },
-              {
-                "text": " (first year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can i see all the modules in "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "java"
-              },
-              {
-                "text": " (first year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "2nd year"
-              },
-              {
-                "text": " (50001)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "2nd years"
-              },
-              {
-                "text": " (50002)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "second year"
-              },
-              {
-                "text": " (stats)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "second years"
-              },
-              {
-                "text": " (compiler)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50001"
-              },
-              {
-                "text": " (WACC)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to see more course info on "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "algorithm design and analysis"
-              },
-              {
-                "text": " (comp tech)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "do i get to choose between "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "second year algorithm"
-              },
-              {
-                "text": " (comp tech) and "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "algorithm"
-              },
-              {
-                "text": " (symbolic)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what books should i read for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50002"
-              },
-              {
-                "text": " (os)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "software engineering design"
-              },
-              {
-                "text": " (compiler)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who teaches "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "sed"
-              },
-              {
-                "text": " (comp tech)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "is there a group project in "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "software design"
-              },
-              {
-                "text": " (second year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to see the information on "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50003"
-              },
-              {
-                "text": " (algorithm)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i know the content of "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "models of computation"
-              },
-              {
-                "text": " (50001)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can i see the course info for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "models"
-              },
-              {
-                "text": " (second year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "give me the course info on "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "model"
-              },
-              {
-                "text": " (second year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who is the lecturer of "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50004"
-              },
-              {
-                "text": " (50003)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to see all the modules in "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "operating systems"
-              },
-              {
-                "text": " (second year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how many modules are there in "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "os"
-              },
-              {
-                "text": " (second year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can i see all the modules in "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "50005"
-              },
-              {
-                "text": " (second year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "year three"
-              },
-              {
-                "text": " (60009)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "3rd year"
-              },
-              {
-                "text": " (60001)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "3rd years"
-              },
-              {
-                "text": " (60002)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "third year"
-              },
-              {
-                "text": " (60007)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "third years"
-              },
-              {
-                "text": " (operations research)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what books should i read for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "60021"
-              },
-              {
-                "text": " (computer vision)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "software engineering group project"
-              },
-              {
-                "text": " (graphics)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who teaches "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "software group project"
-              },
-              {
-                "text": " (computer vision)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "is there a group project in "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "60001"
-              },
-              {
-                "text": " (third year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to see the information on "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "advanced computer architecture"
-              },
-              {
-                "text": " (database)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i know the content of "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "aca"
-              },
-              {
-                "text": " (60003)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can i see the course info for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "advanced architecture"
-              },
-              {
-                "text": " (third year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "give me the course info on "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "60007"
-              },
-              {
-                "text": " (third year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who is the lecturer of "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "the theory and practice of concurrent programming"
-              },
-              {
-                "text": " (computer vision)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to see all the modules in "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "concurrent programming"
-              },
-              {
-                "text": " (third year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how many modules are there in "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "60016"
-              },
-              {
-                "text": " (third year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can i see all the modules in "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "operations research"
-              },
-              {
-                "text": " (third year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "year four"
-              },
-              {
-                "text": " (70015)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "4th year"
-              },
-              {
-                "text": " (70001)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "fourth years"
-              },
-              {
-                "text": " (70018)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the recommended reading list for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "fourth year"
-              },
-              {
-                "text": " (70020)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "70012"
-              },
-              {
-                "text": " (complexity)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what books should i read for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "industrial placement"
-              },
-              {
-                "text": " (custom computing)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how can i prepare for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "placement"
-              },
-              {
-                "text": " (deep learning)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who teaches "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "70011"
-              },
-              {
-                "text": " (deep learning)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "is there a group project in "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "individual project"
-              },
-              {
-                "text": " (fourth year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to see the information on "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "60001"
-              },
-              {
-                "text": " (advanced computer security)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i know the content of "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "advanced computer architecture"
-              },
-              {
-                "text": " (advanced computer security)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can i see the course info for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "aca"
-              },
-              {
-                "text": " (fourth year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "give me the course info on "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "advanced architecture"
-              },
-              {
-                "text": " (fourth year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who is the lecturer of "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "60020"
-              },
-              {
-                "text": " (computer vision)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to see all the modules in "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "simulation and modelling"
-              },
-              {
-                "text": " (fourth year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how many modules are there in "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "simulation"
-              },
-              {
-                "text": " (fourth year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can i see all the modules in "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "modelling"
-              },
-              {
-                "text": " (fourth year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "I want to know the weighting for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "operation research"
-              },
-              {
-                "text": " (3rd years)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what kind of "
-              },
-              {
-                "entity": "extra",
-                "slot_name": "extra",
-                "text": "horizons"
-              },
-              {
-                "text": " (horizons) course can I take"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "imperial "
-              },
-              {
-                "entity": "extra",
-                "slot_name": "extra",
-                "text": "horizon"
-              },
-              {
-                "text": " (language) options"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i get "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "70004"
-              },
-              {
-                "text": " (4th year) course regulation"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i have course weighting for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "advanced computer security"
-              },
-              {
-                "text": " (fourth years)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what "
-              },
-              {
-                "entity": "extra",
-                "slot_name": "extra",
-                "text": "i-explore"
-              },
-              {
-                "text": " (i-explore) options are there"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "imperial "
-              },
-              {
-                "entity": "extra",
-                "slot_name": "extra",
-                "text": "i explore"
-              },
-              {
-                "text": " (horizons)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can I find course description for "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "70005"
-              },
-              {
-                "text": " (fourth year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can I find course description for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "haskell"
-              },
-              {
-                "text": " (first year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can I find course description for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "Networks and communications"
-              },
-              {
-                "text": " (second year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can I find course description for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "60020"
-              },
-              {
-                "text": " (third year)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "course description for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "Networks"
-              },
-              {
-                "text": " (second year) students"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "course weight for "
-              },
-              {
-                "entity": "third year",
-                "slot_name": "third year",
-                "text": "simulation and modelling"
-              },
-              {
-                "text": " (third year) students"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where can "
-              },
-              {
-                "entity": "fourth year",
-                "slot_name": "fourth year",
-                "text": "complexity"
-              },
-              {
-                "text": " (4th year) students get information for course description"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "course description"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "imperial "
-              },
-              {
-                "entity": "extra",
-                "slot_name": "extra",
-                "text": "language"
-              },
-              {
-                "text": " (language course)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "When should I submit which modules I have chosen for the next year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "When should I submit which modules I have chosen for second year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "When should I submit which modules I have chosen for third year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "When should I submit which modules I have chosen for fourth year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Where do I submit which modules I want to pick for next year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Where do I submit which modules I want to pick for second year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Where do I submit which modules I want to pick for third year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Where do I submit which modules I want to pick for fourth year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What are the module weightings for first year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What are the module weightings for second year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What are the module weightings for third year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What are the module weightings for fourth year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What programming languages am I going to learn in first year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What programming languages am I going to learn in second year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What programming languages am I going to learn in third year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "What programming languages am I going to learn in fourth year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Are horizons compulsory for second year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Are horizons compulsory for third year"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Are "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "kotlin"
-              },
-              {
-                "text": " (PPT) tutorials required"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i not attend "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "c"
-              },
-              {
-                "text": " (pmt)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "Are "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "c project"
-              },
-              {
-                "text": " (PMT) tutorials required"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how many session are there for "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "40018"
-              },
-              {
-                "text": " (pmt)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "How many people do we need for "
-              },
-              {
-                "entity": "second year",
-                "slot_name": "second year",
-                "text": "Network"
-              },
-              {
-                "text": " (DRP)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "How many people do we need for the "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "discrete mathematics"
-              },
-              {
-                "text": " (C project)"
-              }
-            ]
           },
           {
             "data": [
-              {
-                "text": "information on "
-              },
-              {
-                "entity": "first year",
-                "slot_name": "first year",
-                "text": "logic"
-              },
               {
-                "text": " (calculus)"
+                "text": "haram"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "module information"
+                "text": "halal"
               }
             ]
           }
@@ -5706,6 +4413,55 @@
                 "text": "third year modules"
               }
             ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get information on computer vision"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get information on distributed algorithm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see the module description of 60007"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i access to the module description of advanced computer architecture"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need more info on simulation and modelling"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the syllabus of 60019"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the syllabus of 60003"
+              }
+            ]
           }
         ]
       },
@@ -5784,7 +4540,7 @@
           {
             "data": [
               {
-                "text": "what's the recommended reading list for comlexity"
+                "text": "what's the recommended reading list for complexity"
               }
             ]
           },
@@ -5805,14 +4561,14 @@
           {
             "data": [
               {
-                "text": "are there any pre-requisities for nlp"
+                "text": "are there any pre-requisites for nlp"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i want to see the pre-requisities for decentralised finance"
+                "text": "i want to see the pre-requisites for decentralised finance"
               }
             ]
           },
@@ -5868,14 +4624,14 @@
           {
             "data": [
               {
-                "text": "if i want to take 70006, is operations research pre requisited"
+                "text": "if i want to take 70006, is operations research a prerequisite"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "where can i see the pre-requisited for all modules"
+                "text": "where can i see the a prerequisite for all modules"
               }
             ]
           },
@@ -7156,6 +5912,959 @@
           }
         ]
       },
+      "doc": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "How can I apply for a UROP"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When do I apply for my third year placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Do I need approval to do an industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is the industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i get paid for my industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what kind of position can i apply for my industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what company can i apply for industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should i do if i got no offer for my industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "will imperial help me to find an industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i find an industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when should i start my industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is the computing placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is the jmc placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Do I need approval to do the placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i get paid for my placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what kind of position can i apply for my placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When do I get my exam results"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who is the department tutor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I see my exam schedule"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where are the resit past paper"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I apply for an Arithmetic Mark Check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What percentage on an exam corresponds to the grade"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What happens if I fail an exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Are resists capped"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How many times can I resit an exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can you fail a lab in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When are resits"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where do I apply for a coursework extension"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i submit a mitigation form after I submit something late"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how and when can i know if my mitigation circumstance has been approved"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I find my exam transcript"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I find my grades"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When is the first exam in the exam season"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there any past exam paper for resit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when is resit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when can i know my resit result"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what should i do if i fail resit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i access resit past exam paper"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i access past exam paper for resit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how long is the resit exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is resit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I book labs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Will college ID cards work over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What are labs opening times"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What and where is the deans list"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where are my old repositories"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How can I contact my personal tutor over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can we go to the senior common room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Which wifi do I connect to"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When does the term start"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When does the term end"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I get a student letter"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where is Huxley"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where is Maria\u2019s office"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How to transfer to another school"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When should I apply for master degree in another school"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I change from BEng to MEng"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I change from MEng to BEng"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I change to MEng"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where is the best place to go on campus if it\u2019s so hot"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When were you created"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What is your name"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who is the department tutor"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who is the current DoCSoc committee"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where is Huxley"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where is Maria\u2019s office"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I get extra time for exams"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When do I get my exam results"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What and where is the Dean\u2019s List"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I see my exam schedule"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I find past exam papers"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What happens if I fail an exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Are resits capped"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can you fail a lab in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When are resits"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I apply for a coursework extension"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I submit a mitigation form late"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When will I find out if my mitigating circumstances have been approved"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I see my grades"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When is my first exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How many times can I resit an exam"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I find DoC society information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When\u2019s the next DoC Event"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Will college ID cards work over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I transfer from BEng to MEng"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I transfer from MEng to BEng"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I transfer from Computing to JMC"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I apply for an Arithmetic Mark Check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When does the term start"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When does the term end"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where can I find my transcript /student letter"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I transfer to a different university"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When should I apply for a Masters"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Is student support available"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where are my old repositories"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Which Wi-Fi can I connect to"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When do I apply for my third-year placemen"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Can I go to the senior common room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What and when is ICHack"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I join ICHack"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I apply for a UROP"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When should I submit which modules I have chosen for the next year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Where do I submit which modules I want to pick"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I book Labs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What are Labs opening times"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What programming languages am I going to learn in the first year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What programming languages am I going to learn in second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What programming languages am I going to learn in third year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What programming languages am I going to learn in fourth year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "When do I get my Haskell/Java/C exam result"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I transfer to another course"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Do I have to attend PMT/PPT sessions"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Is Horizons\u2019 compulsory for second year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what are the module weightings for my year"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Do I need approval to do an industrial placement"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How can I contact my personal tutor over summer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How many people do we need for our (insert) group project"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "Who is my personal tutor"
+              }
+            ]
+          }
+        ]
+      },
+      "docsoc": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "Who are the current docsoc committee members"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "What and when is ICHack"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "How do I join ICHack"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is docsoc"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "am i a member of docsoc"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i have to pay for docsoc"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the events of docsoc"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how many evens are there for docsoc"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "docsoc welcome dinner"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see docsoc events"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who's in docsoc committee"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when can i run for docsoc committe"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what does docsoc do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what event does docsoc have"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see docsoc event"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to join a docsoc event"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when is the next docsoc event"
+              }
+            ]
+          }
+        ]
+      },
       "doctor": {
         "utterances": [
           {
@@ -8162,6 +7871,13 @@
           {
             "data": [
               {
+                "text": "fractured bone"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
                 "text": "bone crack"
               }
             ]
@@ -8190,7 +7906,21 @@
           {
             "data": [
               {
+                "text": "puke"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
                 "text": "diarrhea"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "food poisoning"
               }
             ]
           },
@@ -8246,6 +7976,13 @@
           {
             "data": [
               {
+                "text": "i have fractured bone"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
                 "text": "i have bone crack"
               }
             ]
@@ -8268,6 +8005,13 @@
             "data": [
               {
                 "text": "i have vomit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have puke"
               }
             ]
           },
@@ -8302,28 +8046,189 @@
           {
             "data": [
               {
-                "text": "i can't take shit"
+                "text": "i have the flu"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i haven't taken a shit for"
+                "text": "i think i have the flu"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i have a flu"
+                "text": "i think i have covid"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i think i have flu"
+                "text": "i think i have covid-19"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have coronavirus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have long covid"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have long covid-19"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have long coronavirus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have severe constipation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am ill"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel unwell"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel ill"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am suffering illness"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have illness"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel unwell"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel well"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am unwell"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am ill, who do i have to see"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel too well"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel like i am ill"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "general practitioner"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "gp"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "gp nearby"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "surgeon"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "surgeon nearby"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find a surgeon"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "gp surgery"
               }
             ]
           }
@@ -9571,6 +9476,150 @@
             "data": [
               {
                 "text": "i am poor"
+              }
+            ]
+          }
+        ]
+      },
+      "friends": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "how do i make friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i make more friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel lonely, what can i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel isolated, what can i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't have friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't have any friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "don't have friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find new friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "new friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i lost all my friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to make new connections"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "finding new friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "finding new connections"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "building friendship"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "new friendship"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't have friends, where can i find them"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to have a better social life"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to have a social life"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i make new friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how can i make friends"
               }
             ]
           }
@@ -11343,35 +11392,28 @@
           {
             "data": [
               {
-                "text": "what medical help can the college provide"
+                "text": "counselor"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how do i make friends"
+                "text": "can i get a counselor"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "how do i make more friends"
+                "text": "counsellor"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i feel lonely, what can i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i feel isolated, what can i do"
+                "text": "can i get a counsellor"
               }
             ]
           },
@@ -11442,6 +11484,13 @@
             "data": [
               {
                 "text": "i am very upset with my grades, who can i talk to"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am upset with my exams"
               }
             ]
           },
@@ -11829,6 +11878,20 @@
                 "text": "i have bipolar disorder"
               }
             ]
+          },
+          {
+            "data": [
+              {
+                "text": "depressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "depression"
+              }
+            ]
           }
         ]
       },
@@ -11984,28 +12047,7 @@
           {
             "data": [
               {
-                "text": "can i appeal a decision from the board of examiners"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
                 "text": "when do the board of examiners meet"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how do i apply for an arithmetic mark check"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "when will i hear back about an arithmetic mark check"
               }
             ]
           },
@@ -12061,13 +12103,6 @@
           {
             "data": [
               {
-                "text": "how do i apply for an academic appeal"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
                 "text": "can i get a coursework extension"
               }
             ]
@@ -12111,20 +12146,6 @@
             "data": [
               {
                 "text": "do long-term conditions count as mitigating circumstances"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "can i appeal a decision from the board of examiners"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "how do i apply for an arithmetic mark check"
               }
             ]
           },
@@ -13562,7 +13583,7 @@
           }
         ]
       },
-      "student_status": {
+      "student_interruption": {
         "utterances": [
           {
             "data": [
@@ -13599,6 +13620,94 @@
               }
             ]
           },
+          {
+            "data": [
+              {
+                "text": "break from studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "study break"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "taking a break from imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to interrupt my studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "interruption to studies information"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information for interruption to studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information for interruption of studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "interrupt studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to interruption to studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to interrupt studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to take a year off from studies"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i take a break from imperial"
+              }
+            ]
+          }
+        ]
+      },
+      "student_status": {
+        "utterances": [
           {
             "data": [
               {
@@ -14833,4 +14942,3 @@
     },
     "language": "en"
   }
-  

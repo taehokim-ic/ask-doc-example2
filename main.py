@@ -71,18 +71,10 @@ def process_message(client_message: ClientMessage = None):
                 link = select_category_table(SpecificHalls, slots["value"]["value"])
         else:
             link = ""
-        
-        
-        
-        # slots = result["slots"][0]
-        # print(slots)
-        # if len(slots) > 0:
-        #     print(slots["value"]["value"])
-        #     link = select_category_table(SpecificHalls, slots["value"]["value"])
-        # else:
-        #     link = ""
     elif intent == 'hall_senior':
         link = select_no_category_table(HallSenior)
+    elif intent == "academic_appeal":
+        link = select_no_category_table(AcademicAppeal)
     elif intent == 'discount':
         link = select_no_category_table(Discount)
     elif intent == 'mitigation':
@@ -99,6 +91,8 @@ def process_message(client_message: ClientMessage = None):
         link = select_no_category_table(ExamRevision)                     
     elif intent == 'tuition_fees': # tuition fees
         link = select_no_category_table(TuitionFees)
+    elif intent == 'friends':
+        link = select_no_category_table(Friends)
     elif intent == 'course_info_y1':
         # NO SLOTS
         link = select_category_module_table(CourseInfo, category="first year")
@@ -111,6 +105,11 @@ def process_message(client_message: ClientMessage = None):
     elif intent == 'course_info_y4':
         # NO SLOTS
         link = select_category_module_table(CourseInfo, category="fourth year")
+    elif intent == 'docsoc':
+        # NO SLOTS
+        link = ("DoCSoC", "https://docsoc.co.uk/")
+    elif intent == 'doc':
+        link = ("DoC FAQS", "/2122/questions")
     else:
         link = ""
     if not link:
