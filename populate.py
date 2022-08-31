@@ -64,3 +64,4 @@ if __name__ == "__main__":
     create_no_category_db("./CSV/study_interruption.csv", StudyInterruption)
     create_no_category_db("./CSV/academic_appeal.csv", AcademicAppeal)
     create_no_category_db("./CSV/friends.csv", Friends)
+    create_no_category_db("./CSV/arithmetic_mark_check.csv", ArithmeticMarkCheck)

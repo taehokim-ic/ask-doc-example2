@@ -95,6 +95,8 @@ def process_message(client_message: ClientMessage = None):
         link = select_no_category_table(TuitionFees)
     elif intent == 'friends':
         link = select_no_category_table(Friends)
+    elif intent == 'arithmetic_mark_check':
+        link = select_no_category_table(ArithmeticMarkCheck)
     elif intent == 'course_info_y1':
         # NO SLOTS
         link = select_category_module_table(CourseInfo, category="first year")

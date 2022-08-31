@@ -91,3 +91,6 @@ class StudyInterruption(NoCatergory, table=True):
 
 class Friends(NoCatergory, table=True):
     pass
+
+class ArithmeticMarkCheck(NoCatergory, table=True):
+    pass

@@ -1643,6 +1643,115 @@
           }
         ]
       },
+      "arithmetic_mark_check": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "how do i apply for an arithmetic mark check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i apply for an arithmetic mark check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what advice can i get for an arithmetic mark check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what advice can i get for my arithmetic mark check submission"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "should i get an arithmetic mark check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what guidance can i get for my arithmetic mark check submission"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find the arithmetic mark check form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who should i submit the arithmetic mark check form to"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where should i submit the arithmetic mark check form"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i find information on arithmetic mark check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get a re-mark of my results"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when is the deadline for requesting an arithmetic mark check"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what if i submit my arithmetic mark check form late"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want my marks to be checked. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i get my marks checked"
+              }
+            ]
+          }
+        ]
+      },
       "careers": {
         "utterances": [
           {
@@ -8229,6 +8338,13 @@
             "data": [
               {
                 "text": "gp surgery"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am ill, what should I do"
               }
             ]
           }
@@ -14942,3 +15058,4 @@
     },
     "language": "en"
   }
+  
