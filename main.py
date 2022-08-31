@@ -41,8 +41,9 @@ def process_message(client_message: ClientMessage = None):
     
     result = nlu_engine.parse(client_message.message)
     intent = result['intent']['intentName']
+    print(intent)
     
-    if intent == 'general_accmoodation':
+    if intent == 'general_accommodation':
         link = select_no_category_table(GeneralAccommodation)
     elif intent == 'careers':
         link = select_no_category_table(Careers)
@@ -111,9 +112,9 @@ def process_message(client_message: ClientMessage = None):
         link = select_category_module_table(CourseInfo, category="fourth year")
     elif intent == 'docsoc':
         # NO SLOTS
-        link = ("DoCSoC", "https://docsoc.co.uk/")
+        link = [("DoCSoC", "https://docsoc.co.uk/")]
     elif intent == 'doc':
-        link = ("DoC FAQS", "/2122/questions")
+        link = [("DoC FAQS", "www.google.com")]
     else:
         link = ""
     if not link:
