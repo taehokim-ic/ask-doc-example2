@@ -113,7 +113,7 @@ def process_message(client_message: ClientMessage = None):
         # NO SLOTS
         link = [("DoCSoC", "https://docsoc.co.uk/")]
     elif intent == 'doc':
-        link = [("DoC FAQS", "/2122/questions")]
+        link = [("DoC FAQs", "/2122/questions")]
     else:
         link = ""
     if not link:
