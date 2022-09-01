@@ -41,8 +41,11 @@ def process_message(client_message: ClientMessage = None):
     
     result = nlu_engine.parse(client_message.message)
     intent = result['intent']['intentName']
+    probability = result['intent']['probability']
     
-    if intent == 'general_accommodation':
+    if intent and probability < 0.09:
+        link = ""
+    elif intent == 'general_accommodation':
         link = select_no_category_table(GeneralAccommodation)
     elif intent == 'careers':
         link = select_no_category_table(Careers)
