@@ -84,7 +84,19 @@ def process_message(client_message: ClientMessage = None):
     elif intent == 'student_status':
         link = select_no_category_table(StudentStatus)
     elif intent == 'societies':
-        link = select_no_category_table(Societies)    
+        link = select_no_category_table(Societies)
+    elif intent == 'eating_discorder':
+        link = select_no_category_table(EatingDisorder)
+    elif intent == 'exercise':
+        link = select_no_category_table(Exercise)
+    elif intent == 'food_and_drinks':
+        link = select_no_category_table(FoodAndDrinks)
+    elif intent == 'illness':
+        link = select_no_category_table(Illness)
+    elif intent == 'mental_crisis':
+        link = select_no_category_table(MentalCrisis)
+    elif intent == 'self_harm':
+        link = select_no_category_table(SelfHarm)            
     elif intent == 'chaplaincy':
         link = select_no_category_table(Chaplaincy)
     elif intent == 'travel':
