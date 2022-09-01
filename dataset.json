@@ -4982,7 +4982,7 @@
           {
             "data": [
               {
-                "text": "i witnessed a burglary. what should i do"
+                "text": "i witnessed a burglary."
               }
             ]
           },
@@ -5080,7 +5080,7 @@
           {
             "data": [
               {
-                "text": "i got robbed, what should i do"
+                "text": "i got robbed"
               }
             ]
           },
@@ -5137,6 +5137,118 @@
             "data": [
               {
                 "text": "can i report a crime inside imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "break into flat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "broke into flat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "someone broke into my flat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "flat invaded"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "intruder flat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "intruded my flat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "flat intruded"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i broke something"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i broke a lab computer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i broke"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i broke the lab's door"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i broke a lab computer"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i broke a window"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i broke a mirror"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i broke a door"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am stuck in the lift"
               }
             ]
           }
@@ -7511,35 +7623,35 @@
           {
             "data": [
               {
-                "text": "do i need to reregister with a gp"
+                "text": "do i need to re-register with a gp"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "do i need to reregister with a gp surgery"
+                "text": "do i need to re-register with a gp surgery"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "do i need to reregister with a doctor"
+                "text": "do i need to re-register with a doctor"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "do i need to reregister with a dr"
+                "text": "do i need to re-register with a dr"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "do i need to reregister with a doctor's practice"
+                "text": "do i need to re-register with a doctor's practice"
               }
             ]
           },
@@ -7721,580 +7833,6 @@
           {
             "data": [
               {
-                "text": "my arm hurts"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my leg hurts"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my finger hurts"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my neck hurts"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my back hurts"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my ankle hurts"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my head hurts"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my arm is broken"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have broken my arm"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my leg is broken"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have broken my leg"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have burnt my skin"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my arm is bleeding"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my foot is bleeding"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my leg is bleeding"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my foot is swollen"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my finger is swollen"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my ankle is dislocated"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my elbow is dislocated"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have severe stomach pain"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i am in pain"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my eye is bruised"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my leg is sore"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "my arm is sore"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have broken my arm. what do i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i've broken my arm. what should i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have bruised my eye. what do i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i've bruised my eye. what should i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have dislocated my toe. what do i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i've dislocated my toe. what should i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have badly burned my skin. what do i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i've badly burned my skin. what should i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have burst my eardrum. what do i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i've burst my eardrum. what should i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "broken something"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "crack in leg"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "cracked bone"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "fractured bone"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "bone crack"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "twisted ankle"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "throwing up"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "vomit"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "puke"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "diarrhea"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "food poisoning"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "eye hurts"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "nose bleed"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "constipation"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "flu"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have broken something"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have crack in leg"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have cracked bone"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have fractured bone"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have bone crack"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have twisted ankle"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have throwing up"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have vomit"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have puke"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have diarrhea"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have eye hurts"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have nose bleed"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have constipation"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have the flu"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have the flu"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have covid"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have covid-19"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have coronavirus"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have long covid"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have long covid-19"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i think i have long coronavirus"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have severe constipation"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i am ill"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i feel unwell"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i feel ill"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i am suffering illness"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i have illness"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i feel unwell"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i don't feel well"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i am unwell"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i am ill, who do i have to see"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i don't feel too well"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i feel like i am ill"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
                 "text": "general practitioner"
               }
             ]
@@ -8340,11 +7878,267 @@
                 "text": "gp surgery"
               }
             ]
+          }
+        ]
+      },
+      "eating_disorder": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "i have an eating disorder"
+              }
+            ]
           },
           {
             "data": [
               {
-                "text": "i am ill, what should I do"
+                "text": "eating problem"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have eating problems"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have an eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need help with my eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i struggle with an eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have an unhealthy relationship with food"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i struggle with my body image"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to lose weight"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am insecure about my body"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am insecure about my body image"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i starve myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to starve myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i suffer with anorexia"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i struggle with anorexia"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "anorexia"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i suffer with bulimia"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i struggle with bulimia"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "bulimia"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i binge"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i binge eat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i purge"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "binge"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "purge"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i take laxatives"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i fast"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i exercise excessively"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to talk to someone about my eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel depressed about my eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel anxious about my eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm worried that i have an eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i tell someone about my eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "who do i talk to about my eating disorder"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm losing weight"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i keep losing weight"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have lost weight"
               }
             ]
           }
@@ -9089,6 +8883,311 @@
           }
         ]
       },
+      "exercise": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "ethos"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "ethos gym"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "gym"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i work out"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to work out"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to get big"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how to get bigger"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is the gym located"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial gym"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial student gym"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "student discounted gym"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is ethos located"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to know how i can get to ethos"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "are there any discounts available for gym"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does ethos cost"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what gyms are available for imperial students"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "bareball"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "bench"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "benchpress"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "lifting"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "threadmill"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "swimming pool"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i swim in imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "basketball"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i play basketball in imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "sauna in imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "sauna"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "steam room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i play squash in imperial"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "personal training"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get personal training from"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "pt"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "climbing wall"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "indoor climbing"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a place where i can indoor climb"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial indoor climbing"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "imperial climbing"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "gym membership"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "discounted gym membership"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "gym member"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "ethos gym membership"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "working out"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "work out"
+              }
+            ]
+          }
+        ]
+      },
       "finances": {
         "utterances": [
           {
@@ -9597,6 +9696,395 @@
           }
         ]
       },
+      "food_and_drinks": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "where's the college bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is the opening times for FiveSixEight"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where's the union bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what's the opening time for union bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is union bar next to Beit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is union bar in Beit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is fivesixeight the union bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is h bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i see the menu of union bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when does the union bar close"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how much does it usually cost at reynolds"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is college bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "does imperial have an union bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is metric"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is h bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there any event for metric"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what drinks does fivesixeight have"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "do i need my id card to go inside union bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i book a bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a club night"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "does imperial have a club"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "does metric open everyday"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is Imperial's nightclub"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is metrics"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "when does metrics open"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "I want to see events at metrics"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to see events at reynolds bar"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i eat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i have lunch"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i go to scr to eat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "am i allowed to eat in scr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "is there a vegan place on campus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i eat if i am vegan"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get dinner"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get lunch"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need food"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am hungry, where can i eat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is senior common room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "what is junior common room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is senior common room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where is junior common room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "halal food"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "muslim food"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "ethnic food"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "kosher food"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get food from"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get drinks from"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "scr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "jcr"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "junior common room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "senior common room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i buy vegan food"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want halal food"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get halal food"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get kosher food"
+              }
+            ]
+          }
+        ]
+      },
       "friends": {
         "utterances": [
           {
@@ -9736,6 +10224,27 @@
             "data": [
               {
                 "text": "how can i make friends"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need friend"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "friend"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "friends"
               }
             ]
           }
@@ -10694,6 +11203,104 @@
                 "text": "i've got a problem with my acomodation"
               }
             ]
+          },
+          {
+            "data": [
+              {
+                "text": "my room is flooding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my room is"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "room fault"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "in my room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "faulty room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "locked out of room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i locked myself out of my room"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "got locked out"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "pests"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "pest control"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "rat"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "cockroaches"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "bugs"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "insects"
+              }
+            ]
           }
         ]
       },
@@ -11004,6 +11611,836 @@
             "data": [
               {
                 "text": "how to become a hall senior"
+              }
+            ]
+          }
+        ]
+      },
+      "illness": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "i feel ill"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel sick"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel unwell"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel well"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel too well"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel very well"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel good"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel too good"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel very good"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel like i am sick"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel like i am ill"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel like i am poorly"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel like i am not good"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel like i am unwell"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel like i have an illness"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel very sick"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel poorly"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm ill"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am ill"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm unwell"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm not well"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am unwell"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm poorly"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am poorly"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm sick"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am sick"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm not sure what's wrong with me"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel like myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel off"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel ok"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to talk to someone"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to speak to someone"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am suffering from an illness"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have an illness"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my arm hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my eye hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my leg hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my finger hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my neck hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my back hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my ankle hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my head hurts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my arm is broken"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have broken my arm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my leg is broken"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have broken my leg"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have broken my finger"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my finger is broken"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have burnt my skin"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my skin is burnt"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am bleeding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my arm is bleeding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my foot is bleeding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my nose is bleeding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my ear is bleeding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my leg is bleeding"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my foot is swollen"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my finger is swollen"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my hand is swollen"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my ankle is swollen"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my ankle is dislocated"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my elbow is dislocated"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have severe stomach pain"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am in pain"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have severe pain"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have bruised myself badly"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my skin is bruised"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my leg is sore"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "my arm is sore"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have broken my arm. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've broken my arm. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have bruised my eye. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've bruised my eye. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have dislocated my toe. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've dislocated my toe. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have badly burned my skin. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've badly burned my skin. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have burst my eardrum. what do i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i've burst my eardrum. what should i do"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "broken something"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "cut skin"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "break in leg"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "broken bone"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "fractured bone"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "bone break"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "twisted ankle"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "throwing up"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "vomit"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "vomiting"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "puke"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "puking"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "diarrhea"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "food poisoning"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "nose bleed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "constipation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "flu"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have broken something"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a broken leg"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a broken bone"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a fractured bone"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a bone break"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i keep throwing up"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i keep vomiting"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i keep puking"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have diarrhea"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a hurt eye"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a nose bleed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have constipation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have severe constipation"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have the flu"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have the flu"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have covid"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have covid-19"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have coronavirus"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have long covid"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have long covid-19"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i have long coronavirus"
               }
             ]
           }
@@ -11447,6 +12884,276 @@
           }
         ]
       },
+      "mental_crisis": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "i want to talk to someone urgently"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to speak to someone urgently"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am worried about my own safety"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am worried for my own safety"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i don't feel safe"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel hopeless"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel doomed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am distressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am in distress"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am suicidal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to commit suicide"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have made plans to commit suicide"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have made plans to end my life"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to kill myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have thoughts about killing myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have thoughts about ending my life"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i might act on suicidal thoughts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have plans to act on suicidal thoughts"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am feeling suicidal"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i can't take it anymore"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have lost the will to live"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i think i would be better dead"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am feeling overwhelmed with life"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need urgent help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need urgent support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need immediate help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm having a mental health crisis"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm at a crisis point"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "mental health crisis"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "crisis point"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i'm struggling to cope"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "anonymous mental health support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get anonymous support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "can i get anonymous help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i failed my exams and i want to kill myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i kill"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need urgent medical attention now"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need urgent medical help now"
+              }
+            ]
+          }
+        ]
+      },
       "mental_health": {
         "utterances": [
           {
@@ -11474,13 +13181,6 @@
             "data": [
               {
                 "text": "who is the wellbeing rep"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who should I contact if I need mental health help"
               }
             ]
           },
@@ -11564,20 +13264,6 @@
           {
             "data": [
               {
-                "text": "who should I contact if I need mental health support"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "who can i get mental health support"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
                 "text": "i feel so stressed, what should i do"
               }
             ]
@@ -11607,13 +13293,6 @@
             "data": [
               {
                 "text": "i am upset with my exams"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i can't take it anymore"
               }
             ]
           },
@@ -11669,13 +13348,6 @@
           {
             "data": [
               {
-                "text": "what should i do if i need mental health support"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
                 "text": "can i contact my personal tutor if i feel stressed"
               }
             ]
@@ -11697,21 +13369,7 @@
           {
             "data": [
               {
-                "text": "i need mental health support"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
                 "text": "is the mental health support in confidence"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "is there any way that i can get mental health support anonymously"
               }
             ]
           },
@@ -11753,42 +13411,56 @@
           {
             "data": [
               {
-                "text": "i hate my course"
+                "text": "i feel stressed"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i want to drop out"
+                "text": "i'm stressed"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i want to kill myself"
+                "text": "i feel homesick - i am struggling with my mental health"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i feel depressed"
+                "text": "who should I contact if I need mental health help"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i am suffering from depression"
+                "text": "who should I contact if I need mental health support"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i am so depressed"
+                "text": "what should i do if i need mental health support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "where can i get mental health support"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i need mental health support"
               }
             ]
           },
@@ -11809,35 +13481,112 @@
           {
             "data": [
               {
-                "text": "i'm having a mental health crisis"
+                "text": "i feel that i might self harm"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "mental health crisis"
+                "text": "i am worried about self harming"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i'm at a crisis point"
+                "text": "i have self harmed"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i feel stressed"
+                "text": "i have depression"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "i'm stressed"
+                "text": "i am so depressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am suffering from depression"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel depressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have a sense of dread"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel worthless"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel sad"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel empty"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "depressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "depression"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am depressed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am suffering from depression"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am anxious"
               }
             ]
           },
@@ -11852,6 +13601,55 @@
             "data": [
               {
                 "text": "i feel anxious"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "anxious"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have anxiety"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "anxiety"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i worry a lot"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel low"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel upset"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i feel upset all the time"
               }
             ]
           },
@@ -11879,14 +13677,7 @@
           {
             "data": [
               {
-                "text": "i'm losing weight"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i keep losing weight"
+                "text": "i can't relax"
               }
             ]
           },
@@ -11900,35 +13691,7 @@
           {
             "data": [
               {
-                "text": "i can't relax"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i feel upset"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i feel upset all the time"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i feel homesick"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i want to commit suicide"
+                "text": "i have an anxiety disorder"
               }
             ]
           },
@@ -11942,21 +13705,7 @@
           {
             "data": [
               {
-                "text": "panic attack"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "anxiety"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "i am having anxiety"
+                "text": "i have panic attacks"
               }
             ]
           },
@@ -11970,14 +13719,14 @@
           {
             "data": [
               {
-                "text": "i have eating disorder"
+                "text": "panic attack"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "eating disorder"
+                "text": "i think i have bipolar disorder"
               }
             ]
           },
@@ -11991,21 +13740,14 @@
           {
             "data": [
               {
-                "text": "i have bipolar disorder"
+                "text": "i am mentally unwell"
               }
             ]
           },
           {
             "data": [
               {
-                "text": "depressed"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "depression"
+                "text": "mentally unwell"
               }
             ]
           }
@@ -12702,6 +14444,136 @@
                 "text": "lettings agent"
               }
             ]
+          },
+          {
+            "data": [
+              {
+                "text": "I have no flatmates"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "no flatmates"
+              }
+            ]
+          }
+        ]
+      },
+      "self_harm": {
+        "utterances": [
+          {
+            "data": [
+              {
+                "text": "i feel that i might self harm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am worried about self harming"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have harmed myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i will self harm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have self harmed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "self harm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have cut myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have intentionally hurt myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have intentionally injured myself"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i want to stop self harming"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "how do i stop self harming"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i self-harm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have self-harmed"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i have self-harmed. how do i get help"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am scared that i will self-harm"
+              }
+            ]
+          },
+          {
+            "data": [
+              {
+                "text": "i am afraid of self harming"
+              }
+            ]
           }
         ]
       },
@@ -12905,36 +14777,6 @@
           {
             "data": [
               {
-                "text": "where's the college "
-              },
-              {
-                "entity": "food and drinks",
-                "slot_name": "food and drinks",
-                "text": "bar"
-              },
-              {
-                "text": " (bar)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what is the opening times for "
-              },
-              {
-                "entity": "food and drinks",
-                "slot_name": "food and drinks",
-                "text": "metric"
-              },
-              {
-                "text": " (FiveSixEight)"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
                 "text": "I am interested in rowing. Is there a "
               },
               {
@@ -13027,13 +14869,6 @@
           {
             "data": [
               {
-                "text": "i want to make new friends, what should i do"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
                 "text": "i want to join a society, give me the website"
               }
             ]
@@ -13098,34 +14933,6 @@
             "data": [
               {
                 "text": "give me some sports societies"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "where's the union bar"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "what's the opening time for union bar"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "is union bar next to Beit"
-              }
-            ]
-          },
-          {
-            "data": [
-              {
-                "text": "is union bar in Beit"
               }
             ]
           },
