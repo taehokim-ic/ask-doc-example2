@@ -94,3 +94,21 @@ class Friends(NoCatergory, table=True):
 
 class ArithmeticMarkCheck(NoCatergory, table=True):
     pass
+
+class EatingDisorder(NoCatergory, table=True):
+    pass
+
+class Exercise(NoCatergory, table=True):
+    pass
+
+class FoodAndDrinks(NoCatergory, table=True):
+    pass
+
+class Illness(NoCatergory, table=True):
+    pass
+
+class MentalCrisis(NoCatergory, table=True):
+    pass
+
+class SelfHarm(NoCatergory, table=True):
+    pass
