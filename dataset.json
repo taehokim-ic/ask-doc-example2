@@ -10799,6 +10799,62 @@
               "text": "friends"
             }
           ]
+        },
+        {
+          "data": [
+            {
+              "text": "no friends"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "want to meet more people"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "new connections"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "no social life"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "social life"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i would like more friends"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want to meet more people"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "how to meet others"
+            }
+          ]
         }
       ]
     },
@@ -14675,6 +14731,34 @@
           "data": [
             {
               "text": "coursework mitigating circumstances"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i feel too ill to do my exam"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i feel too unwell to do my exam"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i don't think i'm well enough to sit my exams"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i feel too sick to sit my exam today"
             }
           ]
         }
