@@ -115,3 +115,6 @@ class SelfHarm(NoCatergory, table=True):
 class Questions(SQLModel, table=True):
     id: Optional[int] = Field(primary_key=True)
     message: str
+    
+class CourseWithdrawal(NoCatergory, table=True):
+    pass

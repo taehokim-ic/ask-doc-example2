@@ -71,3 +71,4 @@ if __name__ == "__main__":
     create_no_category_db("./CSV/illness.csv", Illness)
     create_no_category_db("./CSV/mental_crisis.csv", MentalCrisis)
     create_no_category_db("./CSV/self_harm.csv", SelfHarm)
+    create_no_category_db("./CSV/course_withdrawal.csv", CourseWithdrawal)

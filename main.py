@@ -67,6 +67,8 @@ def process_message(client_message: ClientMessage = None):
         link = select_no_category_table(MentalHealth)
     elif intent == 'private_housing':
         link = select_no_category_table(PrivateHousing)
+    elif intent == 'course_withdrawal':
+        link = select_no_category_table(CourseWithdrawal)
     elif intent == 'summer_accommodation':
         link = select_no_category_table(SummerAccommodation)
     elif intent == 'specific_halls':
