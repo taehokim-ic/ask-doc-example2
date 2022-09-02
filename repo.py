@@ -30,3 +30,8 @@ def select_category_module_table(table, category="general",module="general"):
         if not first:
             return []
         return [(row.keyword, row.link) for row in first]
+    
+def add_message(message: str, table=Questions):
+    with Session(engine) as session:
+        session.add(table(message=message))
+        session.commit()

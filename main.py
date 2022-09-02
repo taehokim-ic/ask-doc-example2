@@ -39,7 +39,9 @@ class ClientMessage(BaseModel):
 @app.post('/askdoc/chat-api/v1')
 def process_message(client_message: ClientMessage = None):
     
-    result = nlu_engine.parse(client_message.message)
+    message = client_message.message
+    add_message(message=message)
+    result = nlu_engine.parse(message)
     intent = result['intent']['intentName']
     probability = result['intent']['probability']
     

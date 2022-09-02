@@ -1,4 +1,3 @@
-from sys import modules
 from typing import Optional
 from sqlmodel import SQLModel, Field
 
@@ -112,3 +111,7 @@ class MentalCrisis(NoCatergory, table=True):
 
 class SelfHarm(NoCatergory, table=True):
     pass
+
+class Questions(SQLModel, table=True):
+    id: Optional[int] = Field(primary_key=True)
+    message: str
